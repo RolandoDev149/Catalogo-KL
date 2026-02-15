@@ -262,7 +262,7 @@ export const products: Product[] = [
     id: '12',
     name: 'PANTALLA UNIVERSAL ANDROID 15',
     slug: 'pantalla-universal-android',
-    price: 0,
+    price: 120,
     description: 'Pantlla android de 9/10 pulgadas',
     shortDescription: 'Pantlla android de 9/10 pulgadas',
     images: [productAndro9P],
