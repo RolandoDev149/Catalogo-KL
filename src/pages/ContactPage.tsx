@@ -198,14 +198,14 @@ export default function ContactPage() {
               {/* Map placeholder */}
               <div className="aspect-video rounded-xl bg-card border border-border overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.009936674455!2d-70.6506!3d-33.4372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDI2JzEzLjkiUyA3MMKwMzknMDIuMiJX!5e0!3m2!1sen!2scl!4v1635959562000!5m2!1sen!2scl"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.4604841635812!2d-80.97599149999999!3d8.1175713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fae73b10ad9485b%3A0xabccdb4fab52e757!2sKL%20Electronic!5e0!3m2!1ses!2spa!4v1771266136586!5m2!1ses!2spa"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación AutoParts"
+                  title="Ubicación Kl Electronic"
                 />
               </div>
             </motion.div>
