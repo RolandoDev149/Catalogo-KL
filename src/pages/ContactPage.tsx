@@ -15,13 +15,13 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Dirección',
-    details: 'Av. Principal #1234, Santiago, Chile',
+    details: 'Carretera interamericana al lado del antiguo v8, Santiago, Veraguas, Panamá',
   },
   {
     icon: Phone,
     title: 'Teléfono',
-    details: '+56 9 1234 5678',
-    href: 'tel:+56912345678',
+    details: '+507 6909 3601',
+    href: 'tel:+50769093601',
   },
   {
     icon: Mail,
@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: 'Horario',
-    details: 'Lun - Sáb: 9:00 - 19:00',
+    details: 'Lun - Dom: 8:00 AM - 6:00 PM',
   },
 ];
 
@@ -115,7 +115,7 @@ export default function ContactPage() {
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="+56 9 1234 5678"
+                        placeholder="+507 69093601"
                         className="mt-1.5 bg-background"
                       />
                     </div>
@@ -185,7 +185,7 @@ export default function ContactPage() {
                   </div>
                   <Button variant="whatsapp" asChild>
                     <a
-                      href="https://wa.me/56912345678?text=Hola! Tengo una consulta."
+                      href="https://wa.me/50769093601?text=Hola! Tengo una consulta."
                       target="_blank"
                       rel="noopener noreferrer"
                     >

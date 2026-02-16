@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import heroImage from '@/assets/hero-truck.jpg';
 
 export function HeroSection() {
-  const whatsappUrl = 'https://wa.me/56912345678?text=Hola! Quiero cotizar productos para mi vehículo.';
+  const whatsappUrl = 'https://wa.me/50769093601?text=Hola! Quiero cotizar productos para mi vehículo.';
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">

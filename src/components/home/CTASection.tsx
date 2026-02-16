@@ -4,7 +4,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function CTASection() {
-  const whatsappUrl = 'https://wa.me/56912345678?text=Hola! Estoy listo para transformar mi vehículo.';
+  const whatsappUrl = 'https://wa.me/50769093601?text=Hola! Estoy listo para transformar mi vehículo.';
 
   return (
     <section className="py-20 relative overflow-hidden">
