@@ -8,12 +8,20 @@ import productBullbar from '@/assets/product-bullbar.jpg';
 import productDefensa from '@/assets/Defensa-de-hiero.jpg';
 import productDefensaNF from '@/assets/Prueba.jpg';
 import productAndro9P from '@/assets/pantalla android.jpg';
+import productAndro9P2 from '@/assets/pantalla androidl32.jpg';
+import productRadiomp3 from '@/assets/Radio.jpg';
+import productMirrorlink from '@/assets/Mirror link 7.jpg';
+import productMirrorlink1 from '@/assets/Mirror link .jpg';
+import productRadiobt from '@/assets/RadioBT.jpg';
+import productRadiocarplay5 from '@/assets/RadioBTcarplay.jpg';
+import productRadiocarplay5_5 from '@/assets/RadioBTcarplay5.5.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
 import categoryLed from '@/assets/category-led.jpg';
 import categoryRacks from '@/assets/category-racks.jpg';
 import categoryInterior from '@/assets/category-interior.jpg';
+import { Images } from 'lucide-react';
 
 
 export const categories: Category[] = [
@@ -25,14 +33,7 @@ export const categories: Category[] = [
     image: category4x4,
     productCount: 45,
   },
-  {
-    id: '2',
-    name: 'Equipos de Sonido',
-    slug: 'audio',
-    description: 'Sistema de audio premium para tu vehículo',
-    image: categoryAudio,
-    productCount: 32,
-  },
+
   {
     id: '3',
     name: 'Iluminacion',
@@ -275,6 +276,196 @@ export const products: Product[] = [
     rating: 4.6,
     reviewCount: 0,
   },
+{
+  id: '13',
+  name: "PANTALLA UNIVERSAL ANDROID 15 12+32 9",
+  slug: 'pantalla-universal-android-2',
+  price: 120,
+  description: 'Pantlla android de 9 pulgadas',
+  shortDescription: 'Pantlla android de 9 pulgadas',
+  images: [productAndro9P2],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '14',
+  name: "PANTALLA UNIVERSAL ANDROID 15 12+32 10",
+  slug: 'pantalla-universal-android-2',
+  price: 120,
+  description: 'Pantlla android de 10 pulgadas',
+  shortDescription: 'Pantlla android de 10 pulgadas',
+  images: [productAndro9P2],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '15',
+  name: "RADIO MP3 CON BLUETHOTH",
+  slug: 'radio-mp3-bluetooth',
+  price: 0,
+  description: 'radio mp3 con bluethoth con entrada doble de usb',
+  shortDescription: 'radio mp3 con bluethoth',
+  images: [productRadiomp3],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+id: '16',
+  name: "PANTALLA REPRODUCTOR MIRROLINK",
+  slug: 'pantalla-reproductor-mirrolink',
+  price: 0,
+  description: '',
+  shortDescription: '',
+  images: [productMirrorlink1],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '17',
+  name: "PANTALLA REPRODUCTOR MIRROLINK MP5 7",
+  slug: 'pantalla-reproductor-mirrolink-mp5-7',
+  price: 0,
+  description: 'Pantalla reproductor mirrolink mp5 de 7 pulgadas con bluethoth entrada usb y tactil',
+  shortDescription: 'Pantalla reproductor mirrolink mp5 de 7 pulgadas con bluethoth, entrada usb y tactil',
+  images: [productMirrorlink],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '18',
+  name: "PANTALLA REPRODUCTOR MIRROLINK MP5 7 carplay",
+  slug: 'pantalla-reproductor-mirrolink-mp5-7-carplay',
+  price: 0,
+  description: 'Pantalla reproductor mirrolink mp5 de 7 pulgadas con carplay todo tactil',
+  shortDescription: 'Pantalla reproductor mirrolink mp5 de 7 pulgadas con carplay todo tactil',
+  images: [productMirrorlink],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '19',
+  name: "Radio MP5 + Bluethoth 4.3 pulgadas",
+  slug: 'radio-mp5-bluetooth',
+  price: 0,
+  description: 'Radio MP5 con bluethoth de 4.3 pulgadas',
+  shortDescription: 'Radio MP5 con bluethoth de 4.3 pulgadas',
+  images: [productRadiobt],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '20',
+  name: "Radio MP5 + Bluethoth + carplay 4.7 pulgadas",
+  slug: 'radio-mp5-bluetooth-carplay',
+  price: 0,
+  description: 'Radio MP5 con bluethoth y carplay de 4.7 pulgadas',
+  shortDescription: 'Radio MP5 con bluethoth y carplay de 4.7 pulgadas',
+  images: [productRadiobt],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '21',
+  name: "Radio MP5 + Bluethoth + carplay 5 pulgadas",
+  slug: 'radio-mp5-bluetooth-carplay-5',
+  price: 0,
+  description: 'Radio MP5 con bluethoth y carplay de 5 pulgadas',
+  shortDescription: 'Radio MP5 con bluethoth y carplay de 5 pulgadas',
+  images: [productRadiocarplay5],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '22',
+  name: "Radio MP5 + Bluethoth + carplay 5.5 pulgadas",
+  slug: 'radio-mp5-bluetooth-carplay-5.5',
+  price: 0,
+  description: 'Radio MP5 con bluethoth y carplay de 5.5 pulgadas',
+  shortDescription: 'Radio MP5 con bluethoth y carplay de 5.5 pulgadas',
+  images: [productRadiocarplay5_5],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
 
 ];
 
