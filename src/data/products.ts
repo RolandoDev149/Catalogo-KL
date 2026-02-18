@@ -25,6 +25,11 @@ import productPantallaAudi from '@/assets/PANTALLA ANDROID audi.jpg';
 import productCamara_empotrable from '@/assets/camara empotrable.jpg';
 import productCamaraHD from '@/assets/camara hd.jpg';
 import productCamaraRetroceso from '@/assets/camara retroceso.jpg';
+import productCamaraRetrocesoProx from '@/assets/camara retroceso sensor.jpg';
+import producCamara12_24 from '@/assets/camara vision nocturna 12-24v.jpg';
+import productCamara360Prado from '@/assets/camara 360 prado.jpg';
+import productCamaraSombrero from '@/assets/camara sombrero.jpg';
+import productCamaraSombrero8led from '@/assets/camara sombrero8led.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -874,6 +879,102 @@ id: '16',
   reviewCount: 0,
 
 },
+
+{
+  id: '44',
+  name: "Camara de retroceso con sensor de proximidad y vision nocturna",
+  slug: 'camara-retroceso-sensor-proximidad-vision-nocturna',
+  price: 0,
+  description: 'Camara de retroceso con sensor de proximidad integrado y vision nocturna',
+  shortDescription: 'Camara de retroceso con sensor de proximidad integrado y vision nocturna',
+  images: [productCamaraRetrocesoProx],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '45',
+  name: "Camara Vision Nocturna 12-24 v",
+  slug: 'camara-vision-nocturna-12-24-v',
+  price: 0,
+  description: 'Camara Vision nocturna 12-24 v',
+  shortDescription: 'Camara vision nocturna 12-24 v',
+  images: [producCamara12_24],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '46',
+  name: "Camara 360 para prado",
+  slug: 'camara-360-prado',
+  price: 0,
+  description: 'Camara 360 para prado',
+  shortDescription: 'Camara 360 para prado',
+  images: [productCamara360Prado],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+{
+  id: '47',
+  name: "Camara sombrero",
+  slug: 'camara-sombrero',
+  price: 0,
+  description: 'Camara sobrero',
+  shortDescription: 'Camara sombrero',
+  images: [productCamaraSombrero],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '48',
+  name: "Camara sombrero con 8 LED",
+  slug: 'camara-sombrero-8-led',
+  price: 0,
+  description: 'Camara sobrero con 8 LED',
+  shortDescription: 'Camara sombrero con 8 LED',
+  images: [productCamaraSombrero8led],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+
 
 
 
