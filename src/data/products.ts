@@ -15,6 +15,16 @@ import productMirrorlink1 from '@/assets/Mirror link .jpg';
 import productRadiobt from '@/assets/RadioBT.jpg';
 import productRadiocarplay5 from '@/assets/RadioBTcarplay.jpg';
 import productRadiocarplay5_5 from '@/assets/RadioBTcarplay5.5.jpg';
+import productPantalla4_3 from '@/assets/pantala4.3.jpg';
+import productoPantalla7 from '@/assets/pantalla7.jpg';
+import profuctPantallaCabecera from '@/assets/panatalla cabecera.jpg';
+import profuctPantallaCabeceraAndroid from '@/assets/cabecera android.jpg';
+import productoPantallaBMW from '@/assets/Pantalla android bmw.jpg';
+import productoPantallarx450 from '@/assets/PANTALLA ANDROID RX450 .jpg';
+import productPantallaAudi from '@/assets/PANTALLA ANDROID audi.jpg';
+import productCamara_empotrable from '@/assets/camara empotrable.jpg';
+import productCamaraHD from '@/assets/camara hd.jpg';
+import productCamaraRetroceso from '@/assets/camara retroceso.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -465,6 +475,413 @@ id: '16',
   reviewCount: 0,
 
 },
+
+{
+  id: '23',
+  name: "Pantalla 4.3 pulgadas",
+  slug: 'pantalla-4.3-pulgadas',
+  price: 0,
+  description: 'Pantalla 4.3 pulgadas ',
+  shortDescription: 'Pantalla 4.3 pulgadas',
+  images: [productPantalla4_3],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '24',
+  name: "Pantalla 7 pulgadas",
+  slug: 'pantalla-7-pulgadas',
+  price: 0,
+  description: 'Pantalla 7 pulgadas ',
+  shortDescription: 'Pantalla 7 pulgadas',
+  images: [productoPantalla7],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '25',
+  name: "Pantalla 9 pulgadas",
+  slug: 'pantalla-9-pulgadas',
+  price: 0,
+  description: 'Pantalla 9 pulgadas ',
+  shortDescription: 'Pantalla 9pulgadas',
+  images: [productoPantalla7],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '26',
+  name: "Pantalla cabecera negra ",
+  slug: 'pantalla-cabecera-negra',
+  price: 0,
+  description: 'Pantalla cabecera negra',
+  shortDescription: 'Pantalla cabecera negra',
+  images: [profuctPantallaCabecera],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '27',
+  name: "Pantalla cabecera android ",
+  slug: 'pantalla-cabecera-android',
+  price: 0,
+  description: 'Pantalla cabecera android ',
+  shortDescription: 'Pantalla cabecera android ',
+  images: [profuctPantallaCabeceraAndroid],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '28',
+  name: "Pantalla cabecera android ",
+  slug: 'pantalla-cabecera-android',
+  price: 0,
+  description: 'Pantalla cabecera android ',
+  shortDescription: 'Pantalla cabecera android ',
+  images: [profuctPantallaCabeceraAndroid],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '29',
+  name: "Pantalla Android BMW ",
+  slug: 'pantalla-android-bmw',
+  price: 0,
+  description: 'Pantalla Android BMW X3/X4',
+  shortDescription: 'Pantalla Android BMW X3/X4',
+  images: [productoPantallaBMW],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '30',
+  name: "Pantalla Android BMW ",
+  slug: 'pantalla-android-bmw',
+  price: 0,
+  description: 'Pantalla Android BMW X5/X6',
+  shortDescription: 'Pantalla Android BMW X5/X6',
+  images: [productoPantallaBMW],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '31',
+  name: "Pantalla Android BMW ",
+  slug: 'pantalla-android-bmw',
+  price: 0,
+  description: 'Pantalla Android X5/X6 2+32 10-13',
+  shortDescription: 'Pantalla Android BMW X5/X6 2+32 10-13',
+  images: [productoPantallaBMW],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '32',
+  name: "Pantalla Android BMW ",
+  slug: 'pantalla-android-bmw',
+  price: 0,
+  description: 'Pantalla Android X5/X6 2+32 14-16',
+  shortDescription: 'Pantalla Android BMW X5/X6 2+32 14-16',
+  images: [productoPantallaBMW],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '33',
+  name: "PANTALLA ANDROID RX450 2017",
+  slug: 'pantalla-android-rx450',
+  price: 0,
+  description: 'PANTALLA ANDROID RX450 2017- 8+64',
+  shortDescription: 'Pantalla Android RX450 2017- 8+64',
+  images: [productoPantallarx450],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '34',
+  name: "PANTALLA ANDROID RX450 2019",
+  slug: 'pantalla-android-rx450',
+  price: 0,
+  description: 'PANTALLA ANDROID RX450 2019- 8+64',
+  shortDescription: 'Pantalla Android RX450 2019- 8+64',
+  images: [productoPantallarx450],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '35',
+  name: "PANTALLA ANDROID Audi sencillo",
+  slug: 'pantalla-android-audi-sencillo',
+  price: 0,
+  description: 'PANTALLA ANDROID para audi sencillo 13-16 (2+32)',
+  shortDescription: 'PANTALLA ANDROID para audi sencillo 13-16 (2+32)',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '36',
+  name: "PANTALLA ANDROID Audi full",
+  slug: 'pantalla-android-audi-full',
+  price: 0,
+  description: 'PANTALLA ANDROID para audi full 13-16',
+  shortDescription: 'PANTALLA ANDROID para audi full 13-16',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '37',
+  name: "PANTALLA ANDROID Audi sencillo a4l",
+  slug: 'pantalla-android-audi-sencillo-a4l',
+  price: 0,
+  description: 'PANTALLA ANDROID para audi sencillo a4l 17-19 (2+32)',
+  shortDescription: 'PANTALLA ANDROID para audi sencillo a4l 17-19 (2+32)',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '38',
+  name: "PANTALLA ANDROID Audi full a4l",
+  slug: 'pantalla-android-audi-full-a4l',
+  price: 0,
+  description: 'PANTALLA ANDROID para audi full a4l 17-19',
+  shortDescription: 'PANTALLA ANDROID para audi full a4l 17-19',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '39',
+  name: "PANTALLA ANDROID Audi Q5 sencillo",
+  slug: 'pantalla-android-audi-q5-sencillo',
+  price: 0,
+  description: 'Pantalla Android para audi Q5 sencillo 13-16 (2+32)',
+  shortDescription: 'Pantalla Android para audi Q5 sencillo 13-16 (2+32)',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '40',
+  name: "PANTALLA ANDROID Audi Q5 full",
+  slug: 'pantalla-android-audi-q5-full',
+  price: 0,
+  description: 'Pantalla Android para audi Q5 full 13-16 (2+32)',
+  shortDescription: 'Pantalla Android para audi Q5 full 13-16 (2+32)',
+  images: [productPantallaAudi],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '41',
+  name: "Camara empotrable",
+  slug: 'camara-empotrable',
+  price: 0,
+  description: 'Camara empotrable sin led',
+  shortDescription: 'Camara empotrable sin led',
+  images: [productCamara_empotrable],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '42',
+  name: "Camara HD",
+  slug: 'camara-hd',
+  price: 0,
+  description: 'Camara HD',
+  shortDescription: 'Camara HD',
+  images: [productCamaraHD],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: true,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+{
+  id: '43',
+  name: "Camara de retroceso cuadrado",
+  slug: 'camara-retroceso-cuadrado',
+  price: 0,
+  description: 'Camara de retroceso cuadrada con 4 leds',
+  shortDescription: 'Camara de retroceso cuadrada con 4 leds',
+  images: [productCamaraRetroceso],
+  category: 'audio-video',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: [''],
+  inStock: true,  
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+
+},
+
+
+
+
+
+
+
+
 
 
 ];
