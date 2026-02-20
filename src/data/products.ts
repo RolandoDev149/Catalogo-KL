@@ -7,7 +7,7 @@ import productRack from '@/assets/product-rack.jpg';
 import productBullbar from '@/assets/product-bullbar.jpg';
 import productDefensa from '@/assets/Defensa-de-hiero.jpg';
 import productDefensaNF from '@/assets/Prueba.jpg';
-import productAndro9P from '@/assets/pantalla android.jpg';
+import productAndro9P from '@/assets/Imagen kl.jpg';
 import productAndro9P2 from '@/assets/pantalla androidl32.jpg';
 import productRadiomp3 from '@/assets/Radio.jpg';
 import productMirrorlink from '@/assets/Mirror link 7.jpg';
@@ -241,35 +241,35 @@ export const products: Product[] = [
 
   {
     id: '10',
-    name: 'PANTALLA ANDROID VERSION 15 TOP 9863 8 CORE 4+32 9" /10" CAR PLAY+VIDEO+SIM',
+    name: 'PANTALLA ANDROID VERSION 15 8 CORE 8+32 9" /10" CAR PLAY+VIDEO+SIM+Dash+Instalacion',
     slug: 'pantalla-android',
-    price: 0,
-    description: 'Pantlla android de 9 pulgadas',
-    shortDescription: 'Pantlla android de 9 pulgadas',
+    price: 295.00,
+    description: ' Actualiza tu vehículo con tecnología de última generación. Nuestra Pantalla Android Versión 15 transforma tu auto en un centro multimedia inteligente, combinando rendimiento, conectividad y entretenimiento en un solo equipo. Sistema Android 15  Interfaz moderna, rápida y compatible con miles de aplicaciones.',
+    shortDescription: 'Pantalla Android 15 – 8 Core | 4GB+32GB | 9”/10” Con CarPlay + SIM 4G + Video + Dash Cam + Instalación incluida. Convierte tu auto en un centro multimedia inteligente con internet, GPS, apps, música y más. 🔥¡Lista para usar!',
     images: [productAndro9P],
     category: 'audio-video',
     brand: 'KL',
-    vehicleTypes: [''],
-    features: [''],
+    vehicleTypes: ['todo tipo de vehiculo'],
+    features: ['Sistema Android 15', 'Procesador Octa-Core (8 núcleos)', 'Memoria 8GB RAM', 'Pantalla HD de 9” o 10', 'CarPlay integrado', 'Ranura SIM 4G', 'DashKit Incluido' ],
     inStock: true,
-    isOnSale: true,
+    isOnSale: false,
     rating: 4.6,
     reviewCount: 0,
   },
   {
     id: '11',
-    name: 'PANTALLA ANDROID VERSION 15 TOP 7862 8 CORE 4+32 9"/10" CAR PLAY +SIM+VIDEO+CAMARA 360',
+    name: 'PANTALLA ANDROID VERSION 15 TOP 8 CORE 8+32 9"/10" CAR PLAY +SIM+VIDEO+CAMARA 360+Dash+Instalacion',
     slug: 'pantalla-android-2',
-    price: 0,
-    description: 'Pantlla android de 9 pulgadas',
-    shortDescription: 'Pantlla android de 9 pulgadas',
+    price: 325.00,
+    description: 'La Pantalla Android 15 versión Top está diseñada para quienes buscan el más alto nivel de tecnología y desempeño en su vehículo. Equipada con procesador Octa-Core y 8GB de RAM, garantiza velocidad superior, respuesta inmediata y una experiencia fluida incluso usando múltiples aplicaciones al mismo tiempo. Su diseño en formato 9” o 10” ofrece una visualización amplia, clara y moderna, mejorando tanto la estética como la funcionalidad del tablero. Gracias a su sistema actualizado y potente hardware, permite una experiencia completa de conectividad, entretenimiento y navegación con estabilidad y alto rendimiento. Es la opción ideal para quienes desean transformar su vehículo en un espacio más tecnológico, práctico y avanzado.',
+    shortDescription: 'Pantalla Android 15 versión Top con procesador 8 núcleos y 8GB de RAM que ofrece máximo rendimiento y fluidez. Disponible en 9” y 10”, convierte tu vehículo en un sistema multimedia moderno, rápido e inteligente.',
     images: [productAndro9P],
     category: 'audio-video',
     brand: 'KL',
-    vehicleTypes: [''],
-    features: [''],
+    vehicleTypes: ['Todo tipo de vehiculo'],
+    features: ['Sistema Android 15', 'Camara 360', 'Procesador Octa-Core (8 núcleos)', 'Memoria 8GB RAM', 'Pantalla HD de 9” o 10', 'CarPlay integrado', 'Ranura SIM 4G', 'DashKit Incluido'],
     inStock: true,
-    isOnSale: true,
+    isOnSale: false,
     rating: 4.6,
     reviewCount: 0,
   },
@@ -278,7 +278,7 @@ export const products: Product[] = [
     id: '12',
     name: 'PANTALLA UNIVERSAL ANDROID 15',
     slug: 'pantalla-universal-android',
-    price: 120,
+    price: 145.00,
     description: 'Pantlla android de 9/10 pulgadas',
     shortDescription: 'Pantlla android de 9/10 pulgadas',
     images: [productAndro9P],
