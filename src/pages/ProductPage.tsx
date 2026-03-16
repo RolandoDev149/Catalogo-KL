@@ -33,7 +33,7 @@ export default function ProductPage() {
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
-  const whatsappUrl = `https://wa.me/56912345678?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
+  const whatsappUrl = `https://wa.me/69093601?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
 
   return (
     <div className="min-h-screen bg-background">
