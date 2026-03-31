@@ -75,6 +75,12 @@ import productbarraled1linea9w from '@/assets/BARRA LED 1 LINEA 9W BLANCO 4  .jp
 import productbarraled1linea18w from '@/assets/BARRA LED 1 LINEA 18W BLANCO 7.5  .jpg';
 import productbarraled3d1lineaamarillo from '@/assets/BARRA LED 3D -9W 1 LINEA-AMARILLO  3 .jpg'
 import productbarraled2linea18w7plg from '@/assets/BARRA LED UNA LINEA 18W AMARILLA 7¨.jpg'
+import productbarraleddoblelinea326w from '@/assets/BARRA LED DOBLE LINEA 108D-324W 30.jpg'
+import productbarradoble324q from '@/assets/BARRA DOBLE LED CURVA 324W 22.jpg'
+import productbarradetecho from '@/assets/BARRA LED DE TECHO NP300 Y REVO.jpg';
+import productbarraled18w from '@/assets/barra led 18w.jpg';
+import productbarraledcuadrada48w from '@/assets/barra led cuadrada 48w blanco y amarillo .jpg';
+import productbarraledredonda72w from '@/assets/barra led redonda 72w.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -2117,6 +2123,114 @@ shortDescription: 'Halogena universal 76 MM',
   brand: 'KL',
   vehicleTypes: [''],
   features: ['Configuración de una sola línea de LED para un perfil aerodinámico', 'Potencia de 76W para un brillo eficiente y penetrante', 'Color de luz amarillo ideal para niebla, lluvia y polvo', 'Longitud de 26 pulgadas compatible con diversos espacios de montaje', 'Carcasa robusta diseñada para máxima disipación de calor', 'Lente de alta resistencia contra impactos de piedras o ramas', 'Bajo consumo de corriente para proteger la batería del vehículo', 'Soportes de montaje laterales incluidos para una instalación firme'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'110',
+  name: "Barras LED Doble Línea Serie 108D - Tamaños 30 a 52 plg",
+  slug: 'barras-led-doble-linea-serie-108D',
+  price:0,
+  description: 'Domina cualquier terreno con la serie de barras LED de doble línea 108D, diseñadas para quienes no aceptan compromisos en visibilidad. Esta línea ofrece una progresión de potencia y tamaño que va desde las 30 pulgadas hasta las impresionantes 52 pulgadas, permitiendo un ajuste perfecto en techos de camionetas, racks de carga o maquinaria pesada. Su configuración de doble fila de emisores genera un haz de luz blanca de alta intensidad que combina profundidad de largo alcance con una inundación lateral expansiva, eliminando por completo las zonas oscuras. Construidas con una carcasa de aluminio reforzado y un sistema de disipación de calor de alto flujo, estas barras garantizan un rendimiento óptimo y una durabilidad extrema frente a las vibraciones y el clima más hostil en rutas off-road o entornos industriales.',
+  shortDescription: 'Barras LED Doble Línea Serie 108D - Tamaños 30" a 52"',
+  images: [productbarraleddoblelinea326w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Serie de alta potencia con configuración de doble línea LED 108D', 'Disponible en tamaños: 30" (324W), 32", 42" y 52" para cobertura total', 'Emisión de luz blanca cristalina de alta definición', 'Haz de luz combo (Spot/Flood) para profundidad y amplitud simultánea', 'Carcasa de aluminio extruido con enfriamiento optimizado', 'Lente de policarbonato de alta resistencia a impactos', 'Compatibilidad universal 12V-24V para todo tipo de vehículos', 'Soportes de montaje robustos con ajuste de ángulo incluidos', 'Protección contra polvo y agua para uso en condiciones extremas'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'111',
+  name: "Barras LED Curvas Doble Línea - Serie High Power (22 a 52 plg)",
+  slug: 'barra-led-curvas-doble-linea',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo a un nivel profesional con nuestra serie de barras LED curvas de doble línea, diseñadas específicamente para adaptarse al contorno de tu unidad y ofrecer un campo visual mucho más amplio y natural. Esta serie de alto rendimiento abarca desde el modelo compacto de 22 pulgadas hasta la imponente barra de 52 pulgadas, con potencias masivas que alcanzan los 729W para garantizar una claridad absoluta en las rutas más oscuras. Su diseño curvo no solo mejora la estética aerodinámica, sino que optimiza la distribución de la luz hacia los laterales, eliminando puntos ciegos. Construidas con carcasas de aluminio reforzado y lentes de alta resistencia, estas barras están preparadas para soportar vibraciones extremas, polvo y agua, convirtiéndose en el accesorio indispensable para camionetas, vehículos 4x4 y transporte de carga pesada.',
+  shortDescription: 'Gama premium de barras LED curvas de doble fila con potencias desde 324W hasta 729W, diseñadas para una cobertura lumínica panorámica y máxima penetración en vehículos off-road y maquinaria pesada.',
+  images: [productbarradoble324q],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño curvo aerodinámico para una iluminación panorámica superior', 'Configuración de doble línea LED de alta densidad', 'Disponible en tamaños: 22" (324W), 32" (459W), 42" (594W) y 52" (729W)', 'Emisión de luz blanca ultra brillante para máxima visibilidad', 'Estructura de aluminio reforzado con disipación de calor optimizada', 'Lente de policarbonato resistente a impactos y condiciones climáticas severas', 'Haz de luz de largo alcance con apertura lateral mejorada', 'Compatible con sistemas eléctricos de 12V y 24V', 'Incluye soportes de montaje robustos y ajustables'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'112',
+  name: "Barras LED de Techo Integradas - Modelos NP300 y REVO",
+  slug: 'baras-led-techo-integradas-np300-revo',
+  price:0,
+  description: 'Eleva el nivel de equipamiento y visibilidad de tu pick-up con estas barras LED de techo diseñadas para una integración estética y funcional perfecta. Este producto ha sido fabricado siguiendo las líneas originales del vehículo, ofreciendo una apariencia de equipo original que reduce el ruido del viento gracias a su carcasa aerodinámica. Contamos con versiones personalizadas tanto para la Nissan NP300 como para la Toyota Hilux Revo, proporcionando una potente fuente de luz blanca ideal para trayectos nocturnos, trabajo pesado o rutas todoterreno. Su estructura robusta y acabado en color negro mate no solo protege los módulos LED internos, sino que también le otorga a tu camioneta un aspecto más agresivo y profesional sin necesidad de adaptaciones complejas.',
+  shortDescription: 'Sistemas de iluminación LED de techo con diseño aerodinámico y ajuste a medida, disponibles específicamente para los modelos de pick-up Nissan NP300 y Toyota Hilux Revo.',
+  images: [productbarradetecho],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: ['toyota hilux revo', 'nissan np300'],
+  features: ['Diseño aerodinámico de bajo perfil', 'Modelos específicos para Nissan NP300 y Toyota Hilux Revo', 'Iluminación LED de alta intensidad integrada', 'Carcasa de alta resistencia con acabado negro mate', 'Ajuste preciso a la curvatura del techo original', 'Mejora significativamente la visibilidad en rutas oscuras', 'Protección contra polvo y humedad', 'Instalación estéticamente integrada al vehículo', 'Materiales duraderos diseñados para climas exigentes'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'113',
+  name: "Bombillos LED MF2 con Transformador (12V-24V)",
+  slug: 'bombillos-led-mf2-transformador-12v-24v',
+  price:0,
+  description: 'Mejora el sistema de iluminación principal de tu vehículo con la serie LED MF2 de TOP. Estos bombillos están equipados con un transformador externo que garantiza una gestión de energía óptima, evitando fluctuaciones y prolongando la vida útil del LED. Su diseño compacto permite una instalación sencilla en diversos modelos, proporcionando una luz blanca intensa que mejora drásticamente la visibilidad nocturna y la seguridad en carretera. Gracias a su tecnología multivoltaje, son la solución perfecta tanto para automóviles ligeros como para transporte de carga pesada que requieren un rendimiento lumínico profesional y confiable.',
+  shortDescription: 'Kit de bombillos LED de alta eficiencia con transformador integrado, diseñados para una iluminación superior y estable en una amplia gama de vehículos con voltajes de 12V a 24V.',
+  images: [productbarraled18w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Tecnología LED MF2 de alto brillo', 'Incluye transformador/driver externo para estabilidad de corriente', 'Rango de operación universal 12V-24V', 'Disponible en múltiples tipos de base/socket para compatibilidad total', 'Modelos compatibles: H1, H3, H4, H7, H11, H13, 880, 9005, 9006, 9007', 'Fácil instalación Plug & Play', 'Construcción con disipación térmica eficiente', 'Luz blanca de alta definición', 'Marca TOP garantizada'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'114',
+  name: "Barra LED Cuadrada 48W Blanco y Amarillo - 2.5cm",
+  slug: 'barra-led-cuadrada-48w-blanco-y-amarillo-2.5cm',
+  price:0,
+  description: 'Optimiza la visibilidad de tu vehículo con este faro LED cuadrado de alto rendimiento, que combina la potencia de 48W con la versatilidad de dos tonos de luz: blanco para máxima claridad y amarillo para una mejor penetración en condiciones de niebla o lluvia. Su tamaño ultra compacto de 2.5cm permite una instalación discreta y flexible en cualquier parte del vehículo, desde defensas y espejos hasta parrillas. Fabricado para resistir el uso rudo, este faro proporciona un haz de luz intenso y definido, ideal para conductores que buscan seguridad y estilo en un formato pequeño pero extremadamente brillante.',
+  shortDescription: 'Faro LED cuadrado de alta potencia con 48W y tecnología de doble color (blanco y amarillo), diseñado en un formato compacto de 2.5cm para una iluminación auxiliar versátil y potente.',
+  images: [productbarraledcuadrada48w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia nominal de 48W para un brillo excepcional', 'Función de doble color: blanco puro y amarillo penetrante', 'Diseño cuadrado compacto de 2.5cm', 'Tecnología LED de bajo consumo y larga duración', 'Carcasa robusta resistente a vibraciones y condiciones climáticas', 'Ideal para motocicletas, vehículos todoterreno y maquinaria', 'Fácil montaje en espacios reducidos', 'Lente de alta transparencia para una dispersión de luz optimizada'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'115',
+  name: "Barra LED Redonda 72W - 2.5cm",
+  slug: 'barra-led-redonda-72w-2.5cm',
+  price:0,
+  description: 'Potencia la capacidad lumínica de tu vehículo con este faro LED redondo de alto rendimiento. Con una potencia de 72W concentrada en un diseño estilizado y compacto, este faro proyecta una luz clara y brillante que mejora significativamente la visibilidad en trayectos nocturnos o rutas complicadas. Su estructura está pensada para ofrecer una alta resistencia a impactos y vibraciones, siendo ideal para ser instalado como luz auxiliar en defensas, parrillas o racks de camionetas, vehículos 4x4 y maquinaria pesada. Gracias a su tecnología de disipación de calor, mantiene un funcionamiento estable y duradero incluso en las jornadas de uso más exigentes.',
+  shortDescription: 'Faro LED redondo de alta potencia con 72W, diseñado en un formato compacto de 2.5cm para ofrecer una iluminación blanca intensa y de amplio alcance en vehículos de 12V y 24V.',
+  images: [productbarraledredonda72w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia de 72W para un brillo superior', 'Diseño redondo con formato de 2.5cm', 'Emisión de luz de alta intensidad', 'Carcasa robusta diseñada para máxima durabilidad', 'Compatible con sistemas eléctricos de 12V y 24V', 'Lente de alta transparencia resistente a impactos', 'Ideal para uso como faro auxiliar en diversos tipos de vehículos', 'Sistema de enfriamiento eficiente para prolongar la vida útil', 'Fácil instalación en múltiples puntos de montaje'],
   inStock: true,
   isOnSale: false,
   rating: 4.6,
