@@ -75,6 +75,9 @@ import productbarraled1linea9w from '@/assets/BARRA LED 1 LINEA 9W BLANCO 4  .jp
 import productbarraled1linea18w from '@/assets/BARRA LED 1 LINEA 18W BLANCO 7.5  .jpg';
 import productbarraled3d1lineaamarillo from '@/assets/BARRA LED 3D -9W 1 LINEA-AMARILLO  3 .jpg'
 import productbarraled2linea18w7plg from '@/assets/BARRA LED UNA LINEA 18W AMARILLA 7¨.jpg'
+import productbarraled1lineasoblecolor from '@/assets/Barras LED de Una Línea Doble Color con Función Flasher.jpg'
+import productbarraled144wblanco from '@/assets/BARRA LED 144W BLANCO.jpg'
+import productbarraleddoblelinea126w from '@/assets/BARRA LED DOBLE LINEA 126W.jpg'
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -2122,6 +2125,99 @@ shortDescription: 'Halogena universal 76 MM',
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'110',
+  name: "Barra LED Una Línea 90W Amarilla 31 plg",
+  slug: 'barra-led-1-linea-90w-amarilla',
+  price:0,
+  description: 'incrementa la seguridad y el alcance visual de tu vehículo con esta barra LED de 26 pulgadas, que combina un diseño estilizado de una sola fila con una potente emisión de luz amarilla. Con una potencia de 36W, este modelo  es la herramienta ideal para penetrar la niebla, el polvo o la lluvia intensa, donde la luz blanca suele rebotar y causar deslumbramiento. Su estructura compacta permite un montaje versátil en defensas, parrillas o techos, proporcionando un haz de luz nítido y de alto contraste que mejora significativamente la percepción del terreno en rutas off-road o trayectos nocturnos complicados, todo bajo una construcción resistente a las vibraciones y al uso rudo.',
+  shortDescription: 'Barra de iluminación LED de 31 pulgadas con 90W de potencia y una sola línea de emisores en color amarillo, diseñada para ofrecer una visibilidad superior en condiciones climáticas difíciles.',
+  images: [productbarraled2linea18w7plg],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración de una sola línea de LED para un perfil aerodinámico', 'Potencia de 90W para un brillo eficiente y penetrante', 'Color de luz amarillo ideal para niebla, lluvia y polvo', 'Longitud de 31 pulgadas compatible con diversos espacios de montaje', 'Carcasa robusta diseñada para máxima disipación de calor', 'Lente de alta resistencia contra impactos de piedras o ramas', 'Bajo consumo de corriente para proteger la batería del vehículo', 'Soportes de montaje laterales incluidos para una instalación firme'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'111',
+  name: "Barras LED de Una Línea Doble Color con Función Flasher (60cm a 120cm)",
+  slug: 'barra-led-de-una-linea-doble-color',
+  price:0,
+  description: 'Maximiza la seguridad y visibilidad de tu vehículo con esta versátil línea de barras LED estroboscópicas, diseñadas específicamente para ofrecer una combinación potente de luz blanca y amarilla en un formato de una sola fila. Esta serie destaca por su capacidad de emitir destellos de advertencia (flasher), lo que las hace ideales para servicios de emergencia, asistencia vial, escoltas o maquinaria pesada que opera en condiciones de baja visibilidad. El sistema incluye un controlador de patrones y una toma de corriente para encendedor, permitiendo una gestión rápida de los efectos de luz. Gracias a su diseño aerodinámico y su variedad de tamaños, se adaptan perfectamente a cualquier superficie del vehículo, desde el parachoques hasta el techo, garantizando una presencia imponente y profesional en la carretera.',
+  shortDescription: 'Serie de barras de iluminación LED profesionales con tecnología de doble color blanco/amarillo y función estroboscópica (flasher), disponibles en cinco longitudes desde 60cm hasta 120cm para una señalización de alta intensidad.',
+  images: [productbarraled1lineasoblecolor],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Tecnología LED de doble color blanco y amarillo con función flash', 'Disponible en 5 longitudes: 60cm (4 secciones), 75cm (5 secciones), 90cm (6 secciones), 105cm (7 secciones) y 120cm (8 secciones)', 'Diseño estilizado de una sola línea para un perfil aerodinámico', 'Conector para toma de encendedor incluido con interruptor integrado', 'Módulo controlador de patrones estroboscópicos de alta intensidad', 'Voltaje de operación universal compatible con diversos vehículos', 'Carcasa resistente diseñada para uso rudo y disipación de calor', 'Ideal para vehículos de seguridad, auxilio vial y transporte especial', 'Fácil instalación con soportes de montaje laterales ajustables'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'112',
+  name: "Barra LED 144W Blanco de Alta Intensidad",
+  slug: 'barra-led-144w-blanco-alta-intensidad',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo al extremo con esta barra LED de 144W, una solución robusta y potente para quienes requieren máxima visibilidad en condiciones de oscuridad total. Gracias a su configuración de múltiples emisores LED de alta eficiencia, este faro proyecta una luz blanca cristalina que cubre grandes distancias y áreas laterales, siendo el aliado perfecto para rutas off-road, trabajos nocturnos en campo o para equipar camionetas y vehículos de aventura. Su diseño compacto pero de gran potencia está construido para resistir las vibraciones más exigentes, garantizando una disipación de calor superior que mantiene el rendimiento óptimo durante horas de uso continuo en cualquier tipo de terreno.',
+  shortDescription: 'Faro auxiliar LED de alto rendimiento con 144W de potencia, diseñado para ofrecer una iluminación blanca ultra brillante y de amplio alcance en vehículos de 12V y 24V.',
+  images: [productbarraled144wblanco],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia nominal de 144W para una iluminación superior', 'Emisión de luz blanca pura de alta intensidad', 'Configuración de múltiples filas de LED para mayor cobertura', 'Carcasa de aluminio reforzado con diseño de alta resistencia', 'Disipador de calor integrado para prolongar la vida útil de los componentes', 'Lente de policarbonato resistente a impactos', 'Compatibilidad universal con sistemas eléctricos de 12V y 24V', 'Protección contra polvo y salpicaduras de agua', 'Fácil montaje en defensas, techos o racks de carga'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'113',
+  name: "Barra LED Doble Línea 126W de Alta Potencia",
+  slug: 'barra-led-doble-linea-126w-de-alta-intensidad',
+  price:0,
+  description: 'Maximiza la visibilidad en tus trayectos nocturnos o rutas todoterreno con esta robusta barra LED de doble línea y 126W. Su diseño de dos filas de emisores de alta eficiencia permite una combinación ideal de luz de inundación y de largo alcance, eliminando puntos ciegos y garantizando una claridad excepcional en cualquier terreno. Construida con materiales resistentes al impacto y un sistema de disipación de calor optimizado, esta barra es perfecta para ser instalada en defensas, racks o techos de camionetas, vehículos 4x4 y maquinaria pesada, proporcionando un rendimiento lumínico confiable y duradero bajo las condiciones más exigentes.',
+  shortDescription: 'Barra de iluminación LED de doble fila con 126W de potencia, diseñada para ofrecer un haz de luz blanca de gran intensidad y cobertura extendida en vehículos de 12V y 24V.',
+  images: [productbarraleddoblelinea126w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia nominal de 126W para un brillo superior', 'Configuración de doble línea de LED (Double Row) para mayor densidad lumínica', 'Emisión de luz blanca pura de alta definición', 'Carcasa de aluminio reforzado con alta resistencia a vibraciones', 'Sistema de enfriamiento integrado para proteger los componentes internos', 'Lente de alta transparencia resistente a impactos y rayaduras', 'Compatibilidad universal con sistemas de 12V y 24V', 'Protección ambiental para uso en exteriores y climas adversos', 'Fácil instalación con soportes ajustables incluidos'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'113',
+  name: "Barra LED Doble Línea 126W de Alta Potencia",
+  slug: 'barra-led-doble-linea-126w-de-alta-intensidad',
+  price:0,
+  description: 'Maximiza la visibilidad en tus trayectos nocturnos o rutas todoterreno con esta robusta barra LED de doble línea y 126W. Su diseño de dos filas de emisores de alta eficiencia permite una combinación ideal de luz de inundación y de largo alcance, eliminando puntos ciegos y garantizando una claridad excepcional en cualquier terreno. Construida con materiales resistentes al impacto y un sistema de disipación de calor optimizado, esta barra es perfecta para ser instalada en defensas, racks o techos de camionetas, vehículos 4x4 y maquinaria pesada, proporcionando un rendimiento lumínico confiable y duradero bajo las condiciones más exigentes.',
+  shortDescription: 'Barra de iluminación LED de doble fila con 126W de potencia, diseñada para ofrecer un haz de luz blanca de gran intensidad y cobertura extendida en vehículos de 12V y 24V.',
+  images: [productbarraleddoblelinea126w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia nominal de 126W para un brillo superior', 'Configuración de doble línea de LED (Double Row) para mayor densidad lumínica', 'Emisión de luz blanca pura de alta definición', 'Carcasa de aluminio reforzado con alta resistencia a vibraciones', 'Sistema de enfriamiento integrado para proteger los componentes internos', 'Lente de alta transparencia resistente a impactos y rayaduras', 'Compatibilidad universal con sistemas de 12V y 24V', 'Protección ambiental para uso en exteriores y climas adversos', 'Fácil instalación con soportes ajustables incluidos'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+
 
 
 ];
