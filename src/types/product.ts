@@ -8,6 +8,7 @@ export interface Product {
   shortDescription: string;
   images: string[];
   category: string;
+  subcategory?: string;
   brand: string;
   vehicleTypes: string[];
   features: string[];
@@ -17,6 +18,14 @@ export interface Product {
   rating: number;
   reviewCount: number;
 }
+
+export interface Subcategory {
+  id: string;
+  name: string;
+  slug: string;
+  description?: string;
+}
+
 
 export interface CartItem {
   product: Product;
@@ -30,4 +39,5 @@ export interface Category {
   description: string;
   image: string;
   productCount: number;
+  subcategories?: Subcategory[];
 }

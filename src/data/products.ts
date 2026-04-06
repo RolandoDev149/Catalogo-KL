@@ -84,6 +84,7 @@ import productbarraledredonda72w from '@/assets/barra led redonda 72w.jpg';
 import productfaroledrectangular72w from '@/assets/barra led redonda cob 72w con borde amarillo.jpg';
 import productbarraledredonda27wabanico from '@/assets/barra led redonda 27w modelo abanico.jpg';
 import productbarraledcuadrada114w from '@/assets/barra led cuadrada cruz blanco y amarillo.jpg';
+import productbarraled36wflash from '@/assets/Barra led 36w blanco amarillo flash.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -110,6 +111,10 @@ export const categories: Category[] = [
     description: 'Iluminación potente para cualquier aventura para cualquier vehículo',
     image: categoryLed,
     productCount: 28,
+    subcategories: [
+      { id: 'led-de-techo', name: 'LED de Techo', slug: 'led-techo' },
+      { id: 'pastillas-led', name: "Pastillas LED", slug: 'pastillas-led' },
+    ],
   },
   {
     id: '4',
@@ -1566,6 +1571,7 @@ shortDescription: 'Halogena universal 76 MM',
   shortDescription: 'Led de techo chico',
   images: [prodcutLedTechoChico],
   category: 'led',
+  subcategory: 'led-techo',
   brand: 'KL',
   vehicleTypes: ['Toyota hilux revo'],
   features: [''],
@@ -2293,6 +2299,25 @@ shortDescription: 'Halogena universal 76 MM',
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'119',
+  name: "Barra LED 36W Blanco-Amarillo con Función Flash",
+  slug: 'barra-led-36w-blanco-amarillo-con-función-flash',
+  price:0,
+  description: 'Aumenta la seguridad y funcionalidad de tu vehículo con esta barra LED de 36W, que ofrece una solución de iluminación dual sumamente versátil. Este modelo permite alternar entre una luz blanca ultra brillante para máxima visibilidad nocturna y una luz amarilla de alta penetración, ideal para condiciones de niebla o lluvia intensa. Además, incorpora una función de flash (estroboscópica) que la convierte en una herramienta esencial para vehículos de asistencia, seguridad o trabajo que requieren alertar a otros conductores en la vía. Su diseño robusto incluye un kit de montaje completo con tornillería y soportes reforzados, garantizando una instalación firme y duradera en cualquier tipo de unidad off-road o de servicio.',
+  shortDescription: 'Barra LED auxiliar de 36W con tecnología de doble color (blanco y amarillo) y función de destello (flash), diseñada para ofrecer iluminación adaptable y señalización de advertencia en un formato compacto.',
+  images: [productbarraled36wflash],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia: 32W de salida lumínica de alta eficiencia.', 'Modos de Luz: Doble color (Blanco / Amarillo) con función integrada de flash.', 'Construcción: Carcasa de alta resistencia diseñada para soportar condiciones exteriores exigentes.', 'Kit de Instalación: Incluye soportes de montaje, tornillos, tuercas y arandelas para una fijación segura.', 'Carcasa de alta resistencia diseñada para disipación de calor eficiente', 'Versatilidad: Ideal para uso como luz auxiliar de conducción o como dispositivo de señalización de emergencia.', 'Compatible con una amplia gama de vehículos y maquinaria', 'Visibilidad: Emisores LED dispuestos para una cobertura amplia y clara del camino.', 'Soporte de montaje inferior reforzado incluido'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
 
 ];
 
