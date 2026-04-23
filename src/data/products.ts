@@ -98,6 +98,19 @@ import productpastillalednaranja from '@/assets/PASTI LLA LE D DE PARRI LLA NARA
 import productpastillalednegro from '@/assets/PASTI LLA LE D DE PARRI LLA N EG  RO.jpg';
 import productledcuadradaamarilla from '@/assets/LED DE PARRILLA CUADRADA AMARILLO.jpg';
 import productLEDDEPARRILLACUADRADABLANCO from '@/assets/LED DE PARRILLA CUADRADA  BLANCO.jpg';
+import productFlashConControl from '@/assets/FLASH CON CONTROL.jpg';
+import productRolloLed from '@/assets/ROLLO LED.jpg';
+import productRolloLedMulticolor12v from '@/assets/ROLLO LED multicolor 12v .jpg';
+import productLedTraceraLuzMaletero from '@/assets/LED TERCERA LUZ DE MALETERO.jpg';
+import productAroDiabloVerde from '@/assets/ARODIABLOrojo, verde, azul, rosado.jpg';
+import productAroLed from '@/assets/ARO LED 60MM PA.jpg';
+import productLedSecuencial from '@/assets/LED SECUENCIAL EXTERNA BLANCA AMARILLA.jpg';
+import productoLedSecuencialExterna from '@/assets/LED SECUENCIAL  EXTERNA 60CM ,  45CM CON  MOVIMIENTO (1).jpg';
+import productRolloNeon from '@/assets/ROLLO LED NEON.jpg';
+
+
+
+
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -127,6 +140,7 @@ export const categories: Category[] = [
     subcategories: [
       { id: 'led-de-techo', name: 'LED de Techo', slug: 'led-techo' },
       { id: 'pastilla-led', name: "Pastillas LED", slug: 'pastillas-led' },
+      { id: 'rollos-led' , name: "Rollos LED", slug: 'rollo-led' },
     ],
   },
   {
@@ -2577,6 +2591,181 @@ shortDescription: 'Halogena universal 76 MM',
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'133',
+  name: "Flash con Control - Módulo de Estroboscopio Remoto",
+  slug: 'flash-control-estroboscopio-remoto',
+  price:0,
+  description: 'Añade dinamismo y control total a tu sistema de iluminación con nuestro módulo de flash con control remoto. Este kit permite transformar cualquier luz LED estándar en un sistema de advertencia o decorativo con múltiples patrones de destello, todo gestionado desde la palma de tu mano. El receptor compacto es fácil de instalar y ocultar, mientras que el mando a distancia cuenta con una interfaz de cuatro botones para alternar entre diferentes modos de velocidad, encendido/apagado y secuencias programadas. Es el complemento ideal para quienes buscan una gestión centralizada y sin cables de sus luces auxiliares, barras LED o pastillas decorativas, garantizando un funcionamiento estable y una respuesta inmediata.',
+  shortDescription: 'Sistema de control remoto inalámbrico diseñado para gestionar funciones de flash y efectos estroboscópicos en dispositivos de iluminación LED de 12V.',
+  images: [productFlashConControl],
+  category: 'led',
+  subcategory: 'pastillas-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Mando a distancia inalámbrico con diseño ergonómico y acabado metálico', 'Módulo receptor de alta fidelidad modelo SY-UCX', 'Voltaje de entrada y salida compatible con sistemas de 12V', 'Cuatro botones de función para control total de efectos y encendido', 'Capacidad para gestionar múltiples patrones de flash y estroboscopio', 'Instalación simplificada con cableado de entrada y salida claramente identificado', 'Compacto y ligero para una integración discreta en cualquier parte del vehículo', 'Construcción robusta para asegurar una larga vida útil en condiciones de uso frecuente'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'134',
+  name: "Rollo LED 5050 - Iluminación Continua",
+  slug: 'rollo-led-5050-iluminacion-continua',
+  price:0,
+  description: 'Transforma cualquier espacio con la potencia y flexibilidad de nuestros rollos LED 5050. Estas cintas están equipadas con chips de mayor tamaño que ofrecen una luminosidad superior, permitiendo crear ambientes personalizados tanto en interiores como en exteriores protegidos. Su diseño flexible se adapta a curvas, bordes de estantes, techos falsos o vitrinas comerciales, proporcionando una luz constante y vibrante. Gracias a su formato en rollo, es posible cortar y adaptar la longitud según las necesidades específicas de cada instalación, convirtiéndola en la herramienta favorita para decoradores y entusiastas del diseño que buscan un acabado profesional con colores intensos y duraderos.',
+  shortDescription: 'Cinta LED flexible de alta potencia basada en el chip 5050, ideal para proyectos de decoración, retroiluminación y acentuación arquitectónica en una amplia gama de colores sólidos.',
+  images: [productRolloLed],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Tecnología de Chip: Utiliza diodos tipo 5050 para una mayor salida lumínica por metro.', 'Variedad Cromática: Disponible en colores Rojo, Verde, Amarillo, Fucsia y Blanco.', 'Formato Flexible: Estructura de cinta que permite la instalación en superficies curvas y esquinas.', 'Corte a Medida: Posibilidad de ajustar la longitud en puntos específicos marcados en la tira.', 'Iluminación de Acento: Perfecta para retroiluminación de pantallas, muebles y detalles arquitectónicos.', 'Bajo Perfil: Diseño delgado para una instalación discreta y elegante.', 'Alta Eficiencia: Consumo energético optimizado con una larga vida útil de los componentes.', 'Versatilidad de Uso: Compatible con controladores para ajustar la intensidad y crear diferentes atmósferas.'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'135',
+  name: "Rollo LED RGB 5050 - Iluminación Multicolor Dinámica",
+  slug: 'rollo-led-5050-iluminacion-multicolor-dinamica',
+  price:0,
+  description: 'Lleva la personalización de tus espacios al máximo nivel con el rollo LED RGB 5050. Gracias a su chip de tres núcleos, esta cinta permite mezclar los colores primarios para generar prácticamente cualquier tono deseado, desde ambientes relajantes hasta vibrantes configuraciones de fiesta. Su diseño flexible es perfecto para instalarse detrás de televisores, bajo gabinetes de cocina o en el interior de vehículos, ofreciendo una iluminación uniforme que se adapta a cualquier forma. Es la solución ideal para quienes buscan versatilidad total, permitiendo cambiar la atmósfera de un lugar con solo presionar un botón mediante un controlador compatible.',
+  shortDescription: 'Cinta LED flexible de alta potencia con tecnología RGB (Red, Green, Blue), diseñada para crear una gama ilimitada de colores y efectos dinámicos en proyectos de decoración personalizada.',
+  images: [productRolloLedMulticolor12v],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Tecnología de chip 5050 de alta potencia para una mezcla de colores superior', 'Capacidad multicolor RGB para generar múltiples tonalidades y efectos', 'Diseño de cinta flexible que permite la instalación en esquinas y superficies curvas', 'Puntos de corte integrados para ajustar la longitud según el proyecto', 'Bajo consumo de energía con alta eficiencia lumínica', 'Ideal para retroiluminación decorativa en hogares, comercios y vehículos', 'Base adhesiva para una fijación rápida y sencilla', 'Compatible con controladores remotos y sistemas de control inteligente'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'136',
+  name: "LED Tercera Luz de Maletero - Seguridad Dinámica",
+  slug: 'led-tercera-luz-de-maletero-seguridad-dinamica',
+  price:0,
+  description: 'Aumenta la seguridad en carretera con nuestra tira LED para la tercera luz de maletero. Este accesorio proyecta una luz roja intensa y uniforme que capta la atención de los conductores que vienen detrás de forma inmediata, reduciendo el riesgo de colisiones. Su diseño flexible y ultra delgado permite una instalación limpia y discreta en la parte superior o inferior del vidrio trasero, adaptándose a cualquier modelo de vehículo. Fabricada con materiales resistentes y tecnología de encendido instantáneo, esta tira no solo cumple una función de seguridad vital, sino que también moderniza la firma lumínica de tu auto con un acabado profesional y de alta gama.',
+  shortDescription: 'Tira LED flexible de alto brillo diseñada para instalarse como tercera luz de freno en el maletero, mejorando la visibilidad y añadiendo un estilo moderno a la parte trasera del vehículo.',
+  images: [productLedTraceraLuzMaletero],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Emisión de luz roja de alta intensidad para una alerta de frenado clara', 'Diseño ultra flexible que se adapta a la curvatura de cualquier maletero o vidrio', 'Carcasa sellada resistente a vibraciones y humedad', 'Perfil delgado para una integración estética y discreta', 'Tecnología LED de respuesta inmediata al activar el pedal de freno', 'Instalación simplificada con adhesivo de alta resistencia', 'Mejora significativamente la seguridad vial y la visibilidad nocturna', 'Bajo consumo de energía con una larga vida útil operativa'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'137',
+  name: "Aro Diablo - Iluminación de Ojo de Ángel",
+  slug: 'aro-diablo-iluminacion-ojo-de-angel',
+  price:0,
+  description: 'Lleva la estética de tus faros a otro nivel con el Aro Diablo, un accesorio de iluminación circular diseñado para proyectar una luz vibrante y definida desde el interior de la óptica. Este sistema crea un anillo de color sólido que rodea el proyector o la lupa del faro, otorgando un aspecto agresivo y tecnológico inspirado en los autos de alta gama y competencia. Su construcción compacta permite una integración limpia, convirtiéndose en el detalle perfecto para proyectos de personalización que buscan destacar con una firma lumínica única y llamativa en la carretera.',
+  shortDescription: 'Anillo luminoso de alta intensidad diseñado para instalarse en el interior de los faros, proporcionando un efecto visual de "ojo de diablo" que redefine la mirada del vehículo.',
+  images: [productAroDiabloVerde],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño circular de precisión para un ajuste perfecto en proyectores de faros', 'Disponible en colores de alto impacto: Rojo, Verde, Azul y Rosado', 'Tecnología LED de alta potencia para una visibilidad clara incluso de día', 'Proyecta una iluminación uniforme y constante en todo el diámetro del aro', 'Bajo consumo de energía compatible con el sistema eléctrico de 12V', 'Material resistente al calor generado por las bombillas principales', 'Ideal para personalización estética tipo tuning y exhibición', 'Fácil conexión para funcionar como luz de posición o decorativa'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'138',
+  name: "Aros LED Ojo de Ángel - Serie Professional Custom",
+  slug: 'aro-led-ojo-de-angel-serie-professional-custom',
+  price:0,
+  description: 'Define la personalidad de tu vehículo con nuestra serie profesional de aros LED tipo "Ojo de Ángel". Disponibles en cuatro medidas estandarizadas (60mm, 80mm, 100mm y 120mm), estos sets permiten una integración precisa en prácticamente cualquier tamaño de proyector o lupa. Cada par está diseñado para ofrecer una luz uniforme y vibrante que moderniza instantáneamente la estética frontal, funcionando idealmente como luz de posición o de circulación diurna (DRL). Su estructura resistente y su capacidad de emitir colores puros aseguran que tu auto destaque con un acabado de lujo y una firma lumínica sofisticada en cualquier entorno.',
+  shortDescription: 'Sets de aros LED circulares disponibles en múltiples diámetros y colores, diseñados para la personalización interna de faros (retrofit) con una iluminación continua y de gran impacto visual.',
+  images: [productAroLed],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Variedad de Dimensiones: Disponibles en versiones de 60mm, 80mm, 100mm y 120mm para un ajuste exacto según el modelo del faro.', 'Formato de Venta: Se suministran en pares para garantizar la simetría total en la iluminación frontal del vehículo.', 'Amplio Espectro Cromático: Gama de colores que incluye Blanco, Azul, Rojo, Verde, Amarillo, Rosado y Morado (según el diámetro seleccionado).', 'Tecnología de Luz Continua: Diseñados para una proyección lumínica homogénea sin puntos oscuros visibles.', 'Alta Resistencia Térmica: Materiales preparados para soportar las temperaturas internas de la unidad óptica del faro.', 'Bajo Perfil Estético: Estructura delgada que facilita el montaje detrás de las cubiertas decorativas (shrouds).', 'Eficiencia Energética: Funcionamiento optimizado para sistemas de 12V con mínimo consumo de batería.', 'Acabado Professional Retrofit: Ideal para entusiastas del tuning y talleres especializados en personalización de iluminación.'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'139',
+  name: "LED Secuencial Externa - Blanca / Amarilla",
+  slug: 'led-secuencial-externa-blanca-amarilla',
+  price:0,
+  description: 'Moderniza la óptica de tu vehículo con nuestra tira LED secuencial externa. Este accesorio versátil ofrece una luz blanca brillante y constante que funciona como luz de circulación diurna, mejorando la estética frontal. Al activar las direccionales, el sistema cambia automáticamente a un dinámico efecto secuencial en color amarillo, proporcionando una señalización clara y sofisticada. Su diseño flexible y resistente permite una instalación sencilla en el borde exterior de los faros o defensas, adaptándose a las líneas originales del auto para un acabado tipo premium que incrementa tanto el estilo como la seguridad vial.',
+  shortDescription: 'Tira LED flexible de doble función diseñada para instalación externa, con luz blanca de posición y efecto secuencial amarillo para luz de giro.',
+  images: [productLedSecuencial],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Doble funcionamiento: luz de posición blanca y señal de giro amarilla', 'Efecto dinámico secuencial para una señalización más visible y moderna', 'Cuerpo flexible que permite la instalación en bordes curvos de faros y carrocería', 'Diseño sellado y resistente para soportar la exposición directa al exterior', 'Perfil ultra delgado para un montaje discreto que no interfiere con el diseño del auto', 'Compatible con sistemas eléctricos de 12V para una integración rápida', 'Mejora la visibilidad del vehículo para otros conductores en diversas condiciones', 'Disponible en variantes con códigos específicos (B-04) para control de inventario'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+
+{
+  id:'140',
+  name: "Pastilla LED Multicolor - High Brightness",
+  slug: 'led-multicolor-high-brightness',
+  price:0,
+  description: 'Añade un toque vibrante y profesional a cualquier espacio con nuestras pastillas LED multicolor. Diseñadas para ofrecer una iluminación potente y definida, estas unidades modulares son la solución perfecta para quienes buscan flexibilidad y estilo en un solo producto. Su estructura permite una instalación sencilla en serie, ideal para resaltar detalles arquitectónicos, personalizar el interior o exterior de vehículos, o crear señalización comercial de alto impacto. Con una tecnología que garantiza colores puros y brillantes, estas pastillas transforman superficies ordinarias en puntos focales llenos de vida y modernidad.',
+  shortDescription: 'Módulos LED interconectables de alta intensidad, disponibles en una variada gama de colores sólidos para proyectos de iluminación personalizada y decorativa.',
+  images: [productoLedSecuencialExterna],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración modular con cableado flexible para facilitar la instalación en cadena', 'Emisión de luz de alta intensidad con chips LED de larga duración', 'Disponible en una amplia selección cromática: Azul, Rojo, Amarillo, Blanco, Rosado y Verde', 'Diseño compacto y robusto apto para diversas superficies', 'Bajo consumo de energía con máxima eficiencia lumínica', 'Ideal para retroiluminación decorativa, vitrinas y personalización vehicular', 'Proporciona una distribución de luz uniforme y sin parpadeos', 'Carcasa protectora resistente para asegurar un rendimiento constante'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'141',
+  name: "Manguera LED Neón Flexible - Serie Color Pro",
+  slug: 'led-neon-flexible-series-color-pro',
+  price:0,
+  description: 'Consigue el clásico efecto del neón con la tecnología y eficiencia del LED. Nuestra manguera flexible está diseñada para ofrecer una iluminación homogénea y sin puntos visibles, emulando a la perfección los tubos de gas tradicionales pero con la ventaja de ser completamente moldeable. Su estructura de silicona de alta calidad permite crear formas, letras o contornos arquitectónicos con facilidad, siendo resistente y duradera. Ya sea para rotulación comercial, decoración de interiores modernos o personalización de vehículos, esta manguera proporciona una luz suave pero potente que transforma cualquier espacio con un toque artístico y contemporáneo.',
+  shortDescription: 'Manguera LED de efecto neón continuo y flexible, diseñada para crear líneas de luz uniformes y personalizadas en una amplia variedad de colores vibrantes.',
+  images: [productRolloNeon],
+  category: 'led',
+  subcategory: 'rollo-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Efecto de luz continua y uniforme sin sombras ni puntos LED visibles', 'Diseño ultra flexible que permite doblarse y moldearse en ángulos cerrados', 'Disponible en múltiples opciones de color: Púrpura, Rojo, Azul Claro, Rosa, Amarillo, Blanco y Verde', 'Fabricada con material de alta resistencia y durabilidad ante la manipulación', 'Ideal para señalización, decoración de techos, vitrinas y proyectos de personalización', 'Carcasa de silicona que actúa como difusor de luz de alta calidad', 'Bajo consumo energético con mínima emisión de calor', 'Fácil de instalar en perfiles o mediante clips de sujeción'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
 ];
 
 export const brands = ['AutoBright', 'AutoGuard', 'SoundMax', 'CargoMax', 'OffRoad Pro'];
