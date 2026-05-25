@@ -122,6 +122,10 @@ import productledtransformer2led from '@/assets/LEDESTILO TRANSFORMER2LED BLANCO
 import productled4ledlupaamarillo from '@/assets/4 LED CON LUPA  BLANCOAMARILLO DEGADO.jpg';
 import productledcreaneo from '@/assets/LED7 ESTILO CRANEO.jpg';
 import producledconflecha from '@/assets/LED7 CONFLECHA  BLANCOAMARILLO.jpg';
+import productBarraLedRedonda from '@/assets/BARRALED REDONDA 7 51 WATT.jpg';
+import productLedRedonda96w from '@/assets/LEDREDONDA996W ROJO.jpg';
+import pruductLed2EstiloPajaro from '@/assets/LED 2 LUPA  ESTILO PAJARO .jpg';
+import productLed3caras from '@/assets/led 3 caras.jpg';
 
 
 
@@ -2043,7 +2047,7 @@ shortDescription: 'Halogena universal 76 MM',
   name: "Barra LED Slim 1 Línea - Versiones 90W (31 plg) y 108W (38 plg)",
   slug: 'barras-de-iluminacion-led-1-linea-slim-90w-31plg-y-108w-38plg',
   price:0,
-  description: 'Optimiza la visibilidad de tu vehículo con esta barra LED de diseño "Slim", fabricada con una sola línea de emisores de alta potencia que ofrecen un haz de luz blanca de gran nitidez sin comprometer la estética. Su estructura alargada y compacta está disponible en dos formatos: una versión de (31 plg) con 90W de potencia y una versión extendida de (38 plg) con 108W, adaptándose perfectamente a parrillas, defensas o techos de vehículos off-road, camionetas y cuatrimotos. Gracias a su construcción robusta y su sistema de montaje lateral, esta barra proporciona una solución de iluminación auxiliar duradera y eficiente, ideal para quienes buscan un equilibrio entre un diseño discreto y un rendimiento lumínico excepcional en rutas nocturnas.',
+  description: 'Actualiza la iluminación de tu vehículo con el avanzado faro LED 7" con Flecha. Este faro rectangular combina una matriz central de alta potencia para funciones de luz principal con un innovador sistema de flechas laterales que actúan como luces de posición y direccionales. Su versatilidad cromática permite proyectar una luz blanca nítida para una conducción segura durante la noche, así como un tono amarillo ámbar en las flechas laterales para mejorar la visibilidad de tus maniobras. Diseñado para ofrecer una estética moderna y funcional, es la solución perfecta para quienes buscan mejorar tanto el alcance lumínico como la capacidad de señalización en un solo componente robusto y estilizado.',
   shortDescription: 'Barra de iluminación LED de perfil ultra delgado y una sola línea de potencia, disponible en longitudes de 31 plg (90W) y 38 plg (108W) para una luz blanca intensa y un montaje aerodinámico.',
   images: [productbarraled1linea18w],
   category: 'led',
@@ -3070,22 +3074,99 @@ shortDescription: 'Halogena universal 76 MM',
 
 {
   id:'157',
-  name: "LED 7plg Estilo Cráneo - Faro Principal Multicolor",
-  slug: 'led-7plg-estilo-craneo-faro-principal-multicolor',
+  name: "LED 7 con Flecha - Faro Principal Dual Blanco/Amarillo",
+  slug: 'led-7plg-con-flecha-faro-principal-dual-blanco-amarillo',
   price:0,
   description: 'Transforma por completo la apariencia de tu vehículo con el faro LED de 7" Estilo Cráneo. Este faro no es solo un accesorio de iluminación, sino una pieza de diseño que destaca por su cráneo central detallado, flanqueado por potentes proyectores LED. Su característica más impresionante es el aro exterior tipo "Halo" con función multicolor, que permite personalizar la firma lumínica según tu estilo. Diseñado para reemplazar los faros convencionales de 7 pulgadas, ofrece una visibilidad superior con un haz de luz blanca nítida para conducción nocturna, mientras que su diseño único garantiza que tu motocicleta o Jeep no pase desapercibido en ningún momento.',
-  shortDescription: 'Faro principal LED de 7 pulgadas con diseño temático de cráneo central y aro de luz multicolor, combinando una estética agresiva con tecnología de iluminación avanzada.',
+  shortDescription: 'Faro principal LED rectangular de 7 pulgadas con diseño de flechas laterales integradas, ofreciendo una potente iluminación frontal y funciones de señalización en colores blanco y amarillo.',
   images: [producledconflecha],
   category: 'led',
   subcategory: 'Led',
   brand: 'KL',
   vehicleTypes: [''],
-  features: ['Diámetro estándar de 7 pulgadas ideal para reemplazo directo de faros originales','Diseño central temático en relieve con forma de cráneo para un estilo radical','Sistema de iluminación perimetral multicolor con funciones personalizables','Configuración de múltiples diodos LED de alta potencia para funciones de luz alta y baja','Lente de policarbonato de alta resistencia con protección UV para evitar el amarillamiento','Carcasa de aluminio fundido a presión que garantiza una excelente disipación de calor','Resistencia certificada contra el agua y polvo para un rendimiento confiable en exteriores','Luz blanca de alta temperatura de color que mejora la visibilidad y seguridad en carretera'],
+  features: ['Dimensiones de 7 pulgadas en formato rectangular compatibles con una amplia variedad de vehículos clásicos y modernos','Incorpora flechas laterales integradas con funciones de luz de día (DRL) y luces de giro','Tecnología dual que permite alternar entre color blanco para visión clara y amarillo para señalización de advertencia','Matriz central de múltiples diodos LED que optimiza la distribución del haz de luz en carretera','Carcasa de alta durabilidad diseñada para resistir vibraciones, humedad y polvo','Lentes de policarbonato con tratamiento especial para mantener la transparencia y resistir impactos de escombros','Mejora drásticamente la visibilidad periférica y frontal en comparación con los faros halógenos convencionales','Sistema de fácil conexión adaptado para instalaciones de 12V con una excelente eficiencia energética'],
   inStock: true,
   isOnSale: false,
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'158',
+  name: "Barra LED Redonda 7 51 Watts - Exploradora Off-Road de Alto Flujo",
+  slug: 'barra-led-redonda-7-51-watts-exploradora-off-road-de-alto-flujo',
+  price:0,
+  description: 'Maximiza la iluminación en tus aventuras todo terreno con la Barra LED Redonda de 7" y 51 Watts. Este potente faro auxiliar cuenta con una matriz de múltiples diodos LED de alta eficiencia lumínica dispuestos en un formato circular, ideal para proporcionar una cobertura de luz densa y uniforme que elimina por completo las zonas oscuras del camino. Su llamativa carcasa exterior reforzada con detalles en color rojo no solo le otorga un estilo deportivo y agresivo a tu vehículo, sino que está construida para resistir impactos de piedras, ramas y vibraciones extremas. Es el complemento de seguridad perfecto para instalar en parachoques o techos de camionetas, Jeeps y vehículos utilitarios de trabajo pesado.',
+  shortDescription: 'Faro auxiliar LED redondo de 7 pulgadas con una potencia de 51 Watts, diseñado para proyectar un haz de luz amplio y de gran alcance en rutas exigentes.',
+  images: [productBarraLedRedonda],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia de salida de 51 Watts que garantiza un flujo luminoso masivo y de gran penetración','Diámetro de 7 pulgadas en formato redondo clásico para una estética off-road imponente','Matriz de múltiples diodos LED de alta intensidad que optimizan la dispersión de la luz','Carcasa exterior reforzada con un llamativo bisel decorativo y protector en color rojo','Incluye kit de montaje completo con soporte metálico, tornillería y cables para instalación','Lente frontal de alta transparencia resistente a impactos directos y escombros de la ruta','Estructura sellada de gran durabilidad diseñada para soportar polvo, lodo y humedad','Compatible con sistemas eléctricos de 12V ideal para una amplia variedad de vehículos todo terreno'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'159',
+  name: "LED Redonda 9 96W Rojo - Exploradora Off-Road de Alta Potencia",
+  slug: 'barra-led-redonda-9-96w-rojo-exploradora-off-road-de-alta-potencia',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo a un nivel profesional con la exploradora LED redonda de 9" y 96 Watts. Este imponente faro auxiliar está diseñado para las rutas más exigentes, gracias a una densa matriz de diodos de alta intensidad que maximizan la salida lumínica, proyectando un haz de luz expansivo que cubre distancias críticas en la oscuridad. Su robusta estructura cuenta con un vistoso bisel exterior en color rojo que le añade un look agresivo y personalizado a cualquier camioneta, Jeep o vehículo industrial. Equipada con materiales de alta resistencia, es la opción definitiva para quienes no comprometen la seguridad ni el estilo en condiciones off-road severas.',
+  shortDescription: 'Faro auxiliar LED redondo de gran formato (9 pulgadas) con una potencia masiva de 96 Watts y un llamativo bisel deportivo en color rojo, diseñado para un rendimiento extremo todo terreno.',
+  images: [productLedRedonda96w],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia extrema de 96 Watts que ofrece un flujo luminoso de máxima intensidad y penetración','Diámetro de gran formato de 9 pulgadas para una óptima distribución y proyección de luz','Matriz densa de múltiples diodos LED de alta eficiencia que reduce las zonas de sombra','Carcasa de alta resistencia estructural con un llamativo bisel deportivo en color rojo','Lente frontal transparente reforzada que protege los componentes contra impactos y escombros','Estructura completamente sellada diseñada para resistir el polvo, agua y lodo en exteriores','Sistema trasero optimizado para una excelente disipación de calor y mayor vida útil','Compatible con sistemas eléctricos de 12V ideal para montajes frontales o en techos de vehículos todo terreno'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'160',
+  name: "LED 2 Lupa Estilo Pájaro - Exploradora Auxiliar Aerodinámica",
+  slug: 'barra-led-2-lupa-estilo-pajaro-exploradora-auxiliar-aerodinamica',
+  price:0,
+  description: 'Añade personalidad y potencia a tu conducción con la exploradora LED 2 Lupa Estilo Pájaro. Este faro auxiliar destaca por su singular diseño curvo y estilizado que emula rasgos orgánicos, ofreciendo un aspecto moderno y agresivo que rompe con las formas tradicionales del mercado. Equipado con dos potentes lentes de lupa independientes, concentra el flujo lumínico para proyectar un haz de largo alcance con mínima dispersión. Su tamaño compacto y su sólida base inferior articulada la convierten en la opción perfecta para montarse de forma discreta en motocicletas, defensas o espejos de vehículos todo terreno, garantizando una excelente visibilidad de apoyo en rutas complejas.',
+  shortDescription: 'Faro auxiliar LED compacto de doble lupa con una estética orgánica y aerodinámica "Estilo Pájaro", diseñado para ofrecer un haz de luz dual enfocado y de gran penetración.',
+  images: [pruductLed2EstiloPajaro],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración óptica de doble lupa frontal para un haz de luz concentrado y profundo','Diseño exterior aerodinámico y estilizado tipo Estilo Pájaro para un look exclusivo','Carcasa compacta de alta resistencia ideal para montajes en espacios reducidos','Incluye soporte inferior articulado de alta resistencia para un ajuste de ángulo preciso','Proporciona un brillo nítido que optimiza la visibilidad en trayectos oscuros o neblinosos','Estructura sellada mecánicamente para proteger los componentes del agua y el polvo','Bajo consumo de corriente que maximiza la eficiencia energética del sistema eléctrico','Funcionamiento optimizado para sistemas de 12V con encendido de respuesta inmediata'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'161',
+  name: "Serie de Faros Exploradores LED 3 Cara (5, 7 y 9) - Iluminación Profesional Multi-Ángulo",
+  slug: 'serie-de-faros-exploradores-led-3-cara-5-7-y-9-iluminacion-profesional-multi-angulo',
+  price:0,
+  description: 'Domina cualquier terreno y circunstancia climática con la serie de faros exploradores LED 3 Cara. Esta familia de iluminación profesional está diseñada para ofrecer una distribución de luz sin precedentes gracias a su innovadora configuración tridimensional, la cual expande el haz luminoso hacia el frente y los costados de manera simultánea para eliminar por completo los puntos ciegos laterales en la ruta. Disponibles en tres tamaños estratégicos (5", 7" y 9") para adaptarse perfectamente desde motocicletas y cuatrimotos hasta camionetas off-road y camiones de trabajo, cada variante te permite elegir entre una luz blanca cristalina de máxima nitidez o una luz amarilla de alta densidad, ideal para cortar condiciones severas de niebla, lluvia intensa o nubes de polvo. Su construcción sellada de alta resistencia y su base articulada garantizan una estabilidad impecable bajo las jornadas de vibración más extremas.',
+  shortDescription: 'Línea premium de faros auxiliares redondos disponibles en diámetros de 5, 7 y 9 pulgadas, equipados con un sistema óptico avanzado de tres caras para una cobertura de luz tridimensional en opciones de color blanco o amarillo.',
+  images: [productLed3caras],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Disponible en una gama versátil de tres diámetros que incluyen 5, 7 y 9 pulgadas para un ajuste perfecto a cada vehículo','Diseño óptico avanzado con estructura de 3 caras para una proyección lumínica ultra-ancha y periférica','Opciones de color de emisión seleccionables entre Blanco de alta pureza o Amarillo de gran penetración climática','Matriz de múltiples diodos LED de alta intensidad configurados para un rendimiento luminoso maximizado','Carcasa robusta de aleación con aletas de refrigeración traseras para una disipación térmica eficiente','Soporte de montaje inferior reforzado y ajustable que permite calibrar el ángulo del haz con precisión','Estructura hermética de alta durabilidad construida para resistir el ingreso de agua, lodo y polvo en exteriores','Funcionamiento optimizado de bajo consumo para sistemas de 12V con encendido de respuesta inmediata'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
 
 ];
 
