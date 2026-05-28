@@ -126,6 +126,20 @@ import productBarraLedRedonda from '@/assets/BARRALED REDONDA 7 51 WATT.jpg';
 import productLedRedonda96w from '@/assets/LEDREDONDA996W ROJO.jpg';
 import pruductLed2EstiloPajaro from '@/assets/LED 2 LUPA  ESTILO PAJARO .jpg';
 import productLed3caras from '@/assets/led 3 caras.jpg';
+import productLed1lupa from '@/assets/1 LED CON LUPA BLANCOAMARILLO.jpg';
+import productled2lupa from '@/assets/2 LED CONLUPA BLANCOAMARILLO.jpg';
+import productled2lupaamarillo from '@/assets/LED 2 LUPA CHICO BLANCOAMARILLO.jpg';
+import productled3lupa from '@/assets/3 LED CON LUPA BLANCOAMARILLO.jpg';
+import prodcutled4lupa from '@/assets/4 LED CON LUPA BLANCOAMARILLO.jpg';
+import productledpolicia from '@/assets/LED POLICIA 12V.jpg';
+import productbarraled48w from '@/assets/BARRA LED 48W  CENTRO   BLANCO LADOS  AMARILLO FLASH.jpg';
+import producbarraled18wline from  '@/assets/BARRA LED 18W 1 LINE.jpg';
+import productbarra4ledblanco from  '@/assets/4 LEDBLANCO AMARILLO FLASH.jpg';
+import productbarra6led from '@/assets/6 LED BLANCOAMARILLO FLASH.jpg';
+import productbarrita12led from '@/assets/BARRITA 12 LED BLANCOAMARILLO.jpg';
+import productMolduraPrado from '@/assets/_FJI50 MOLDURA  CROMADO.jpg';
+import productMolduraPradoLed from '@/assets/MOLDURA CON LED DE  PORTA PLACA .jpg';
+import productMolduraPradoCromada from '@/assets/MOLDURA CROMADA LANDCRUISER.jpg';
 
 
 
@@ -150,6 +164,19 @@ export const categories: Category[] = [
   },
 
   {
+    id: '2',
+    name: 'Accesorios',
+    slug: 'accesorios',
+    description: 'Accesorios para personalizar tu vehículo',
+    image: '',
+    productCount: 30,
+    subcategories: [
+      { id: 'Molduras', name: 'Molduras', slug: 'molduras' }, 
+    ],
+  },
+  
+
+  {
     id: '3',
     name: 'Iluminacion',
     slug: 'led',
@@ -161,6 +188,7 @@ export const categories: Category[] = [
       { id: 'pastilla-led', name: "Pastillas LED", slug: 'pastillas-led' },
       { id: 'rollos-led' , name: "Rollos LED", slug: 'rollo-led' },
       { id: 'Leds' , name: "Leds" , slug: 'Led'},
+      { id: 'Barras-led' , name: "Barras LED" , slug: 'barra-led'},
       
     ],
   },
@@ -3167,8 +3195,256 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 
+{
+  id:'162',
+  name: "1 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
+  slug: '1-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo al siguiente nivel con la mini exploradora de 1 LED con Lupa. Este dispositivo destaca por su diseño cúbico e industrial reforzado, equipado con una visera protectora superior y una lente de lupa hiperbólica que concentra el haz de luz de manera óptima. Su mayor ventaja es su versatilidad de iluminación multifuncional: permite proyectar una luz baja blanca de gran amplitud y nitidez, una luz alta amarilla de penetración extrema para neblina o lluvia, o combinar ambos tonos de forma simultánea. Gracias a su tamaño miniatura y su estructura de aluminio con alta disipación térmica, es el accesorio ideal para colocarse de forma discreta pero ultra potente en motocicletas, defensas, parrillas o espejos.',
+  shortDescription: 'Faro auxiliar ultra compacto de alto rendimiento con una sola lupa de proyección HD y tecnología de cambio de color dual (blanco/amarillo) para una máxima visibilidad en cualquier escenario.',
+  images: [productLed1lupa],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño ultra compacto con óptica de una sola lupa de alta definición para un enfoque preciso del haz','Sistema de iluminación dual con modos independientes en color Blanco, Amarillo y luz combinada','Carcasa metálica robusta equipada con visera superior para protección contra impactos y escombros','Proyecta una línea de corte nítida (Cut-off) que evita deslumbrar a los conductores del sentido contrario','Cuerpo con disipación por aletas para mantener una temperatura óptima durante jornadas prolongadas','Ideal para instalación en espacios reducidos en motocicletas, cuatrimotos y vehículos todo terreno','Estructura sellada de alta resistencia preparada para soportar agua, polvo y vibraciones de la ruta','Bajo consumo eléctrico diseñado para una integración rápida en sistemas estándar de 12V'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'163',
+  name: "2  LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
+  slug: '2-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo al siguiente nivel con la mini exploradora de 2 LED con Lupa. Este dispositivo destaca por su diseño cúbico e industrial reforzado, equipado con una visera protectora superior y una lente de lupa hiperbólica que concentra el haz de luz de manera óptima. Su mayor ventaja es su versatilidad de iluminación multifuncional: permite proyectar una luz baja blanca de gran amplitud y nitidez, una luz alta amarilla de penetración extrema para neblina o lluvia, o combinar ambos tonos de forma simultánea. Gracias a su tamaño miniatura y su estructura de aluminio con alta disipación térmica, es el accesorio ideal para colocarse de forma discreta pero ultra potente en motocicletas, defensas, parrillas o espejos.',
+  shortDescription: 'Faro auxiliar ultra compacto de alto rendimiento con una sola lupa de proyección HD y tecnología de cambio de color dual (blanco/amarillo) para una máxima visibilidad en cualquier escenario.',
+  images: [productled2lupa],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño ultra compacto con óptica de una sola lupa de alta definición para un enfoque preciso del haz','Sistema de iluminación dual con modos independientes en color Blanco, Amarillo y luz combinada','Carcasa metálica robusta equipada con visera superior para protección contra impactos y escombros','Proyecta una línea de corte nítida (Cut-off) que evita deslumbrar a los conductores del sentido contrario','Cuerpo con disipación por aletas para mantener una temperatura óptima durante jornadas prolongadas','Ideal para instalación en espacios reducidos en motocicletas, cuatrimotos y vehículos todo terreno','Estructura sellada de alta resistencia preparada para soportar agua, polvo y vibraciones de la ruta','Bajo consumo eléctrico diseñado para una integración rápida en sistemas estándar de 12V'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'164',
+  name: "LED 2 Lupa Chico - Exploradora Mini Dual Blanco/Amarillo",
+  slug: '2-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
+  price:0,
+  description: 'Duplica la potencia de tu camino sin sacrificar espacio con la exploradora LED 2 Lupa Chico. Este faro auxiliar destaca por su estructura horizontal compacta que aloja dos potentes lentes de lupa independientes de alta definición, las cuales optimizan y proyectan un haz de luz lineal concentrado y profundo. Cuenta con un versátil sistema dual que permite alternar entre una luz blanca nítida para una conducción estándar en la oscuridad y una luz amarilla de alta densidad para una penetración superior en entornos con neblina, lluvia o polvo. Equipada con un soporte inferior metálico ultra resistente y disipadores traseros aerodinámicos, es la solución perfecta para instalarse fácilmente en defensas, espejos o manubrios de motocicletas, cuatrimotos y vehículos utilitarios.',
+  shortDescription: 'Faro auxiliar LED compacto de doble lupa lineal con tecnología de cambio de color dual (blanco/amarillo), diseñado para ofrecer una gran potencia lumínica en un formato reducido y discreto.',
+  images: [productled2lupaamarillo],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración lineal de doble lupa para una proyección de luz focalizada de gran alcance frontal','Tecnología de iluminación dual con opciones integradas en color Blanco y Amarillo','Diseño compacto y ligero ideal para montajes discretos en espacios limitados','Carcasa de alta resistencia con bisel frontal reforzado para protección contra escombros','Soporte de montaje inferior metálico y ajustable para un ajuste preciso del ángulo óptico','Cuerpo con aletas traseras integradas que aseguran una disipación térmica eficiente','Estructura sellada diseñada para resistir vibraciones de la ruta y salpicaduras de agua o lodo','Compatible con sistemas eléctricos estándar de 12V con una excelente eficiencia de consumo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'165',
+  name: "3 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
+  slug: '3-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
+  price:0,
+  description: 'Lleva la iluminación de tu vehículo a un nivel superior con la exploradora de 3 LED con Lupa. Este potente faro auxiliar destaca por su configuración horizontal que aloja tres lentes de lupa independientes de alta definición, logrando un haz de luz lineal concentrado, de gran profundidad y con una cobertura lateral optimizada. Incorpora una agresiva visera superior protectora de diseño industrial que resguarda el equipo frente a impactos directos. Su sistema dual de color te otorga total versatilidad: puedes proyectar luz baja blanca de gran nitidez, luz alta amarilla de penetración extrema para neblina, lluvia o polvo, o fusionar ambos tonos en modo combinado. Gracias a su tamaño compacto y su sólida base de montaje inferior, es ideal para instalarse en motocicletas, cuatrimotos y defensas de vehículos todo terreno.',
+  shortDescription: 'Faro auxiliar compacto de triple lupa lineal con tecnología de proyección avanzada y función dual (blanco/amarillo), diseñado para ofrecer la máxima potencia lumínica en un formato robusto y estilizado.',
+  images: [productled3lupa],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración lineal de triple lupa de alta definición para una proyección de luz maximizada y profunda','Tecnología de iluminación multifuncional con modos en color Blanco, Amarillo y luz combinada','Carcasa metálica ultra resistente equipada con una visera superior protectora con cortes deportivos','Proyecta un haz de luz con línea de corte precisa que optimiza la visibilidad sin deslumbrar en ruta','Estructura de aluminio equipada con aletas de refrigeración integradas para un óptimo control térmico','Diseño compacto ideal para montajes discretos y de alta resistencia en espacios reducidos','Cuerpo sellado herméticamente preparado para soportar vibraciones constantes, lodo, agua y polvo','Compatible con sistemas eléctricos estándar de 12V brindando un encendido inmediato de alta eficiencia'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'166',
+  name: "4 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
+  slug: '4-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
+  price:0,
+  description: 'Lleva la potencia de iluminación al nivel definitivo con la exploradora de 4 LED con Lupa. Este modelo corona la serie lineal horizontal incorporando cuatro lentes de lupa independientes de alta definición, las cuales concentran y proyectan un haz de luz masivo que combina un largo alcance excepcional con una excelente apertura lateral. Cuenta con una robusta visera superior con cortes aerodinámicos de estilo industrial que actúa como escudo protector ante impactos de piedras o ramas. Su sistema de iluminación dual ofrece una versatilidad inigualable: luz baja blanca de gran nitidez para condiciones despejadas, luz alta amarilla con excelente penetración contra la niebla, lluvia y nubes de polvo, o la posibilidad de fusionar ambos tonos en modo combinado. Por su tamaño optimizado y base inferior articulada, es el accesorio de gama alta ideal para equipar motocicletas, cuatrimotos, buggies y defensas de vehículos todo terreno.',
+  shortDescription: 'Faro auxiliar compacto de cuádruple lupa lineal con tecnología de proyección de alta intensidad y función dual (blanco/amarillo), diseñado para ofrecer la máxima cobertura lumínica frontal en un formato blindado.',
+  images: [prodcutled4lupa],
+  category: 'led',
+  subcategory: 'Led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración lineal de 4 lupas de alta definición para el máximo flujo luminoso y alcance de su categoría','Tecnología de iluminación multifuncional con modos independientes en color Blanco, Amarillo y luz combinada','Carcasa de aleación reforzada con visera superior protectora de diseño deportivo industrial','Proyecta un haz luminoso con línea de corte precisa para maximizar la visibilidad sin deslumbrar en ruta','Cuerpo de aluminio optimizado con múltiples aletas traseras para una disipación de calor eficiente','Soporte inferior metálico articulado de alta resistencia que facilita una calibración de ángulo exacta','Estructura con sellado hermético superior preparada para resistir lodo, agua, polvo y altas vibraciones','Totalmente compatible con sistemas eléctricos estándar de 12V ofreciendo un encendido instantáneo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'167',
+  name: "LED Policía 12V - Barra Estroboscópica para Parabrisas",
+  slug: 'led-policia-12v-barra-estroboscopyica-para-parabrisas',
+  price:0,
+  description: 'Equipa tu vehículo oficial, de seguridad o de emergencia con la potente barra LED Policía 12V. Este módulo de señalización visual de alta intensidad está diseñado específicamente para colocarse en el interior del parabrisas delantero o trasero de forma instantánea mediante un sistema de ventosas de alta succión. Su estructura dividida proyecta destellos alternados ultra brillantes en colores azul y rojo, garantizando una visibilidad excepcional a largas distancias tanto de día como de noche. Cuenta con una visera protectora integrada que evita que el reflejo de los destellos deslumbre al conductor dentro de la cabina, convirtiéndose en una herramienta de advertencia confiable, rápida de instalar y altamente efectiva para situaciones prioritarias en carretera.',
+  shortDescription: 'Barra de luces LED estroboscópicas de advertencia en combinación de colores Rojo/Azul tipo policía, diseñada con ventosas para un montaje rápido en el parabrisas interior y alimentación directa a 12V.',
+  images: [productledpolicia],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración de múltiples diodos LED de alta intensidad divididos en secciones de color Rojo y Azul','Diseño para montaje interior en cristales mediante ventosas de fuerte fijación que evitan caídas por vibración','Visera o protector inferior integrado para canalizar la luz hacia afuera y evitar reflejos molestos en la cabina','Equipada con diferentes patrones de destello estroboscópico seleccionables para máxima advertencia visual','Carcasa compacta y ligera de fácil instalación y desmontaje rápido en cualquier tipo de vehículo','Excelente alcance luminoso de gran penetración visual en condiciones nocturnas o climáticas adversas','Alimentación directa mediante conector para cigarrera estándar optimizado para sistemas de 12V','Tecnología LED de alta durabilidad con bajo consumo de corriente y encendido inmediato sin retraso'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'168',
+  name: "Barra LED 48W Centro Blanco / Lados Amarillo Flash - Exploradora Combinada Multifunción",
+  slug: 'barra-led-48w-centro-blanco-lados-amarillo-flash-exploradora-combinada-multifuncion',
+  price:0,
+  description: 'Incrementa tu seguridad y visibilidad con la Barra LED de 48W multifuncional. Este faro auxiliar lineal destaca por su inteligente distribución óptica híbrida. La sección central incorpora potentes diodos LED de luz blanca fija enfocados en brindar un óptimo alcance y claridad en el camino frontal. Por otro lado, sus extremos laterales cuentan con reflectores independientes de color amarillo con función estroboscópica (flash), ideales para alertar a otros conductores en situaciones de emergencia, niebla o trabajos en carretera. Fabricada con un diseño compacto y alargado, es la herramienta perfecta para montarse de forma estilizada en parrillas, defensas o capós de camionetas, vehículos todo terreno y de servicio.',
+  shortDescription: 'Barra LED auxiliar de 48 Watts con diseño óptico dividido: zona central de luz blanca fija para iluminación de ruta y extremos laterales con función de destello amarillo flash (estrobo) para máxima señalización de advertencia',
+  images: [productbarraled48w],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia total de 48 Watts que ofrece un equilibrio ideal entre intensidad de luz y consumo energético','Estructura lumínica dividida con iluminación central en color Blanco e iluminación lateral en Amarillo','Función integrada de destello "Flash" (estrobo) en los costados amarillos para señalización de emergencia','Configuración central multileo que optimiza la visibilidad de profundidad y el alcance en trayectos oscuros','Carcasa lineal compacta de perfil delgado que facilita un montaje aerodinámico y limpio en el vehículo','Lente frontal transparente de alta resistencia diseñada para soportar impactos de piedras y escombros','Estructura sellada de gran durabilidad resistente al ingreso de agua, lodo y polvo de la ruta','Diseñada para una instalación directa y eficiente en sistemas eléctricos de 12V con encendido instantáneo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'169',
+  name: "Barra LED 18W 1 Línea - Exploradora Slim de Alta Eficiencia",
+  slug: 'barra-led-18w-1-linea-exploradora-slim-alta-eficiencia',
+  price:0,
+  description: 'Optimiza el espacio y mejora la visibilidad de tu vehículo con la Barra LED de 18W en una sola línea. Esta exploradora compacta cuenta con un diseño "Slim" que aloja una fila de seis potentes diodos LED de alta intensidad, perfectos para proyectar un haz de luz enfocado hacia el frente sin saturar la estética de tu montaje. El fondo del reflector incorpora un texturizado tipo panal diseñado para maximizar la dispersión y eficiencia lumínica lateral. Gracias a su carcasa de aluminio de perfil delgado y bajo peso, es el accesorio de iluminación perfecto para instalar en las zonas más estrechas, como parrillas de motocicletas, defensas, debajo del capó o como luz de reversa auxiliar en camionetas y vehículos todo terreno.',
+  shortDescription: 'Faro auxiliar LED lineal de perfil ultra bajo con 18 Watts de potencia y diseño de una sola fila de diodos, ideal para proporcionar una iluminación frontal clara en espacios sumamente reducidos.',
+  images: [producbarraled18wline],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia equilibrada de 18 Watts que ofrece un haz de luz nítido con un mínimo consumo de batería','Estructura de perfil ultra bajo (Slim) con una sola línea de diodos LED para un montaje discreto','Configuración de 6 lentes internos ópticos de alta transparencia que concentran la luz frontal','Fondo reflector con diseño texturizado que optimiza la dispersión de luz hacia la periferia','Carcasa de aluminio fundido a presión de alta durabilidad con aletas traseras de disipación térmica','Lente frontal resistente a impactos, variaciones climáticas severas y escombros de la ruta','Diseño sellado herméticamente para un rendimiento confiable ante la lluvia, lodo y polvo','Sistema de alimentación estándar de 12V ideal para motocicletas, cuatrimotos y vehículos de asistencia'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'170',
+  name: "4 LED Blanco / Amarillo Flash - Estrobo de Señalización Extra Plano",
+  slug: '4-led-blanco-amarillo-flash-estrobo-de-senalizacion-extra-plano',
+  price:0,
+  description: 'Incrementa de forma drástica la visibilidad de tu vehículo con el módulo estroboscópico de 4 LED Blanco / Amarillo Flash. Este dispositivo de señalización perimetral destaca por su diseño ultra plano y compacto, equipado con lentes ópticas individuales sobre cada diodo para maximizar la intensidad y el alcance del destello. Cuenta con una tecnología dual muy versátil: los diodos pueden emitir una luz blanca nítida o configurarse en modo estroboscópico (flash) color amarillo ámbar de alta penetración, ideal para alertar a otros conductores en situaciones de emergencia, escolta o trabajos en ruta. Gracias a sus pestañas laterales con orificios preperforados, se puede empotrar o atornillar de forma limpia en la parrilla, defensas, costados o parte trasera de cualquier vehículo.',
+  shortDescription: 'Módulo LED estroboscópico ultra delgado con 4 diodos de alta potencia y función dual, que permite alternar entre luz blanca fija y destellos amarillo "flash" de advertencia.',
+  images: [productbarra4ledblanco],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración lineal de 4 diodos LED de alta intensidad con lentes de proyección individuales','Tecnología dual con modos de iluminación seleccionables entre Blanco fijo y Amarillo Flash (estrobo)','Diseño extra plano (Slim) ideal para una instalación discreta y aerodinámica en la carrocería','Bisel lateral integrado con dos orificios de montaje para una fijación rápida y segura con tornillos','Lente frontal transparente de policarbonato con alta resistencia a impactos y rayos UV','Estructura hermética y sellada diseñada para soportar lluvias intensas, lodo y polvo en exteriores','Bajo consumo de corriente que protege el sistema eléctrico del vehículo durante usos prolongados','Funcionamiento optimizado para sistemas de 12V ideal para patrullas, ambulancias, grúas y vehículos off-road'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'171',
+  name: "Barrita 12 LED Blanco / Amarillo - Estrobo Modular de Alta Intensidad",
+  slug: '12-led-blanco-amarillo-flash-estrobo-de-senalizacion-extra-plano',
+  price:0,
+  description: 'Maximiza la potencia de alerta en tu vehículo con la Barrita de 12 LED Blanco / Amarillo. A diferencia de los módulos estándar de una sola línea, este dispositivo incorpora una matriz de doble fila con doce diodos de alta potencia equipados con lupas ópticas individuales, lo que duplica el flujo lumínico y ensancha el ángulo de cobertura visual. Su diseño destaca por una distribución bicolor simétrica: una mitad emite una luz blanca brillante de alta nitidez y la otra mitad proyecta un intenso color amarillo ámbar, ideal para cortar la niebla o el polvo. Gracias a su carcasa robusta de perfil plano con orificios de fijación laterales, es el accesorio de seguridad perfecto para empotrar de manera limpia en parachoques, parrillas, techos o laterales de vehículos de escolta, grúas, ambulancias y maquinaria de trabajo pesado.',
+  shortDescription: 'Módulo estroboscópico rectangular compacto con una matriz de 12 diodos LED dispuestos en dos filas, configurado con división de color dual (Blanco y Amarillo) para una señalización de advertencia masiva y de alta visibilidad.',
+  images: [productbarrita12led],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Matriz de alta potencia de 12 diodos LED distribuidos en una configuración eficiente de doble fila','Diseño con división de color dual simétrica con secciones independientes en color Blanco y Amarillo','Equipada con ópticas de magnificación individuales sobre cada LED para un haz de luz de largo alcance','Ideal para funciones de señalización estroboscópica (flash) de advertencia perimetral y de emergencia','Carcasa robusta y de perfil plano que facilita una instalación limpia y aerodinámica en la carrocería','Bisel lateral reforzado con dos orificios preperforados para un montaje seguro y resistente a vibraciones','Estructura hermética completamente sellada para un óptimo rendimiento ante la lluvia, lodo y polvo','Compatible con sistemas eléctricos de 12V ofreciendo un bajo consumo de corriente y encendido inmediato'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'172',
+  name: "Moldura de Compuerta Trasera Cromada - Letras Land Cruiser Prado (Modelos 2018+)",
+  slug: 'moldura-letras-land-cruiser-prado-18-cromado',
+  price:0,
+  description: 'Eleva el estilo y la presencia de tu vehículo con esta exclusiva moldura trasera cromada para Land Cruiser Prado. Este accesorio exterior ha sido diseñado con precisión milimétrica para encajar a la perfección en la zona central de la compuerta, justo debajo del emblema principal, tal como destaca el recuadro de la imagen_a133a7.png. Cuenta con un sofisticado acabado cromado tipo espejo de alta resistencia que aporta un toque de lujo y modernidad, haciendo resaltar las letras impresas en relieve. Fabricada con materiales ligeros y duraderos preparados para soportar la exposición solar y lavados constantes, incluye un sistema de fijación de alta adherencia que permite una instalación limpia, rápida y sin necesidad de realizar modificaciones o perforaciones en la carrocería original.',
+  shortDescription: 'Moldura embellecedora central cromada de alta calidad con el relieve de las letras "LAND CRUISER PRADO", diseñada específicamente para instalarse en la compuerta trasera y realzar la elegancia premium de tu camioneta.',
+  images: [productMolduraPrado],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñada a la medida exacta para modelos Toyota Land Cruiser Prado desde el año 2018 en adelante','Acabado cromado premium con brillo tipo espejo que realza la estética lujosa de la compuerta trasera','Presenta el nombre de la marca "LAND CRUISER PRADO" grabado en altorrelieve con tipografía original','Fabricada con materiales plásticos ABS de alta resistencia, ligeros y con recubrimiento anticorrosivo','Protege la zona central de la puerta trasera contra pequeños rayones o imperfecciones de uso diario','Instalación sumamente sencilla mediante cinta adhesiva automotriz de doble contacto preinstalada','Resistente a la intemperie, rayos UV y lavados a alta presión sin perder su adherencia ni su brillo','Montaje limpio que no requiere perforaciones, tornillos ni herramientas especiales para su colocación'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'173',
+  name: "Moldura con LED de Porta Placa Trasera - Letras Luminosas Land Cruiser Prado (2018+)",
+  slug: 'moldura-letras-land-cruiser-prado-18-led',
+  price:0,
+  description: 'Lleva la exclusividad de tu camioneta al siguiente nivel con la moldura con LED de porta placa trasera para Prado. Este accesorio premium combina a la perfección un elegante acabado cromado exterior con la última tecnología en iluminación automotriz. Tal como se aprecia en la imagen_a1a162.png, las letras caladas con el nombre del vehículo se encienden de forma nítida en un llamativo tono ámbar/rojo, integrándose directamente con el sistema eléctrico de las luces de posición o frenos del vehículo. Fabricada bajo estrictos estándares de calidad, no solo aporta un aspecto moderno y de alta gama en la oscuridad, sino que también funciona como un elemento de seguridad adicional al hacer tu vehículo mucho más visible para quienes vienen detrás.',
+  shortDescription: 'Moldura central cromada premium para la compuerta trasera, equipada con un sistema de iluminación LED integrado que hace brillar las letras "LAND CRUISER PRADO" para una personalización exclusiva y mayor visibilidad nocturna.',
+  images: [productMolduraPradoLed],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñada a la medida exacta para encajar sobre la zona del porta placa en modelos Land Cruiser Prado (2018+)','Letras integradas "LAND CRUISER PRADO" con un sistema de retroiluminación LED de alta intensidad','Acabado exterior cromado de alto brillo que mantiene la estética elegante y original del vehículo','Se conecta fácilmente al sistema eléctrico de luces medias o de posición para un encendido sincronizado','Fabricada con materiales plásticos ABS altamente duraderos y resistentes al calor extremo','Componentes LED de bajo consumo de corriente y larga vida útil que no afectan la batería','Estructura con sellado hermético e impermeable para proteger las conexiones contra la lluvia y el lavado','Instalación precisa mediante puntos de fijación estándar y adhesivo automotriz de alta resistencia'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'174',
+  name: "Moldura Cromada de Puertas Laterales - Kit de Embellecedores Land Cruiser",
+  slug: 'moldura-cromada-puertas-laterales-land-cruiser',
+  price:0,
+  description: 'Añade un perfil de lujo y distinción a los costados de tu camioneta con el kit de moldura cromada Land Cruiser. Este set exterior incluye las piezas necesarias para cubrir de manera impecable las cuatro puertas, adhiriéndose de manera simétrica en la zona inferior de los paneles como lo resalta el recuadro de la imagen_a205dc.png. Cada moldura cuenta con un acabado cromado de alto espejo de calidad automotriz que acentúa la robustez del vehículo y se integra armónicamente con los demás detalles de fábrica. Más allá de su innegable aporte estético, estas barras protectoras actúan como una barrera preventiva que resguarda la pintura lateral contra los molestos golpes de estacionamiento o impactos ligeros de escombros en la ruta.',
+  shortDescription: 'Juego completo de molduras cromadas premium para las puertas laterales, diseñado a la medida para resaltar las líneas de diseño del vehículo y brindar una capa de protección elegante contra impactos cotidiano',
+  images: [productMolduraPradoCromada],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Acabado Premium: Revestimiento cromado de gran brillo con efecto espejo que ofrece una alta resistencia a la decoloración solar.','Compatibilidad de Ajuste: Diseñado exclusivamente para acoplarse con total precisión al relieve de las puertas de la serie Land Cruiser.','Kit Completo: Incluye un juego de molduras protectoras alargadas para una cobertura uniforme en los costados izquierdo y derecho.','Protección Perimetral: Resguarda los costados de la carrocería contra abolladuras, portazos menores y rayones en zonas de parqueo.','Material Duradero: Fabricado en plástico ABS reforzado de grado de ingeniería, ideal para soportar climas extremos sin deformarse.','Instalación sin Herramientas: Cuenta con cinta adhesiva automotriz de doble faz preinstalada en el reverso para un montaje firme y permanente.','Mantenimiento Sencillo: Estructura lisa y sellada que tolera lavados a alta presión y repele la acumulación de lodo o polvo.','Diseño Aerodinámico: Perfil estilizado de bajo relieve que no altera la resistencia al viento y mantiene una apariencia integrada.'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
 
 ];
 
 export const brands = ['AutoBright', 'AutoGuard', 'SoundMax', 'CargoMax', 'OffRoad Pro'];
-export const vehicleTypes = ['Toyota hilux revo', 'Toyota Hilux vigo', 'Toyota Hilux GR', 'Pickup', '4x4', 'Hatchback', 'Coupé', 'Station Wagon', 'Camioneta'];
+export const vehicleTypes = ['Toyota hilux revo', 'Toyota Hilux vigo', 'Toyota Hilux GR', 'LandCruiser Prado', 'LandCruiser 200', 'Nissan Navara', 'Mitsubishi L200', 'Ford Ranger', 'Chevrolet S10', 'Volkswagen Amarok', 'Jeep Wrangler', 'Suzuki Jimny'];
