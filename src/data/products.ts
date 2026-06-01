@@ -141,7 +141,8 @@ import productMolduraPrado from '@/assets/_FJI50 MOLDURA  CROMADO.jpg';
 import productMolduraPradoLed from '@/assets/MOLDURA CON LED DE  PORTA PLACA .jpg';
 import productMolduraPradoCromada from '@/assets/MOLDURA CROMADA LANDCRUISER.jpg';
 import productMolduradePuerta from '@/assets/MOLDURA DE PUERTA LANDCRUISER LC300 2022.jpg';
-
+import productMolduraCromadaRevo from '@/assets/MOLDURACROMADADE TAPAREVO2021.jpg';
+import productManiguetaPrado from '@/assets/MANIGUETA  PRADO 16  FJ200 FJ150.jpg';
 
 
 
@@ -3475,6 +3476,45 @@ shortDescription: 'Halogena universal 76 MM',
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'176',
+  name: "Moldura Cromada de Tapa Revo 2021- (Borde de Capó Frontal)",
+  slug: 'moldura-cromada-de-tapa-revo-2021-borde-de-capo-frontal',
+  price:0,
+  description: 'Añade un perfil de lujo, brillo y distinción a la zona delantera de tu camioneta con la moldura cromada de tapa Revo 2021-. Este accesorio aerodinámico está diseñado específicamente para acoplarse sobre el borde frontal del capó, justo por encima de la parrilla principal como se muestra en la imagen_6b1e8b.png. Cuenta con un recubrimiento cromado de alto brillo tipo espejo que no solo mejora la estética visual del vehículo haciéndolo lucir más moderno y robusto, sino que también funciona como una capa protectora contra los impactos menores de insectos, pequeñas piedras y escombros de la carretera que suelen levantar la pintura en esa zona crític',
+  shortDescription: 'Moldura embellecedora cromada superior para el borde del capó (tapa de motor), diseñada a la medida exacta de la línea Hilux Revo (modelos 2021 en adelante) para realzar el estilo imponente y premium de su frente.',
+  images: [productMolduraCromadaRevo],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['toyota hilux revo'],
+  features: ['Diseñada exclusivamente para un ajuste milimétrico sobre el borde del capó de la Hilux Revo (2021 en adelante)','Acabado cromado espejo de alta calidad automotriz que aporta un toque de elegancia y exclusividad frontal','Fabricada con plástico ABS inyectado de alta resistencia mecánica y gran ligereza','Protege la sección delantera de la tapa del motor contra rayones, picaduras de piedras y escombros de la ruta','Instalación rápida y sumamente sencilla mediante cinta adhesiva automotriz de doble contacto preinstalada','Resistente a la exposición solar prolongada (protección UV), lluvias y lavados automáticos a presión','Diseño ergonómico de perfil bajo que se integra perfectamente con las líneas aerodinámicas originales','Montaje limpio que se realiza en minutos sin necesidad de taladrar, atornillar ni modificar la carrocería'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'177',
+  name: "Manigueta Prado 16 FJ200 / FJ150 TOP-M-BLK - Cubiertas de Manijas Negro Mate",
+  slug: 'manigueta-prado-16-fj200-fj150-top-m-blk-cubiertas-de-manijas-negro-mate',
+  price:0,
+  description: 'Transforma la estética de tu camioneta eliminando los acabados tradicionales con el kit de cubiertas de manigueta TOP-M-BLK. Este juego exterior está diseñado con molduras precisas que recubren por completo las manijas originales del vehículo, tal como se muestra en la toma a detalle y en el recuadro circular de la imagen_6a9021.png. Su acabado color negro mate brinda un aspecto moderno, agresivo y personalizado que combina a la perfección con configuraciones de estilo oscurecido o rudo. Además de su función estética, estas cubiertas actúan como un escudo protector altamente eficiente que previene el desgaste prematuro de la pintura original, los arañazos causados por las uñas o llaves al abrir las puertas, y los impactos leves en estacionamientos.',
+  shortDescription: 'Juego completo de cubiertas protectoras para manijas de puertas en acabado color negro mate texturizado, diseñado a la medida para modelos Prado y Land Cruiser (series FJ150 y FJ200) para aportar un aspecto deportivo "Off-Road" y protección contra rayones',
+  images: [productManiguetaPrado],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['toyota hilux revo'],
+  features: ['Diseño compatible y de ajuste exacto para manijas de Toyota Prado y Land Cruiser series FJ150 y FJ200 (modelos 2016 en adelante)','Acabado color negro mate (Matte Black) de estilo deportivo que elimina los reflejos cromados de fábrica','Kit completo que incluye las molduras principales y las tapitas correspondientes para equipar las 4 puertas del vehículo','Provista con el orificio de apertura con llave correspondiente para mantener la funcionalidad y acceso de la cerradura original','Fabricada con plástico ABS inyectado de alta densidad con propiedades de gran resistencia al impacto y ligereza','Protección activa de la superficie original de la manija contra rayaduras de uñas, anillos, llaves y el desgaste cotidiano','Instalación limpia mediante cintas adhesivas automotrices de doble cara preinstaladas que aseguran un agarre firme','Estructura resistente a condiciones climáticas exteriores adversas como la radiación solar directa, lluvias intensas y lodo de ruta'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
 
 
 ];
