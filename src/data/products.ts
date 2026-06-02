@@ -81,6 +81,7 @@ import productbarradetecho from '@/assets/BARRA LED DE TECHO NP300 Y REVO.jpg';
 import productbarraled18w from '@/assets/barra led 18w.jpg';
 import productbarraledcuadrada48w from '@/assets/barra led cuadrada 48w blanco y amarillo .jpg';
 import productbarraledredonda72w from '@/assets/barra led redonda 72w.jpg';
+import productfaroledrectangular72w from '@/assets/barra led redonda cob 72w con borde amarillo.jpg';
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -2237,6 +2238,23 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 
+{
+  id:'116',
+  name: "Faro LED Rectangular 72W - Blanco 2.5cm",
+  slug: 'faro-led-rectangular-72w-blanco-2.5cm',
+  price:0,
+  description: 'Mejora la visibilidad de tu vehículo con este faro LED rectangular de 72W, diseñado para ofrecer un rendimiento lumínico confiable en un formato extremadamente compacto de 2.5cm. Su estructura robusta y funcional permite una instalación sencilla en diversas áreas como defensas, parrillas o laterales, funcionando como una excelente luz de apoyo tanto para trayectos nocturnos como para áreas de trabajo. Este modelo destaca por su bajo perfil, lo que minimiza el impacto estético en el vehículo mientras garantiza una proyección de luz blanca de alta intensidad, adecuada para enfrentar condiciones de oscuridad con total seguridad.',
+  shortDescription: 'Faro auxiliar LED de 72W con diseño rectangular compacto de 2.5cm, ideal para proporcionar una iluminación blanca clara y eficiente en espacios reducidos.',
+  images: [productfaroledrectangular72w],
+  category: 'led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Potencia de 72W para un brillo superior', 'Diseño redondo con formato de 2.5cm', 'Emisión de luz de alta intensidad', 'Carcasa robusta diseñada para máxima durabilidad', 'Compatible con sistemas eléctricos de 12V y 24V', 'Lente de alta transparencia resistente a impactos', 'Ideal para uso como faro auxiliar en diversos tipos de vehículos', 'Sistema de enfriamiento eficiente para prolongar la vida útil', 'Fácil instalación en múltiples puntos de montaje'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
 
 ];
 
