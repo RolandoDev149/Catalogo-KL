@@ -4,6 +4,10 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+
+  base: "/Catalogo-KL/",
+
+
   test: {
     environment: "jsdom",
     globals: true,
