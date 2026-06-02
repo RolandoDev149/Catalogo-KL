@@ -19,6 +19,7 @@ export default function StorePage() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     searchParams.get('category') ? [searchParams.get('category')!] : []
   );
+  const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [selectedVehicleTypes, setSelectedVehicleTypes] = useState<string[]>([]);
 
@@ -28,13 +29,15 @@ export default function StorePage() {
     return products.filter((product) => {
       if (searchQuery && !product.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
       if (selectedCategories.length > 0 && !selectedCategories.includes(product.category)) return false;
+      if (selectedSubcategories.length > 0 && !product.subcategory) return false;
+      if (selectedSubcategories.length > 0 && !selectedSubcategories.includes(product.subcategory)) return false;
       if (selectedBrands.length > 0 && !selectedBrands.includes(product.brand)) return false;
       if (selectedVehicleTypes.length > 0 && !product.vehicleTypes.some(vt => selectedVehicleTypes.includes(vt))) return false;
       if (priceRange.min && product.price < parseInt(priceRange.min)) return false;
       if (priceRange.max && product.price > parseInt(priceRange.max)) return false;
       return true;
     });
-  }, [searchQuery, selectedCategories, selectedBrands, selectedVehicleTypes, priceRange]);
+  }, [searchQuery, selectedCategories, selectedSubcategories, selectedBrands, selectedVehicleTypes, priceRange]);
 
   const toggleFilter = (value: string, selected: string[], setSelected: (val: string[]) => void) => {
     if (selected.includes(value)) {
@@ -46,12 +49,20 @@ export default function StorePage() {
 
   const clearFilters = () => {
     setSelectedCategories([]);
+    setSelectedSubcategories([]);
     setSelectedBrands([]);
     setSelectedVehicleTypes([]);
     setPriceRange({ min: '', max: '' });
     setSearchParams({});
   };
+  
+  const availableSubcategories = useMemo(() => {
+  if (selectedCategories.length === 0) return [];
 
+  return categories
+    .filter((category) => selectedCategories.includes(category.slug))
+    .flatMap((category) => category.subcategories ?? []);
+}, [selectedCategories]);
   const hasActiveFilters = selectedCategories.length > 0 || selectedBrands.length > 0 || 
                            selectedVehicleTypes.length > 0 || priceRange.min || priceRange.max;
 
@@ -72,6 +83,27 @@ export default function StorePage() {
               </Label>
             </div>
           ))}
+          {availableSubcategories.length > 0 && (
+  <div>
+    <h3 className="font-display text-lg mb-3">SUBCATEGORÍAS</h3>
+    <div className="space-y-2">
+      {availableSubcategories.map((subcategory) => (
+        <div key={subcategory.id} className="flex items-center gap-2">
+          <Checkbox
+            id={`subcat-${subcategory.slug}`}
+            checked={selectedSubcategories.includes(subcategory.slug)}
+            onCheckedChange={() =>
+              toggleFilter(subcategory.slug, selectedSubcategories, setSelectedSubcategories)
+            }
+          />
+          <Label htmlFor={`subcat-${subcategory.slug}`} className="text-sm cursor-pointer">
+            {subcategory.name}
+          </Label>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
         </div>
       </div>
 
