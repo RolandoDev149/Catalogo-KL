@@ -7,6 +7,10 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
 base: "/Catalogo-KL/",
 
+ build: {
+    outDir: "docs",
+  },
+
   server: {
     host: "::",
     port: 8080,
