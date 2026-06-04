@@ -150,6 +150,14 @@ import productMolduraLamparaFrontalPradoPlateado from '@/assets/MOLDURA DE LAMPA
 import productMolduraPuertaCromada from '@/assets/MOLDURA CROMADA PARA.jpg'
 import productoMolduraHiluxRevo from '@/assets/MOLDURA DE  PUERTA TY  HILUX REVO  BLANCOCROMO NEGRO CROMO .jpg'
 import productMolduraLedConPortaPlaca from '@/assets/MOLDURA CON LED DE PORTA PLACA  TRACERA 2014 PRADO .jpg'
+import productInteriorPrado from '@/assets/INTERIOR UPGRADE KIT WITH AIR BOARD HY-FJ200-INTERIOR.jpg'
+import productoInteriorPradofj150 from '@/assets/KIT DE ACTUALIZACIÓN  DE INTERIOR FJ150 CON  VOLANTE HY-PRD18UPG-I  NTERIOR.jpg'
+import productTimonPrado from '@/assets/TIMON FJ150 PRADO 10-22 COLOR CARBON CON BOLSA DE AIRE HY-PRD18-STEERING CARBON HY-PRD18-STEERING CARBON.jpg'
+import productTimonMadera from '@/assets/TIMON PRADO 10-22 COLOR MADERA CON BOLSA DE AIRE HY-PRD18-STEERING MADERA.jpg'
+import prodctTimonPradoCarbon from '@/assets/TIMON PRADO 10-22 FIBRA CARBON CON BOLSA DE AIRE HY-PRD18-STEERING.jpg'
+
+
+
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -3627,6 +3635,103 @@ shortDescription: 'Halogena universal 76 MM',
   brand: 'KL',
   vehicleTypes: ['Toyota Hilux Revo'],
   features: ['Diseñada a la medida exacta de la compuerta trasera para modelos Toyota Land Cruiser Prado serie FJ150 (años 2014 al 2017)','Sistema de iluminación LED dual integrado con funciones seleccionables en color Blanco y Rojo brillante','Las letras impresas se encienden en sincronía con las luces de posición (Blanco) y las luces de freno (Rojo)','Carcasa robusta de acabado oscuro de alta gama que aporta un aspecto sobrio y moderno al porta placa','Fabricada con materiales plásticos ABS inyectados de gran resistencia a impactos y al desgaste diario en exteriores','Componentes electrónicos completamente sellados con protección hermética contra el ingreso de agua, lodo y polvo','Bajo consumo de corriente con tecnología LED de alta eficiencia que asegura una larga vida útil sin sobrecalentamientos','Instalación limpia mediante puntos de fijación estándar de fábrica para un acople seguro y permanente'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'184',
+  name: "Kit de Actualización de Interior Prado FJ200 16 con Panel de Aire - Kit de Renovación de Habitáculo",
+  slug: 'kit-de-actualizacion-de-interior-prado-fj200-16-con-panel-de-aire-kit-de-renovacion-de-habitaculo',
+  price:0,
+  description: 'Rejuvenece por completo la cabina de tu camioneta y llévala al siguiente nivel de lujo con el kit de actualización de interior HY-FJ200-INTERIOR. Este paquete de conversión "old-to-new" está diseñado específicamente para los propietarios de Land Cruiser FJ200 que desean actualizar su tablero y mandos de versiones anteriores a la sofisticada estética del modelo 2016 en adelante. El kit incluye un volante multifuncional moderno con detalles tipo madera, un pomo de palanca de cambios a juego, molduras laterales texturizadas para la consola central y, de manera destacada, la tarjeta/módulo digital de aire acondicionado ("air board") para renovar por completo los controles de climatización analógicos por una interfaz de apariencia mucho más tecnológica y premium.',
+  shortDescription: 'Kit completo de conversión y actualización premium para el habitáculo de la Land Cruiser FJ200, diseñado para transformar estéticamente el interior antiguo al estilo moderno del modelo 2016+, incluyendo volante, consola, mandos digitales de aire acondicionado y molduras de tablero.',
+  images: [productInteriorPrado],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['land cruiser prado'],
+  features: ['Kit de conversión integral diseñado exclusivamente para la renovación estética interior de la Toyota Land Cruiser serie FJ200','Permite actualizar el estilo del habitáculo de modelos anteriores llevándolo fielmente al diseño de la versión 2016 en adelante','Incluye un volante multifuncional ergonómico de alta gama con inserciones texturizadas de estilo madera y cuero con costuras delgadas','Equipado con el módulo digital de aire acondicionado ("air board") para modernizar el panel de control de climatización central','Viene acompañado de un pomo selector de marchas para la palanca de cambios a juego con el diseño del volante nuevo','Incluye el set completo de molduras, cubiertas de consola, tapas de guantera e inserciones laterales necesarias para la transformación','Fabricado con materiales ABS y polímeros de grado automotriz que replican con exactitud las texturas y tonalidades de fábrica','Diseñado para un acople preciso sobre las estructuras del tablero original minimizando brechas o desajustes visual'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'185',
+  name: "Kit de Actualización de Interior FJ150 con Volante - Kit de Renovación de Habitáculo HY-PRD18UPG-INTERIOR",
+  slug: 'kit-de-actualizacion-de-interior-fj150-con-volante-kit-de-renovacion-de-habitaculo',
+  price:0,
+  description: 'Transforma por completo la experiencia a bordo de tu camioneta con el kit de actualización de interior HY-PRD18UPG-INTERIOR. Este paquete de conversión premium está diseñado específicamente para los propietarios de Land Cruiser Prado serie FJ150 que desean dejar atrás el aspecto anticuado de su tablero y controles anteriores. Tal como se detalla en la distribución de componentes de la imagen_305f1e.png, el kit proporciona todo lo necesario para realizar un cambio estético radical: un volante multifuncional moderno con elegantes inserciones estilo madera y cuero, el ensamblaje completo para la consola de cambios, difusores de aire renovados, molduras para los pilares y nuevos paneles de control con botones actualizados. Es la solución ideal para rejuvenecer el habitáculo, aumentando el confort visual y el valor percibido de tu vehículo con la apariencia de un modelo del año.',
+  shortDescription: 'Kit de conversión integral "old-to-new" para el habitáculo de la Land Cruiser Prado FJ150, diseñado para actualizar el interior de los modelos antiguos al estilo moderno y tecnológico de las versiones más recientes, incluyendo un volante premium, consola central y paneles de control actualizados.',
+  images: [productoInteriorPradofj150],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['land cruiser prado'],
+  features: ['Kit de conversión estética interior diseñado a la medida exclusiva para la Toyota Land Cruiser Prado serie FJ150','Permite actualizar de forma impecable el habitáculo de modelos anteriores dándoles el aspecto moderno de las versiones más recientes','Incluye un volante ergonómico multifuncional de alta gama con detalles texturizados tipo madera y recubrimiento texturizado','Equipado con un conjunto de consola central y panel de mandos renovados para estilizar la zona de la palanca de cambios y la multimedia','Viene acompañado de difusores y salidas de aire acondicionado con diseño actualizado y molduras de ajuste preciso','Incluye los revestimientos y tapas de pilares interiores necesarios para lograr una uniformidad de color y textura en toda la cabina','Fabricado con plásticos ABS y materiales de grado automotriz de alta durabilidad que replican la calidad del equipamiento original','Diseñado para encajar de manera exacta sobre las fijaciones del tablero original minimizando espacios vacíos o ruidos por desajuste'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'186',
+  name: "Timon FJ150 Prado 10-22 Color Carbon Con Bolsa de Aire - Volante Deportivo HY-PRD18-STEERING-CARBON",
+  slug: 'timon-fj150-prado-10-22-color-carbon-con-bolsa-de-aire-volante-deportivo-hy-prd18-steering-carbon',
+  price:0,
+  description: 'TEleva la deportividad y el confort de conducción en tu camioneta con el volante de alta gama HY-PRD18-STEERING-CARBON. Diseñado específicamente para optimizar la ergonomía y la estética interior de la Toyota Prado serie FJ150 (modelos del 2010 al 2022), este timón combina de manera impecable el lujo moderno con un tacto de alto rendimiento. Tal como se aprecia en la imagen_30501e.png, cuenta con un llamativo acabado brillante en estilo fibra de carbono en los arcos superior e inferior, perfectamente complementado por empuñaduras laterales revestidas de cuero negro microperforado para asegurar un agarre firme y ventilado. La pieza central viene completamente equipada con los mandos integrados para el sistema multimedia o la computadora a bordo, e incluye de forma integral el módulo de la tapa con el sistema de bolsa de aire (SRS Airbag) para mantener intactos los estándares de seguridad originales.',
+  shortDescription: 'Volante deportivo premium para Toyota Prado FJ150, diseñado con un acabado exclusivo en fibra de carbono e inserciones de cuero perforado, equipado con botones multifuncionales y conjunto de bolsa de aire central integrado.',
+  images: [productTimonPrado],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseñado a la medida milimétrica para un acople perfecto en la columna de dirección de Toyota Prado FJ150 (modelos 2010 a 2022)','Acabado estético exclusivo estilo fibra de carbono de alto brillo en las secciones curvas superior e inferior del timón','Empuñaduras laterales revestidas en cuero negro perforado de grado automotriz para un agarre cómodo, ergonómico y antideslizante','Incluye el conjunto central completo con la cubierta de bolsa de aire (Airbag) rotulada y funcional para seguridad pasiva','Equipado con botoneras laterales multifuncionales integradas de fábrica para el control de audio, llamadas y menús de pantalla','Estructura interna reforzada de alta resistencia mecánica que garantiza una excelente durabilidad ante el uso diario intensivo','Aporta una renovación visual inmediata al habitáculo fusionando un estilo de lujo deportivo con la ergonomía de conducción','Instalación limpia que reutiliza las conexiones estándar de fábrica permitiendo conservar las funciones de los mandos del vehículo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'187',
+  name: "Timon Prado 10-22 Color Madera Con Bolsa de Aire - Volante Ejecutivo HY-PRD18-STEERING-MADERA",
+  slug: 'timon-fj150-prado-10-22-color-madera-con-bolsa-de-aire-volante-ejecutivo-hy-prd18-steering-madera',
+  price:0,
+  description: 'Restaura y eleva el estatus ejecutivo del habitáculo de tu camioneta con el volante de alta gama HY-PRD18-STEERING-MADERA. Desarrollado específicamente para ajustarse a los modelos de la serie Toyota Prado del periodo 2010 a 2022, este timón combina de forma magistral la sofisticación de los acabados de fábrica con una excelente ergonomía de manejo. Tal como se aprecia en la imagen_2feda6.png, destaca por sus refinadas inserciones en color madera mate localizadas en los arcos superior e inferior, integrándose armónicamente con los tableros más exclusivos de la marca. Las zonas laterales están revestidas de cuero negro suave al tacto para ofrecer un agarre firme, mientras que su sección central viene completamente equipada con los mandos integrados para el sistema de audio o la computadora de viaje, e incluye el módulo de protección con bolsa de aire (SRS Airbag) para garantizar tu total seguridad.',
+  shortDescription: 'Volante de lujo para Toyota Prado, diseñado con un acabado clásico y elegante en estilo madera e inserciones de cuero negro, equipado con controles multifuncionales y conjunto de bolsa de aire central integrado.',
+  images: [productTimonMadera],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseñado a la medida exacta para una compatibilidad perfecta con la columna de dirección de Toyota Prado (modelos 2010 a 2022)','Elegante acabado en color madera de estilo clásico en las secciones curvas superior e inferior del timón','Revestimiento lateral en cuero negro de grado automotriz para un agarre cómodo, ergonómico y de gran durabilidad','Incluye el conjunto central completo con el módulo de bolsa de aire (Airbag) integrado y funcional para la seguridad pasiva','Equipado con botoneras laterales multifuncionales para el control directo del sistema de infoentretenimiento y menús en pantalla','Estructura interna reforzada de alta resistencia mecánica que garantiza una excelente estabilidad en la conducción cotidiana','Aporta una renovación visual inmediata aportando un aspecto ejecutivo de gama alta al interior de la camioneta','Instalación limpia que permite conservar los conectores y la funcionalidad de los mandos originales del vehículo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'188',
+  name: "Timon Prado 10-22 Fibra Carbon Con Bolsa de Aire - Volante Deportivo HY-PRD18-STEERING",
+  slug: 'timon-fj150-prado-10-22-fibra-carbon-con-bolsa-de-aire-volante-deportivo-hy-prd18-steering',
+  price:0,
+  description: 'Lleva la experiencia de manejo al nivel más alto de deportividad con el volante de alta gama HY-PRD18-STEERING. Diseñado con una ergonomía avanzada para la serie Toyota Prado (modelos de 2010 a 2022), este timón destaca por un diseño moderno de base plana e inserciones de fibra de carbono texturizada en los arcos superior e inferior, tal como se aprecia en la imagen_2fd780.png. Las zonas de sujeción lateral están revestidas en cuero negro de tacto suave para un agarre óptimo. Su imponente sección central no solo incluye el módulo funcional completo de la bolsa de aire (SRS Airbag) y elegantes botoneras en acabado plateado mate para el control multimedia, sino que añade un distintivo emblema deportivo en la base que resalta su carácter competitivo.',
+  shortDescription: 'Volante deportivo de ultra lujo para Toyota Prado, diseñado con un acabado exclusivo en fibra de carbono de alto brillo, empuñaduras de cuero liso, botoneras multifuncionales plateadas y conjunto de bolsa de aire central integrado con emblema GR.',
+  images: [prodctTimonPradoCarbon],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseñado a la medida exacta para una compatibilidad perfecta con la columna de dirección de Toyota Prado (modelos 2010 a 2022)','Acabado deportivo exclusivo en fibra de carbono realzada en las secciones curvas superior e inferior del timón','Empuñaduras laterales y base revestidas en cuero negro de grado automotriz para un agarre cómodo y ergonómico','Incluye el conjunto central completo con el módulo de bolsa de aire (Airbag) integrado y funcional para la seguridad pasiva','Equipado con botoneras multifuncionales plateadas de última generación para el control del sistema de audio y menús de pantalla','Detalle de emblema deportivo de alto rendimiento integrado en la sección inferior de la estructura de base plana','Aporta una renovación visual inmediata otorgando un aspecto agresivo y de carreras al habitáculo de la camioneta','Instalación limpia que conserva las conexiones estándar de fábrica manteniendo la funcionalidad de los mandos del vehículo'],
   inStock: true,
   isOnSale: false,
   rating: 4.6,
