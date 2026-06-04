@@ -146,7 +146,10 @@ import productManiguetaPrado from '@/assets/MANIGUETA  PRADO 16  FJ200 FJ150.jpg
 import productManigetaPradoCromada from '@/assets/MANIGUETA  PRADO 16  FJ200 FJ150 TOP-M-PLATEADO.jpg';
 import productoManiguetaPradoBlaca from '@/assets/MANIGUETA  PRADO 16  FJ200 FJ150 TOP-M-BLANCO.jpg';
 import productMolduraLamparaFrontalPrado from '@/assets/MOLDURA DE LAMPARA FRONTAL PRADO NEGRO  PUERTA PRADO.jpg';
-
+import productMolduraLamparaFrontalPradoPlateado from '@/assets/MOLDURA DE LAMPARA FRONTAL PRADO PLATREADO  PUERTA PRADO.jpg'
+import productMolduraPuertaCromada from '@/assets/MOLDURA CROMADA PARA.jpg'
+import productoMolduraHiluxRevo from '@/assets/MOLDURA DE  PUERTA TY  HILUX REVO  BLANCOCROMO NEGRO CROMO .jpg'
+import productMolduraLedConPortaPlaca from '@/assets/MOLDURA CON LED DE PORTA PLACA  TRACERA 2014 PRADO .jpg'
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -3561,7 +3564,7 @@ shortDescription: 'Halogena universal 76 MM',
   price:0,
   description: 'Añade carácter y un aspecto imponente a la parte delantera de tu camioneta con el kit de molduras de lámpara frontal para Prado. Estas piezas, también conocidas como "cejas" o embellecedores de faros, están diseñadas con líneas aerodinámicas estilizadas que siguen el contorno superior e interno de las ópticas principales, tal como se muestra en la distribución de la imagen_3b8dc9.png. Con una versátil variante de color negro y detalles plateados, este accesorio rompe la continuidad del diseño plano de fábrica para ofrecer un frente mucho más robusto y personalizado. Fabricadas en materiales ligeros de alta resistencia automotriz, se instalan de forma rápida y limpia sobre los faros, funcionando además como una pequeña visera de protección perimetral contra microimpactos de piedras en carretera.',
   shortDescription: 'Juego de molduras decorativas para lámparas frontales diseñado a la medida para Toyota Prado, disponible en combinación negro y plateado, ideal para acentuar la mirada del vehículo con un estilo más agresivo y deportivo.',
-  images: [productMolduraLamparaFrontalPrado],
+  images: [productMolduraLamparaFrontalPrado, productMolduraLamparaFrontalPradoPlateado],
   category: 'accesorios',
   subcategory: 'molduras',
   brand: 'KL',
@@ -3573,6 +3576,62 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 
+{
+  id:'181',
+  name: "Moldura Cromada Para Puertas Laterales - Kit Embellecedor Prado  ",
+  slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
+  price:0,
+  description: 'Añade un destello premium a los costados de tu camioneta con la moldura cromada para puertas HY-PRD18-023. Este set de molduras de lujo está diseñado para ajustarse con total precisión a lo largo de las cuatro puertas, ubicándose estratégicamente en la zona inferior por encima de los estribos, tal como se muestra en la toma principal de la imagen_692987.png. Su acabado cromado de alto brillo tipo espejo resalta de inmediato las líneas de la carrocería, mientras que el detalle ampliado circular revela un refinado grabado con la palabra "PRADO" integrado de fábrica. Además de su sofisticada propuesta visual, actúan como una sólida barrera perimetral que protege la pintura contra abolladuras y raspones causados por portazos de otros vehículos en estacionamientos.',
+  shortDescription: 'Juego completo de molduras laterales cromadas de perfil esbelto con el nombre "PRADO" grabado en altorrelieve, diseñado a la medida para las puertas inferiores aportando elegancia, distinción y resguardo contra impactos cotidianos.',
+  images: [productMolduraPuertaCromada],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseñada a la medida exacta de la geometría lateral para modelos de la serie Toyota Prado','Acabado cromado espejo de calidad automotriz con alta resistencia a la decoloración y pérdida de brillo','Elegante nombre "PRADO" grabado en altorrelieve texturizado en la sección de las molduras principales','Kit completo de 4 piezas que ofrece una cobertura simétrica para las puertas delanteras y traseras de ambos lados','Fabricada en plástico ABS inyectado de alta densidad que garantiza ligereza y una óptima absorción de impactos ligeros','Protección eficaz de la parte inferior de las puertas contra rozaduras, golpes de parqueo y escombros del camino','Fijación de alta resistencia mediante cintas adhesivas automotrices de doble cara preinstaladas en el reverso','Instalación rápida que no requiere perforaciones en la lámina original ni el uso de herramientas especiales'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'182',
+  name: "Moldura de Puerta Hilux Revo - Kit de Paneles Laterales Anchos (Opciones Blanco/Cromo y Negro/Cromo",
+  slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
+  price:0,
+  description: 'Eleva exponencialmente la presencia y el estilo off-road de tu pick-up con el kit de molduras de puerta para Hilux Revo. Tal como se aprecia en el montaje y en la distribución de componentes de la imagen_68ae3d.png, este set de paneles volumétricos añade cuerpo y musculatura a la zona inferior de las puertas, emulando los acabados de las versiones más equipadas y deportivas de la línea. El producto viene disponible en dos configuraciones de color de base: blanco brillante (código TOP-292-B) o negro texturizado (código TOP-292-N), ambas resaltadas por un fino filete cromado central tipo espejo que genera un contraste sofisticado. Su diseño extendido de gran cobertura funciona como un escudo altamente eficaz que resguarda la lámina original contra los portazos en estacionamientos, rayones de vegetación y microimpactos de piedras en la ruta.',
+  shortDescription: 'Juego completo de molduras laterales anchas para puertas con un elegante inserto central cromado, disponible en variantes de base color blanco o negro, diseñado a la medida para la Toyota Hilux Revo para aportar un aspecto masivo, robusto y una protección superior.',
+  images: [productoMolduraHiluxRevo],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['Toyota Hilux Revo'],
+  features: ['Diseñado con precisión milimétrica para un acople exacto en las puertas de la Toyota Hilux Revo','Disponibilidad en dos variantes de color base para combinar con la carrocería: Blanco/Cromo (TOP-292-B) y Negro/Cromo (TOP-292-N)','Incorpora un elegante inserto central cromado de alto brillo que aporta un contraste de lujo','Kit completo de 4 piezas que otorga una cobertura aerodinámica simétrica para las puertas de ambos costados','Fabricado con plásticos ABS termoformados de alta resistencia capaces de absorber impactos ligeros sin deformarse','Protección activa de área extendida contra abolladuras, rasguños de estacionamiento y escombros del camino','Instalación limpia y rápida en pocos minutos mediante bandas adhesivas de grado automotriz de doble contacto preinstaladas','Estructura de alta durabilidad preparada para soportar la radiación solar UV, lluvias extremas y lavados a presión'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'183',
+  name: "Moldura con LED de Porta Placa Trasera - Letras Luminosas Land Cruiser Prado (2014-2017)",
+  slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
+  price:0,
+  description: 'Moderniza de manera radical el aspecto posterior de tu camioneta con la moldura con LED de porta placa trasera para Prado (modelos 2014 a 2017). Este accesorio de alta gama reemplaza o se superpone en la moldura central de la compuerta trasera, justo sobre la placa de circulación. Destaca por incorporar un avanzado sistema de iluminación LED dual "White + Red"; al encender el vehículo o activar las luces de posición, las letras caladas "LAND CRUISER PRADO" resplandecen en un nítido color blanco, mientras que al presionar el pedal de freno, el sistema cambia instantáneamente a un intenso color rojo brillante para advertir a los conductores detrás de ti. Es la fusión perfecta entre una estética de lujo y una funcionalidad de seguridad vial mejorada para la noche.',
+  shortDescription: 'Moldura central premium para la compuerta trasera con acabado estilizado y sistema LED integrado dual (Blanco y Rojo), diseñada a la medida para la serie Land Cruiser Prado FJ150 para iluminar las letras del vehículo con un estilo exclusivo.',
+  images: [productMolduraLedConPortaPlaca],
+  category: 'accesorios',
+  subcategory: 'molduras',
+  brand: 'KL',
+  vehicleTypes: ['Toyota Hilux Revo'],
+  features: ['Diseñada a la medida exacta de la compuerta trasera para modelos Toyota Land Cruiser Prado serie FJ150 (años 2014 al 2017)','Sistema de iluminación LED dual integrado con funciones seleccionables en color Blanco y Rojo brillante','Las letras impresas se encienden en sincronía con las luces de posición (Blanco) y las luces de freno (Rojo)','Carcasa robusta de acabado oscuro de alta gama que aporta un aspecto sobrio y moderno al porta placa','Fabricada con materiales plásticos ABS inyectados de gran resistencia a impactos y al desgaste diario en exteriores','Componentes electrónicos completamente sellados con protección hermética contra el ingreso de agua, lodo y polvo','Bajo consumo de corriente con tecnología LED de alta eficiencia que asegura una larga vida útil sin sobrecalentamientos','Instalación limpia mediante puntos de fijación estándar de fábrica para un acople seguro y permanente'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
 
 ];
 

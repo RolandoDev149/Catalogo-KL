@@ -99,7 +99,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 text-primary" />
-                <span>Av. Principal #1234, Santiago, Chile</span>
+                <span>Carretera interamericana,frente a harineria oro del norte, Santiago, Veraguas, Panama</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary" />
