@@ -155,7 +155,9 @@ import productoInteriorPradofj150 from '@/assets/KIT DE ACTUALIZACIÓN  DE INTER
 import productTimonPrado from '@/assets/TIMON FJ150 PRADO 10-22 COLOR CARBON CON BOLSA DE AIRE HY-PRD18-STEERING CARBON HY-PRD18-STEERING CARBON.jpg'
 import productTimonMadera from '@/assets/TIMON PRADO 10-22 COLOR MADERA CON BOLSA DE AIRE HY-PRD18-STEERING MADERA.jpg'
 import prodctTimonPradoCarbon from '@/assets/TIMON PRADO 10-22 FIBRA CARBON CON BOLSA DE AIRE HY-PRD18-STEERING.jpg'
-
+import productTimonGr from '@/assets/TIMON FJ150 GR  COLOR CARBON CON  BOLSA DE AIRE  DISEÑO ESPECIAL.jpg'
+import productTimonPradoGR from '@/assets/TIMON PRADO GR 10 22 FIBRA CARBON  CON BOLSA DE AIRE  BORDE NEGRO.jpg'
+import productTimonMomo from '@/assets/TIMON MOMO.jpg'
 
 
 
@@ -185,7 +187,8 @@ export const categories: Category[] = [
     image: '',
     productCount: 30,
     subcategories: [
-      { id: 'Molduras', name: 'Molduras', slug: 'molduras' }, 
+      { id: 'Molduras', name: 'Molduras', slug: 'molduras' },
+      { id: 'Timones', name: 'Timones', slug: 'timones' }, 
     ],
   },
   
@@ -2177,25 +2180,6 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'107',
-  name: "Barra LED Una Línea 54W Amarilla 20 plg",
-  slug: 'barra-led-1-linea-54w-amarilla',
-  price:0,
-  description: 'incrementa la seguridad y el alcance visual de tu vehículo con esta barra LED de 20 pulgadas, que combina un diseño estilizado de una sola fila con una potente emisión de luz amarilla. Con una potencia de 36W, este modelo  es la herramienta ideal para penetrar la niebla, el polvo o la lluvia intensa, donde la luz blanca suele rebotar y causar deslumbramiento. Su estructura compacta permite un montaje versátil en defensas, parrillas o techos, proporcionando un haz de luz nítido y de alto contraste que mejora significativamente la percepción del terreno en rutas off-road o trayectos nocturnos complicados, todo bajo una construcción resistente a las vibraciones y al uso rudo.',
-  shortDescription: 'Barra de iluminación LED de 13 pulgadas con 18W de potencia y una sola línea de emisores en color amarillo, diseñada para ofrecer una visibilidad superior en condiciones climáticas difíciles.',
-  images: [productbarraled2linea18w7plg],
-  category: 'led',
-  subcategory: 'barra-led',
-  brand: 'KL',
-  vehicleTypes: [''],
-  features: ['Configuración de una sola línea de LED para un perfil aerodinámico', 'Potencia de 18W para un brillo eficiente y penetrante', 'Color de luz amarillo ideal para niebla, lluvia y polvo', 'Longitud de 20 pulgadas compatible con diversos espacios de montaje', 'Carcasa robusta diseñada para máxima disipación de calor', 'Lente de alta resistencia contra impactos de piedras o ramas', 'Bajo consumo de corriente para proteger la batería del vehículo', 'Soportes de montaje laterales incluidos para una instalación firme'],
-  inStock: true,
-  isOnSale: false,
-  rating: 4.6,
-  reviewCount: 0,
-},
-
-{
   id:'108',
   name: "Barra LED Una Línea 54W Amarilla 20 plg",
   slug: 'barra-led-1-linea-54w-amarilla',
@@ -2216,6 +2200,25 @@ shortDescription: 'Halogena universal 76 MM',
 
 {
   id:'109',
+  name: "Barra LED Una Línea 54W Amarilla 20 plg",
+  slug: 'barra-led-1-linea-54w-amarilla',
+  price:0,
+  description: 'incrementa la seguridad y el alcance visual de tu vehículo con esta barra LED de 20 pulgadas, que combina un diseño estilizado de una sola fila con una potente emisión de luz amarilla. Con una potencia de 36W, este modelo  es la herramienta ideal para penetrar la niebla, el polvo o la lluvia intensa, donde la luz blanca suele rebotar y causar deslumbramiento. Su estructura compacta permite un montaje versátil en defensas, parrillas o techos, proporcionando un haz de luz nítido y de alto contraste que mejora significativamente la percepción del terreno en rutas off-road o trayectos nocturnos complicados, todo bajo una construcción resistente a las vibraciones y al uso rudo.',
+  shortDescription: 'Barra de iluminación LED de 13 pulgadas con 18W de potencia y una sola línea de emisores en color amarillo, diseñada para ofrecer una visibilidad superior en condiciones climáticas difíciles.',
+  images: [productbarraled2linea18w7plg],
+  category: 'led',
+  subcategory: 'barra-led',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Configuración de una sola línea de LED para un perfil aerodinámico', 'Potencia de 18W para un brillo eficiente y penetrante', 'Color de luz amarillo ideal para niebla, lluvia y polvo', 'Longitud de 20 pulgadas compatible con diversos espacios de montaje', 'Carcasa robusta diseñada para máxima disipación de calor', 'Lente de alta resistencia contra impactos de piedras o ramas', 'Bajo consumo de corriente para proteger la batería del vehículo', 'Soportes de montaje laterales incluidos para una instalación firme'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'110',
   name: "Barra LED Una Línea 72W Amarilla 26 plg",
   slug: 'barra-led-1-linea-72w-amarilla',
   price:0,
@@ -2234,7 +2237,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'110',
+  id:'111',
   name: "Barras LED Doble Línea Serie 108D - Tamaños 30 a 52 plg",
   slug: 'barras-led-doble-linea-serie-108D',
   price:0,
@@ -2253,7 +2256,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'111',
+  id:'112',
   name: "Barras LED Curvas Doble Línea - Serie High Power (22 a 52 plg)",
   slug: 'barra-led-curvas-doble-linea',
   price:0,
@@ -2272,7 +2275,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'112',
+  id:'113',
   name: "Barras LED de Techo Integradas - Modelos NP300 y REVO",
   slug: 'baras-led-techo-integradas-np300-revo',
   price:0,
@@ -2291,7 +2294,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'113',
+  id:'114',
   name: "Bombillos LED MF2 con Transformador (12V-24V)",
   slug: 'bombillos-led-mf2-transformador-12v-24v',
   price:0,
@@ -2309,7 +2312,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'114',
+  id:'115',
   name: "Barra LED Cuadrada 48W Blanco y Amarillo - 2.5cm",
   slug: 'barra-led-cuadrada-48w-blanco-y-amarillo-2.5cm',
   price:0,
@@ -2328,7 +2331,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'115',
+  id:'116',
   name: "Barra LED Redonda 72W - 2.5cm",
   slug: 'barra-led-redonda-72w-2.5cm',
   price:0,
@@ -2347,7 +2350,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'116',
+  id:'117',
   name: "Faro LED Rectangular 72W - Blanco 2.5cm",
   slug: 'faro-led-rectangular-72w-blanco-2.5cm',
   price:0,
@@ -2365,7 +2368,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'117',
+  id:'118',
   name: "Faro LED Redondo 27W Modelo Abanico - 2.5cm",
   slug: 'faro-led-redondo-27w-modelo-abanico-2.5cm',
   price:0,
@@ -2383,7 +2386,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'118',
+  id:'119',
   name: "Barra LED Cuadrada Cruz Blanco y Amarillo 114W - 2.5cm",
   slug: 'barra-led-cuadrada-cruz-blanco-y-amarillo-114w-2.5cm',
   price:0,
@@ -2402,7 +2405,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'119',
+  id:'120',
   name: "Barra LED 36W Blanco-Amarillo con Función Flash",
   slug: 'barra-led-36w-blanco-amarillo-con-función-flash',
   price:0,
@@ -2421,7 +2424,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'120',
+  id:'121',
   name: "Pastillas LED de Colores - 12V High Brightness",
   slug: 'pastillas-led-de-colores-12v-high-brightness',
   price:0,
@@ -2440,7 +2443,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'121',
+  id:'122',
   name: "Pastillas LED Multicolor (RGB) - 12V High Brightness",
   slug: 'pastillas-led-multicolor-rgb-12v-high-brightness',
   price:0,
@@ -2459,7 +2462,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'122',
+  id:'123',
   name: "Pastillas LED Un Punto - 12V High Brightness",
   slug: 'pastillas-led-un-punto-12v-high-brightness',
   price:0,
@@ -2478,7 +2481,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'123',
+  id:'124',
   name: "Pastillas LED - 24V High Brightness",
   slug: 'pastillas-led-24v-high-brightness',
   price:0,
@@ -2497,7 +2500,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'124',
+  id:'125',
   name: "Pastillas LED 24V COB - High Brightness",
   slug: 'pastillas-led-24v-cob-high-brightness',
   price:0,
@@ -2516,7 +2519,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'125',
+  id:'126',
   name: "Pastilla LED 12V COB - High Brightness",
   slug: 'pastillas-led-12v-cob-high-brightness',
   price:0,
@@ -2535,7 +2538,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'126',
+  id:'127',
   name: "Pastillas LED de 6 Puntos - 24V High Brightness",
   slug: 'pastillas-led-6-puntos-24v-high-brightness',
   price:0,
@@ -2554,7 +2557,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'127',
+  id:'128',
   name: "Secuencial para Tapa de Motor - LED Dynamic Scan",
   slug: 'secuencial-tapa-motor-led-dynamic-scan',
   price:0,
@@ -2573,7 +2576,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'128',
+  id:'129',
   name: "Secuencial para Tapa de Motor - Blanco Premium",
   slug: 'secuencial-tapa-motor-led-blanco-premium',
   price:0,
@@ -2592,7 +2595,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'129',
+  id:'130',
   name: "Pastilla LED de Parrilla Naranja",
   slug: 'pastilla-led-parrilla-naranja',
   price:0,
@@ -2611,7 +2614,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'130',
+  id:'131',
   name: "Pastilla LED de Parrilla Blanca",
   slug: 'pastilla-led-parrilla-blanca',
   price:0,
@@ -2630,7 +2633,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'131',
+  id:'132',
   name: "LED de Parrilla Cuadrada Amarilla",
   slug: 'led-parrilla-cuadrada-amarilla',
   price:0,
@@ -2649,7 +2652,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'132',
+  id:'133',
   name: "LED de Parrilla Cuadrada Blanca",
   slug: 'led-parrilla-cuadrada-blanca',
   price:0,
@@ -2668,7 +2671,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'133',
+  id:'134',
   name: "Flash con Control - Módulo de Estroboscopio Remoto",
   slug: 'flash-control-estroboscopio-remoto',
   price:0,
@@ -2687,7 +2690,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'134',
+  id:'135',
   name: "Rollo LED 5050 - Iluminación Continua",
   slug: 'rollo-led-5050-iluminacion-continua',
   price:0,
@@ -2706,7 +2709,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'135',
+  id:'136',
   name: "Rollo LED RGB 5050 - Iluminación Multicolor Dinámica",
   slug: 'rollo-led-5050-iluminacion-multicolor-dinamica',
   price:0,
@@ -2725,7 +2728,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'136',
+  id:'137',
   name: "LED Tercera Luz de Maletero - Seguridad Dinámica",
   slug: 'led-tercera-luz-de-maletero-seguridad-dinamica',
   price:0,
@@ -2744,7 +2747,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'137',
+  id:'138',
   name: "Aro Diablo - Iluminación de Ojo de Ángel",
   slug: 'aro-diablo-iluminacion-ojo-de-angel',
   price:0,
@@ -2763,7 +2766,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'138',
+  id:'139',
   name: "Aros LED Ojo de Ángel - Serie Professional Custom",
   slug: 'aro-led-ojo-de-angel-serie-professional-custom',
   price:0,
@@ -2782,7 +2785,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'139',
+  id:'140',
   name: "LED Secuencial Externa - Blanca / Amarilla",
   slug: 'led-secuencial-externa-blanca-amarilla',
   price:0,
@@ -2803,7 +2806,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'140',
+  id:'141',
   name: "Pastilla LED Multicolor - High Brightness",
   slug: 'led-multicolor-high-brightness',
   price:0,
@@ -2822,7 +2825,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'141',
+  id:'142',
   name: "Manguera LED Neón Flexible - Serie Color Pro",
   slug: 'led-neon-flexible-series-color-pro',
   price:0,
@@ -2841,7 +2844,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'142',
+  id:'143',
   name: "LED 1 Línea 4LED-9D - Exploradora de Alta Penetración",
   slug: 'led-1-linea-4led-9d-exploradora-de-alta-penetracion',
   price:0,
@@ -2860,7 +2863,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'143',
+  id:'144',
   name: "LED 1 Línea 6LED-W/Y - Exploradora Dual de Alta Potencia",
   slug: 'led-1-linea-6led-w-y-exploradora-dual-de-alta-potencia',
   price:0,
@@ -2878,7 +2881,7 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 {
-  id:'144',
+  id:'145',
   name: "LED 1 Línea Centro 1 Lupa - Exploradora de Haz Combinado",
   slug: 'led-1-linea-centro-1-lupa-exploradora-de-haz-combinado',
   price:0,
@@ -2897,7 +2900,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'145',
+  id:'146',
   name: "LED 2 Líneas 12LED-W/Y - Exploradora Dual de Doble Fila",
   slug: 'led-2-lineas-12led-w-y-exploradora-dual-de-doble-fila',
   price:0,
@@ -2916,7 +2919,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'146',
+  id:'147',
   name: "LED 1 Línea 2 Lupa con 2 Flecha - Exploradora de Señalización Dinámica",
   slug: 'led-1-linea-2-lupa-con-2-flecha-exploradora-de-senalizacion-dinamica',
   price:0,
@@ -2935,7 +2938,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'147',
+  id:'148',
   name: "LED 1 Línea 4 Lupa con 2 Flecha - Exploradora de Señalización Avanzada",
   slug: 'led-1-linea-4-lupa-con-2-flecha-exploradora-de-senalizacion-avanzada',
   price:0,
@@ -2954,7 +2957,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'148',
+  id:'149',
   name: "LED Círculo 1 Lupa - Exploradora Compacta de Alta Definición",
   slug: 'led-circulo-1-lupa-exploradora-compacta-alta-definicion',
   price:0,
@@ -2973,7 +2976,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'149',
+  id:'150',
   name: "LED Círculo 2 Lupa - Exploradora Dual de Alta Intensidad",
   slug: 'led-circulo-2-lupa-exploradora-dual-alta-intensidad',
   price:0,
@@ -2992,7 +2995,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'150',
+  id:'151',
   name: "LED Círculo 3 Lupa - Exploradora Triple de Máximo Alcance",
   slug: 'led-circulo-3-lupa-exploradora-triple-maximo-alcance',
   price:0,
@@ -3012,7 +3015,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'151',
+  id:'152',
   name: "LED con Letra BOSS - Exploradora de Identidad Exclusiva",
   slug: 'led-con-letra-boss-exploradora-de-identidad-exclusiva',
   price:0,
@@ -3031,7 +3034,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'152',
+  id:'153',
   name: "LED Estilo Transformer 1 LED - Exploradora Dual Blanca/Amarilla",
   slug: 'led-estilo-transformer-1-led-exploradora-dual-blanca-amarilla',
   price:0,
@@ -3051,7 +3054,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'153',
+  id:'154',
   name: "LED Estilo Transformer 2 LED - Exploradora Dual Blanca/Amarilla",
   slug: 'led-estilo-transformer-2-led-exploradora-dual-blanca-amarilla',
   price:0,
@@ -3070,7 +3073,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'154',
+  id:'155',
   name: "4 LED con Lupa - Exploradora Cuadrada Dual Blanco/Amarillo Delgada",
   slug: 'led-con-lupa-exploradora-cuadrada-dual-blanco-amarillo',
   price:0,
@@ -3090,7 +3093,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'155',
+  id:'156',
   name: "4 LED con Lupa - Exploradora Cuadrada Dual Blanco/Amarillo Grueso",
   slug: 'led-con-lupa-exploradora-cuadrada-dual-blanco-amarillo',
   price:0,
@@ -3108,7 +3111,7 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 {
-  id:'156',
+  id:'157',
   name: "LED 7plg Estilo Cráneo - Faro Principal Multicolor",
   slug: 'led-7plg-estilo-craneo-faro-principal-multicolor',
   price:0,
@@ -3127,7 +3130,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'157',
+  id:'158',
   name: "LED 7 con Flecha - Faro Principal Dual Blanco/Amarillo",
   slug: 'led-7plg-con-flecha-faro-principal-dual-blanco-amarillo',
   price:0,
@@ -3146,7 +3149,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'158',
+  id:'159',
   name: "Barra LED Redonda 7 51 Watts - Exploradora Off-Road de Alto Flujo",
   slug: 'barra-led-redonda-7-51-watts-exploradora-off-road-de-alto-flujo',
   price:0,
@@ -3165,7 +3168,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'159',
+  id:'160',
   name: "LED Redonda 9 96W Rojo - Exploradora Off-Road de Alta Potencia",
   slug: 'barra-led-redonda-9-96w-rojo-exploradora-off-road-de-alta-potencia',
   price:0,
@@ -3184,7 +3187,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'160',
+  id:'161',
   name: "LED 2 Lupa Estilo Pájaro - Exploradora Auxiliar Aerodinámica",
   slug: 'barra-led-2-lupa-estilo-pajaro-exploradora-auxiliar-aerodinamica',
   price:0,
@@ -3203,7 +3206,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'161',
+  id:'162',
   name: "Serie de Faros Exploradores LED 3 Cara (5, 7 y 9) - Iluminación Profesional Multi-Ángulo",
   slug: 'serie-de-faros-exploradores-led-3-cara-5-7-y-9-iluminacion-profesional-multi-angulo',
   price:0,
@@ -3222,7 +3225,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'162',
+  id:'163',
   name: "1 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
   slug: '1-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
   price:0,
@@ -3241,7 +3244,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'163',
+  id:'164',
   name: "2  LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
   slug: '2-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
   price:0,
@@ -3260,7 +3263,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'164',
+  id:'165',
   name: "LED 2 Lupa Chico - Exploradora Mini Dual Blanco/Amarillo",
   slug: '2-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
   price:0,
@@ -3279,7 +3282,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'165',
+  id:'166',
   name: "3 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
   slug: '3-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
   price:0,
@@ -3298,7 +3301,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'166',
+  id:'167',
   name: "4 LED con Lupa - Exploradora Mini Dual Blanco/Amarillo",
   slug: '4-led-con-lupa-exploradora-mini-dual-blanco-amarillo',
   price:0,
@@ -3317,7 +3320,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'167',
+  id:'168',
   name: "LED Policía 12V - Barra Estroboscópica para Parabrisas",
   slug: 'led-policia-12v-barra-estroboscopyica-para-parabrisas',
   price:0,
@@ -3337,7 +3340,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'168',
+  id:'169',
   name: "Barra LED 48W Centro Blanco / Lados Amarillo Flash - Exploradora Combinada Multifunción",
   slug: 'barra-led-48w-centro-blanco-lados-amarillo-flash-exploradora-combinada-multifuncion',
   price:0,
@@ -3356,7 +3359,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'169',
+  id:'170',
   name: "Barra LED 18W 1 Línea - Exploradora Slim de Alta Eficiencia",
   slug: 'barra-led-18w-1-linea-exploradora-slim-alta-eficiencia',
   price:0,
@@ -3375,7 +3378,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'170',
+  id:'171',
   name: "4 LED Blanco / Amarillo Flash - Estrobo de Señalización Extra Plano",
   slug: '4-led-blanco-amarillo-flash-estrobo-de-senalizacion-extra-plano',
   price:0,
@@ -3395,7 +3398,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'171',
+  id:'172',
   name: "Barrita 12 LED Blanco / Amarillo - Estrobo Modular de Alta Intensidad",
   slug: '12-led-blanco-amarillo-flash-estrobo-de-senalizacion-extra-plano',
   price:0,
@@ -3414,7 +3417,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'172',
+  id:'173',
   name: "Moldura de Compuerta Trasera Cromada - Letras Land Cruiser Prado (Modelos 2018+)",
   slug: 'moldura-letras-land-cruiser-prado-18-cromado',
   price:0,
@@ -3433,7 +3436,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'173',
+  id:'174',
   name: "Moldura con LED de Porta Placa Trasera - Letras Luminosas Land Cruiser Prado (2018+)",
   slug: 'moldura-letras-land-cruiser-prado-18-led',
   price:0,
@@ -3452,7 +3455,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'174',
+  id:'175',
   name: "Moldura Cromada de Puertas Laterales - Kit de Embellecedores Land Cruiser",
   slug: 'moldura-cromada-puertas-laterales-land-cruiser',
   price:0,
@@ -3471,7 +3474,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'175',
+  id:'176',
   name: "Moldura de Puerta Land Cruiser LC300 (Modelos 2022+) - Kit de Alargamientos Laterales Premium",
   slug: 'moldura-de-puerta-land-cruiser-lc300-modelos-2022-plus',
   price:0,
@@ -3490,7 +3493,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'176',
+  id:'177',
   name: "Moldura Cromada de Tapa Revo 2021- (Borde de Capó Frontal)",
   slug: 'moldura-cromada-de-tapa-revo-2021-borde-de-capo-frontal',
   price:0,
@@ -3509,7 +3512,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'177',
+  id:'178',
   name: "Manigueta Prado 16 FJ200 / FJ150 TOP-M-BLK - Cubiertas de Manijas Negro Mate",
   slug: 'manigueta-prado-16-fj200-fj150-top-m-blk-cubiertas-de-manijas-negro-mate',
   price:0,
@@ -3528,7 +3531,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'178',
+  id:'179',
   name: "Manigueta Prado 16 FJ200 / FJ150 TOP-M-PLATEADO - Cubiertas de Manijas Cromadas",
   slug: 'manigueta-prado-16-fj200-fj150-top-m-plateado-cubiertas-de-manijas-cromadas',
   price:0,
@@ -3547,7 +3550,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'179',
+  id:'180',
   name: "Manigueta Prado 16 BLANCO - Cubiertas de Manijas con Filo Cromado",
   slug: 'manigueta-prado-16-fj200-fj150-top-m-blanco-cubiertas-de-manijas-con-filo-cromado',
   price:0,
@@ -3566,7 +3569,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'180',
+  id:'181',
   name: "Moldura de Lámpara Frontal Prado - Kit de Cejas para Faros Delanteros (Negro/Plateado)",
   slug: 'moldura-de-lampara-frontal-prado-kit-de-cejas-para-faros-delanteros-negro-plateado',
   price:0,
@@ -3585,7 +3588,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'181',
+  id:'182',
   name: "Moldura Cromada Para Puertas Laterales - Kit Embellecedor Prado  ",
   slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
   price:0,
@@ -3604,7 +3607,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'182',
+  id:'183',
   name: "Moldura de Puerta Hilux Revo - Kit de Paneles Laterales Anchos (Opciones Blanco/Cromo y Negro/Cromo",
   slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
   price:0,
@@ -3623,7 +3626,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'183',
+  id:'184',
   name: "Moldura con LED de Porta Placa Trasera - Letras Luminosas Land Cruiser Prado (2014-2017)",
   slug: 'moldura-cromada-para-puertas-laterales-kit-embellecedor-prado',
   price:0,
@@ -3642,7 +3645,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'184',
+  id:'185',
   name: "Kit de Actualización de Interior Prado FJ200 16 con Panel de Aire - Kit de Renovación de Habitáculo",
   slug: 'kit-de-actualizacion-de-interior-prado-fj200-16-con-panel-de-aire-kit-de-renovacion-de-habitaculo',
   price:0,
@@ -3661,7 +3664,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'185',
+  id:'186',
   name: "Kit de Actualización de Interior FJ150 con Volante - Kit de Renovación de Habitáculo HY-PRD18UPG-INTERIOR",
   slug: 'kit-de-actualizacion-de-interior-fj150-con-volante-kit-de-renovacion-de-habitaculo',
   price:0,
@@ -3681,7 +3684,7 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'186',
+  id:'187',
   name: "Timon FJ150 Prado 10-22 Color Carbon Con Bolsa de Aire - Volante Deportivo HY-PRD18-STEERING-CARBON",
   slug: 'timon-fj150-prado-10-22-color-carbon-con-bolsa-de-aire-volante-deportivo-hy-prd18-steering-carbon',
   price:0,
@@ -3689,7 +3692,7 @@ shortDescription: 'Halogena universal 76 MM',
   shortDescription: 'Volante deportivo premium para Toyota Prado FJ150, diseñado con un acabado exclusivo en fibra de carbono e inserciones de cuero perforado, equipado con botones multifuncionales y conjunto de bolsa de aire central integrado.',
   images: [productTimonPrado],
   category: 'accesorios',
-  subcategory: 'molduras',
+  subcategory: 'timones',
   brand: 'KL',
   vehicleTypes: ['LandCruiser Prado'],
   features: ['Diseñado a la medida milimétrica para un acople perfecto en la columna de dirección de Toyota Prado FJ150 (modelos 2010 a 2022)','Acabado estético exclusivo estilo fibra de carbono de alto brillo en las secciones curvas superior e inferior del timón','Empuñaduras laterales revestidas en cuero negro perforado de grado automotriz para un agarre cómodo, ergonómico y antideslizante','Incluye el conjunto central completo con la cubierta de bolsa de aire (Airbag) rotulada y funcional para seguridad pasiva','Equipado con botoneras laterales multifuncionales integradas de fábrica para el control de audio, llamadas y menús de pantalla','Estructura interna reforzada de alta resistencia mecánica que garantiza una excelente durabilidad ante el uso diario intensivo','Aporta una renovación visual inmediata al habitáculo fusionando un estilo de lujo deportivo con la ergonomía de conducción','Instalación limpia que reutiliza las conexiones estándar de fábrica permitiendo conservar las funciones de los mandos del vehículo'],
@@ -3701,15 +3704,15 @@ shortDescription: 'Halogena universal 76 MM',
 
 
 {
-  id:'187',
+  id:'189',
   name: "Timon Prado 10-22 Color Madera Con Bolsa de Aire - Volante Ejecutivo HY-PRD18-STEERING-MADERA",
   slug: 'timon-fj150-prado-10-22-color-madera-con-bolsa-de-aire-volante-ejecutivo-hy-prd18-steering-madera',
-  price:0,
+  price:450.00,
   description: 'Restaura y eleva el estatus ejecutivo del habitáculo de tu camioneta con el volante de alta gama HY-PRD18-STEERING-MADERA. Desarrollado específicamente para ajustarse a los modelos de la serie Toyota Prado del periodo 2010 a 2022, este timón combina de forma magistral la sofisticación de los acabados de fábrica con una excelente ergonomía de manejo. Tal como se aprecia en la imagen_2feda6.png, destaca por sus refinadas inserciones en color madera mate localizadas en los arcos superior e inferior, integrándose armónicamente con los tableros más exclusivos de la marca. Las zonas laterales están revestidas de cuero negro suave al tacto para ofrecer un agarre firme, mientras que su sección central viene completamente equipada con los mandos integrados para el sistema de audio o la computadora de viaje, e incluye el módulo de protección con bolsa de aire (SRS Airbag) para garantizar tu total seguridad.',
   shortDescription: 'Volante de lujo para Toyota Prado, diseñado con un acabado clásico y elegante en estilo madera e inserciones de cuero negro, equipado con controles multifuncionales y conjunto de bolsa de aire central integrado.',
   images: [productTimonMadera],
   category: 'accesorios',
-  subcategory: 'molduras',
+  subcategory: 'timones',
   brand: 'KL',
   vehicleTypes: ['LandCruiser Prado'],
   features: ['Diseñado a la medida exacta para una compatibilidad perfecta con la columna de dirección de Toyota Prado (modelos 2010 a 2022)','Elegante acabado en color madera de estilo clásico en las secciones curvas superior e inferior del timón','Revestimiento lateral en cuero negro de grado automotriz para un agarre cómodo, ergonómico y de gran durabilidad','Incluye el conjunto central completo con el módulo de bolsa de aire (Airbag) integrado y funcional para la seguridad pasiva','Equipado con botoneras laterales multifuncionales para el control directo del sistema de infoentretenimiento y menús en pantalla','Estructura interna reforzada de alta resistencia mecánica que garantiza una excelente estabilidad en la conducción cotidiana','Aporta una renovación visual inmediata aportando un aspecto ejecutivo de gama alta al interior de la camioneta','Instalación limpia que permite conservar los conectores y la funcionalidad de los mandos originales del vehículo'],
@@ -3720,7 +3723,7 @@ shortDescription: 'Halogena universal 76 MM',
 },
 
 {
-  id:'188',
+  id:'190',
   name: "Timon Prado 10-22 Fibra Carbon Con Bolsa de Aire - Volante Deportivo HY-PRD18-STEERING",
   slug: 'timon-fj150-prado-10-22-fibra-carbon-con-bolsa-de-aire-volante-deportivo-hy-prd18-steering',
   price:0,
@@ -3728,10 +3731,68 @@ shortDescription: 'Halogena universal 76 MM',
   shortDescription: 'Volante deportivo de ultra lujo para Toyota Prado, diseñado con un acabado exclusivo en fibra de carbono de alto brillo, empuñaduras de cuero liso, botoneras multifuncionales plateadas y conjunto de bolsa de aire central integrado con emblema GR.',
   images: [prodctTimonPradoCarbon],
   category: 'accesorios',
-  subcategory: 'molduras',
+  subcategory: 'timones',
   brand: 'KL',
   vehicleTypes: ['LandCruiser Prado'],
   features: ['Diseñado a la medida exacta para una compatibilidad perfecta con la columna de dirección de Toyota Prado (modelos 2010 a 2022)','Acabado deportivo exclusivo en fibra de carbono realzada en las secciones curvas superior e inferior del timón','Empuñaduras laterales y base revestidas en cuero negro de grado automotriz para un agarre cómodo y ergonómico','Incluye el conjunto central completo con el módulo de bolsa de aire (Airbag) integrado y funcional para la seguridad pasiva','Equipado con botoneras multifuncionales plateadas de última generación para el control del sistema de audio y menús de pantalla','Detalle de emblema deportivo de alto rendimiento integrado en la sección inferior de la estructura de base plana','Aporta una renovación visual inmediata otorgando un aspecto agresivo y de carreras al habitáculo de la camioneta','Instalación limpia que conserva las conexiones estándar de fábrica manteniendo la funcionalidad de los mandos del vehículo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'191',
+  name: "TTimon FJ150 GR Color Carbon Con Bolsa de Aire Diseño Especial - Volante Deportivo",
+  slug: 'timon-fj150-prado-10-22-fibra-carbon-con-bolsa-de-aire-volante-deportivo-hy-prd18-steering',
+  price:0,
+  description: 'Lleva la deportividad del habitáculo al extremo con el volante de diseño especial HY-PRD18-STEERING-GRFJ150. Desarrollado meticulosamente para los entusiastas de la línea deportiva de la marca, este timón de base plana combina inserciones de fibra de carbono de alto brillo en sus arcos con empuñaduras laterales texturizadas en cuero negro perforado, garantizando una sujeción firme y un tacto de alto rendimiento. Su imponente sección central destaca por integrar botoneras multimedia completamente oscurecidas (all-black) y un emblema Toyota frontal en acabado negro brillante satinado. Además, el módulo funcional de la bolsa de aire (SRS Airbag) viene complementado por el distintivo sello GR en la base inferior, transformando por completo la estética del puesto de conducción hacia un look mucho más radical y exclusivo.',
+  shortDescription: 'Volante deportivo de diseño especial GR para Toyota Prado FJ150, con acabados premium en estilo fibra de carbono brillante, empuñaduras ergonómicas de cuero perforado, botoneras multifuncionales oscurecidas y bolsa de aire integrada con emblema Toyota en negro.',
+  images: [productTimonGr],
+  category: 'accesorios',
+  subcategory: 'timones',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseñado a la medida exacta para una compatibilidad perfecta con la columna de dirección de la Toyota Prado serie FJ150','Acabado deportivo especial en estilo fibra de carbono de alto brillo en las secciones curvas del timón','Empuñaduras laterales ergonómicas con revestimiento de cuero negro perforado para un agarre óptimo y ventilado','Incluye el conjunto central completo con el módulo de bolsa de aire (Airbag) integrado y totalmente funcional','Botoneras multifuncionales integradas con acabado oscurecido para el control de los menús de pantalla y el sistema de audio','Detalle exclusivo de emblema central Toyota en color negro e insignia deportiva GR en la base del timón','Estructura de base plana orientada al alto rendimiento que optimiza el espacio de las piernas y la ergonomía al conducir','Instalación limpia utilizando los conectores y cables estándar de fábrica para preservar todas las funciones electrónicas originales del vehículo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'192',
+  name: "Timon Prado GR 10-22 Fibra Carbon Con Bolsa de Aire Borde Negro - Volante Deportivo",
+  slug: 'timon-prado-gr-10-22-fibra-carbon-con-bolsa-de-aire-borde-negro-volante-deportivo',
+  price:450.00,
+  description: 'Añade un carácter agresivo, sofisticado y de alto rendimiento al puesto de mando de tu camioneta con el volante deportivo premium HY-PRD18-STEERING-GR-N. Desarrollado a la medida de la serie Toyota Prado para modelos del periodo 2010 al 2022, este timón destaca por un diseño moderno de base plana que optimiza el espacio y la maniobrabilidad. Tal como se aprecia en el producto real de la imagen_2b1842.png, combina secciones de textura de fibra de carbono brillante de alta resistencia en sus arcos superior e inferior, con empuñaduras laterales ergonómicas revestidas de cuero negro suave. Su panel central está completamente equipado con botoneras de control multimedia oscurecidas y un logo Toyota central en acabado negro satinado, complementado con el módulo funcional de bolsa de aire (SRS Airbag) y el exclusivo emblema GR en la base inferior del timón.',
+  shortDescription: 'Volante deportivo de alta gama estilo GR para Toyota Prado, diseñado con inserciones de fibra de carbono brillante, empuñaduras de cuero liso negro, botoneras multifuncionales oscurecidas y conjunto de bolsa de aire central integrado con emblema Toyota negro.',
+  images: [productTimonPradoGR],
+  category: 'accesorios',
+  subcategory: 'timones',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Compatibilidad Exacta: Diseñado a la medida milimétrica para un acople perfecto en la columna de dirección de Toyota Prado (modelos de los años 2010 a 2022).','Acabado en Fibra de Carbono: Inserciones estéticas de estilo fibra de carbono brillante localizadas en los arcos superior e inferior de la circunferencia.','Sujeción Ergonómica: Zonas de agarre lateral revestidas en cuero negro de grado automotriz para un tacto cómodo, firme y antideslizante.','Bolsa de Aire Funcional: Incluye de forma integral el módulo central con la tapa protectora y el sistema de bolsa de aire (Airbag) operativo para conservar la seguridad pasiva.','Controles Oscurecidos: Equipado con botoneras multifuncionales integradas en acabado completamente negro para la gestión de audio, telefonía y menús de pantalla.','Detalle Especial GR: Incorpora el logotipo deportivo GR en la parte inferior de la estructura y un emblema Toyota frontal con borde negro satinado.','Diseño de Base Plana: Estructura deportiva de tipo "D-Shape" que mejora la ergonomía al conducir y aporta una visual de carreras al habitáculo.','Instalación Directa: Reutiliza las conexiones estándar originales del vehículo para mantener la funcionalidad electrónica de los mandos sin realizar modificaciones complejas.'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'193',
+  name: "Timon Momo - Volante Deportivo Universal Multiflex",
+  slug: 'timon-momo-volante-deportivo-universal-multiflex',
+  price:39.95,
+  description: 'Lleva la auténtica emoción de la pista a la cabina de tu auto con la exclusiva línea de timones deportivos Momo. Este catálogo, detallado en la imagen_3ce16c.png, destaca por ofrecer una versatilidad de estilos inigualable con un diseño ergonómico de tres rayos centrales de alta rigidez estructural. Los volantes combinan un aro exterior negro de excelente agarre táctil con un núcleo central disponible en acabados cromados, metalizados y texturizados en una vibrante paleta que incluye tonos como rojo, azul, negro, dorado, amarillo, blanco y gris plateado. Es el accesorio ideal para entusiastas del tunning o el automovilismo que buscan mejorar de forma inmediata la respuesta de maniobrabilidad y transformar drásticamente la estética interior de su coche.',
+  shortDescription: 'Línea de volantes deportivos universales marca Momo, diseñados con una estructura clásica de tres rayos de alta resistencia y disponibles en una amplia gama de colores metálicos y acabados para personalizar al máximo el habitáculo de cualquier vehículo.',
+  images: [productTimonMomo],
+  category: 'accesorios',
+  subcategory: 'timones',
+  brand: 'KL',
+  vehicleTypes: ['LandCruiser Prado'],
+  features: ['Diseño de aplicación universal compatible con la gran mayoría de marcas y modelos de vehículos mediante el uso de adaptadores estándar','Estructura de alto rendimiento con diseño clásico de tres rayos que maximiza la rigidez ante maniobras exigentes','Catálogo con amplia gama de variantes que ofrece hasta 9 combinaciones diferentes de colores y texturas metálicas centrales','Aro exterior texturizado en color negro que proporciona una sujeción cómoda, firme y completamente antideslizante','Botón de bocina central redondo integrado y optimizado para una rápida respuesta de contacto al presionarlo','Fabricado con materiales de alta resistencia que aseguran una gran durabilidad frente a la torsión y el desgaste por uso continuado','Estética deportiva inspirada en el automovilismo de competición para transformar radicalmente el habitáculo del auto','Instalación simplificada mediante patrón de pernos estándar para un montaje limpio y seguro en la columna de dirección'],
   inStock: true,
   isOnSale: false,
   rating: 4.6,
