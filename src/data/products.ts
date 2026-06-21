@@ -158,6 +158,9 @@ import prodctTimonPradoCarbon from '@/assets/TIMON PRADO 10-22 FIBRA CARBON CON 
 import productTimonGr from '@/assets/TIMON FJ150 GR  COLOR CARBON CON  BOLSA DE AIRE  DISEÑO ESPECIAL.jpg'
 import productTimonPradoGR from '@/assets/TIMON PRADO GR 10 22 FIBRA CARBON  CON BOLSA DE AIRE  BORDE NEGRO.jpg'
 import productTimonMomo from '@/assets/TIMON MOMO.jpg'
+import productTimonMomoDrifting from '@/assets/TIMON MOMO DRIFTING.jpg'
+import productTimonMomoLiso from '@/assets/_TIMON MOMO LISO.jpg'
+import productForroCuerina from '@/assets/Forro cuerina.jpg'
 
 
 
@@ -224,6 +227,10 @@ export const categories: Category[] = [
     description: 'Alfombras, fundas y más para tu interior',
     image: categoryInterior,
     productCount: 52,
+    subcategories: [
+    { id: 'forros-asiento', name: 'Forro de asiento', slug: 'forro-asiento' },
+    { id: 'alfombras', name: 'Alfombras', slug: 'alfombras' },
+    ]
   },
 
   {
@@ -3791,13 +3798,71 @@ shortDescription: 'Halogena universal 76 MM',
   category: 'accesorios',
   subcategory: 'timones',
   brand: 'KL',
-  vehicleTypes: ['LandCruiser Prado'],
+  vehicleTypes: [''],
   features: ['Diseño de aplicación universal compatible con la gran mayoría de marcas y modelos de vehículos mediante el uso de adaptadores estándar','Estructura de alto rendimiento con diseño clásico de tres rayos que maximiza la rigidez ante maniobras exigentes','Catálogo con amplia gama de variantes que ofrece hasta 9 combinaciones diferentes de colores y texturas metálicas centrales','Aro exterior texturizado en color negro que proporciona una sujeción cómoda, firme y completamente antideslizante','Botón de bocina central redondo integrado y optimizado para una rápida respuesta de contacto al presionarlo','Fabricado con materiales de alta resistencia que aseguran una gran durabilidad frente a la torsión y el desgaste por uso continuado','Estética deportiva inspirada en el automovilismo de competición para transformar radicalmente el habitáculo del auto','Instalación simplificada mediante patrón de pernos estándar para un montaje limpio y seguro en la columna de dirección'],
   inStock: true,
   isOnSale: false,
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'194',
+  name: "Timon Momo Drifting - Volante Deportivo de Alta Competencia",
+  slug: 'timon-momo-drifting-volante-deportivo-alta-competencia',
+  price:39.95,
+  description: 'Lleva la máxima precisión de la pista a tus manos con el timón deportivo Momo Drifting. Este volante está meticulosamente diseñado para los entusiastas del automovilismo, el tuning y las disciplinas de derrape, donde el control del ángulo de dirección es crítico. Como se observa en la imagen_846b6a.png, destaca por su estructura de tres rayos negros calados con un diseño de profundidad acentuada (plato hondo) que acerca el aro al conductor para una ergonomía superior. Su revestimiento oscuro de alta sujeción se complementa con un llamativo bordado superior con la palabra "Drifting", guías dobles amarillas de centrado rápido en el aro y un botón de bocina central Momo que sella una estética de carreras agresiva e imponente.',
+  shortDescription: 'Volante deportivo universal Momo Drifting de tres rayos cóncavos, diseñado especialmente para disciplinas de alto rendimiento con costuras y guías en amarillo brillante que optimizan el control y la referencia visual en giros rápidos.',
+  images: [productTimonMomoDrifting],
+  category: 'accesorios',
+  subcategory: 'timones',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño de aplicación universal compatible con la mayoría de vehículos utilizando adaptadores o masas estándar de pernos','Estructura de tres rayos negros calados con diseño deportivo cóncavo que mejora la posición de los brazos al conducir','Marcas o guías dobles en color amarillo brillante en la parte superior e inferior para una rápida referencia del centro','Elegante bordado con la palabra "Drifting" en color amarillo integrado directamente sobre la sección superior del aro','Botón de bocina central redondo Momo con detalles amarillos totalmente operativo para una respuesta rápida','Aro revestido con material texturizado negro de alta fricción que proporciona un agarre óptimo y antideslizante','Costuras deportivas reforzadas en hilo amarillo que incrementan la durabilidad y realzan el contraste estético','Fabricación de alta rigidez estructural que soporta las exigencias de torsión y maniobras bruscas en competencias'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'195',
+  name: "Timon Momo Liso - Volante Deportivo de Perfil Fluido",
+  slug: 'timon-momo-liso-volante-deportivo-perfil-fluido',
+  price:39.95,
+  description: 'Añade un toque de minimalismo deportivo y elegancia a tu auto con el timón Momo Liso. Este modelo destaca por romper con las texturas rugosas tradicionales, ofreciendo un aro exterior completamente liso y aerodinámico con sutiles relieves ergonómicos en la zona superior para un apoyo óptimo de las manos. Como se aprecia en la imagen_7902a7.png, su estructura central se compone de tres rayos con un fino acabado cromado espejo y detalles calados. El volante se muestra en una variante de color blanco puro que resalta de inmediato las líneas del habitáculo, y el catálogo lateral indica su disponibilidad en una amplia paleta de colores personalizables: negro, azul, morado, gris, blanco, amarillo y rojo. Su botón de bocina central redondo con la marca Momo complementa un diseño limpio, moderno y de alto impacto visual.',
+  shortDescription: 'Volante deportivo universal Momo Liso, caracterizado por un aro de textura suave y uniforme con un diseño ergonómico de tres rayos cromados y una selección de colores vibrantes para un estilo interior impecable.',
+  images: [productTimonMomoLiso],
+  category: 'accesorios',
+  subcategory: 'timones',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño de aplicación universal compatible con una amplia variedad de automóviles utilizando masas o adaptadores de pernos estándar','Aro exterior con acabado liso y uniforme que proporciona una sensación al tacto suave, fluida y sumamente cómoda','Estructura central de tres rayos calados con un elegante recubrimiento cromado de alta resistencia al desgaste','Relieves ergonómicos integrados en los extremos superiores del aro para un apoyo natural y firme de los pulgares','Botón de bocina central redondo Momo totalmente funcional que se integra de forma limpia en el núcleo del volante','Disponible en una variada gama de colores indicados en su catálogo para combinar de forma exacta con el estilo del vehículo','Fabricación con materiales robustos y ligeros que garantizan una larga durabilidad y excelente rigidez estructural','Instalación directa y sencilla mediante un patrón de montaje estándar para un ajuste seguro en la columna de dirección'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'196',
+  name: "Forro Cuerina - Juego Completo de Cubreasientos Deportivos",
+  slug: 'forro-cuerina-juego-completo-cubreasientos-deportivos',
+  price:39.95,
+  description: 'Protege y transforma por completo el interior de tu vehículo con el juego de fundas universales Forro Cuerina (Código FO-0064). Este set completo está diseñado para cubrir de forma integral tanto los asientos delanteros como la banca trasera, incluyendo sus respectivos apoyacabezas. Tal como se observa en la imagen_7653eb.png, el diseño destaca por combinar bordes exteriores en un elegante color negro texturizado con una franja central acolchada con costuras horizontales que incrementa el confort en viajes largos. En la cabecera del respaldo incorpora un sutil detalle en forma de flecha deportiva. El producto cuenta con un catálogo de combinaciones de color muy versátil para adaptarse a tu estilo, ofreciendo opciones como Negro+Rojo, Negro+Azul (mostrado en el ejemplo), Negro sólido, Negro+Gris, Negro+Morado y Negro+Fusia.',
+  shortDescription: 'Juego completo de forros para asientos fabricados en cuerina de alta calidad con un diseño deportivo de franja central texturizada, ideal para proteger la tapicería original y renovar la estética del habitáculo.',
+  images: [productForroCuerina],
+  category: 'interior',
+  subcategory: 'forro-asiento',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseño de aplicación universal elástica compatible con la mayoría de autos, sedanes y camionetas del mercado','Fabricado en cuerina (cuero sintético) de alta resistencia, impermeable y muy fácil de limpiar con un paño húmedo','Sección central con relieve acolchado y acolchonamiento interno para mejorar el confort y la transpiración al conducir','Kit completo que incluye forros para asientos delanteros, respaldos traseros y cubiertas para apoyacabezas individuales','Protección total y efectiva contra derrames de líquidos, manchas cotidianas, desgaste por fricción y pelos de mascotas','Disponible en 6 variantes de combinación cromática en base negra para una personalización exacta del habitáculo','Sistema de sujeción mediante bandas elásticas e ganchos que aseguran un ajuste firme evitando deslizamientos continuos','Aporta una renovación estética inmediata al interior del vehículo dándole un aspecto moderno, limpio y deportivo'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
 
 ];
 
