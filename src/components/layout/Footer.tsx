@@ -124,7 +124,7 @@ export function Footer() {
           <div className="flex items-center gap-4">
             <img src="/placeholder.svg" alt="Visa" className="h-8 opacity-50" />
             <img src="/placeholder.svg" alt="Mastercard" className="h-8 opacity-50" />
-            <img src="/placeholder.svg" alt="WebPay" className="h-8 opacity-50" />
+            <img src="/placeholder.svg" alt="Yappy" className="h-8 opacity-50" />
           </div>
         </div>
       </div>

@@ -1,18 +1,27 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MessageCircle, Star, ChevronLeft, Check, Truck } from 'lucide-react';
+import { MessageCircle, Star, ChevronLeft, ChevronRight, Check, Truck, ZoomIn } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { WhatsAppButton } from '@/components/layout/WhatsAppButton';
 import { ProductCard } from '@/components/products/ProductCard';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { Dialog, DialogContent, DialogTitle } from '@/components/ui/dialog';
 import { products } from '@/data/products';
 import { formatPrice } from '@/lib/utils';
 
 export default function ProductPage() {
   const { slug } = useParams();
   const product = products.find((p) => p.slug === slug);
+
+  const [selectedImage, setSelectedImage] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+
+  const images = product?.images ?? [];
+  const showPrev = () => setSelectedImage((i) => (i - 1 + images.length) % images.length);
+  const showNext = () => setSelectedImage((i) => (i + 1) % images.length);
 
   if (!product) {
     return (
@@ -33,7 +42,7 @@ export default function ProductPage() {
     .filter((p) => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
-  const whatsappUrl = `https://wa.me/69093601?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
+  const whatsappUrl = `https://wa.me/50769093601?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
 
   return (
     <div className="min-h-screen bg-background">
@@ -57,26 +66,43 @@ export default function ProductPage() {
               animate={{ opacity: 1, x: 0 }}
               className="space-y-4"
             >
-              <div className="aspect-square rounded-xl overflow-hidden bg-card border border-border">
+              <button
+                type="button"
+                onClick={() => setLightboxOpen(true)}
+                className="group relative block w-full aspect-square rounded-xl overflow-hidden bg-card border border-border cursor-zoom-in"
+              >
                 <img
-                  src={product.images[0]}
+                  src={product.images[selectedImage]}
                   alt={product.name}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-              </div>
+                <span className="absolute bottom-3 right-3 flex items-center gap-1 rounded-full bg-background/80 px-3 py-1.5 text-xs font-medium text-foreground opacity-0 group-hover:opacity-100 transition-opacity">
+                  <ZoomIn className="h-4 w-4" /> Ampliar
+                </span>
+              </button>
               {product.images.length > 1 && (
                 <div className="grid grid-cols-4 gap-4">
                   {product.images.map((image, index) => (
-                    <div
+                    <button
+                      type="button"
                       key={index}
-                      className="aspect-square rounded-lg overflow-hidden bg-card border border-border cursor-pointer hover:border-primary transition-colors"
+                      onClick={() => setSelectedImage(index)}
+                      aria-label={`Ver imagen ${index + 1}`}
+                      aria-current={index === selectedImage}
+                      className={`aspect-square rounded-lg overflow-hidden bg-card border-2 transition-colors ${
+                        index === selectedImage
+                          ? 'border-primary'
+                          : 'border-border hover:border-primary/50'
+                      }`}
                     >
                       <img
                         src={image}
                         alt={`${product.name} ${index + 1}`}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </button>
                   ))}
                 </div>
               )}
@@ -210,6 +236,60 @@ export default function ProductPage() {
           )}
         </div>
       </main>
+
+      {/* Lightbox / visor ampliado */}
+      <Dialog open={lightboxOpen} onOpenChange={setLightboxOpen}>
+        <DialogContent className="max-w-4xl border-border bg-background p-2 sm:p-4">
+          <DialogTitle className="sr-only">{product.name}</DialogTitle>
+          <div className="relative flex items-center justify-center">
+            <img
+              src={product.images[selectedImage]}
+              alt={product.name}
+              className="max-h-[80vh] w-auto mx-auto rounded-lg object-contain"
+            />
+            {product.images.length > 1 && (
+              <>
+                <button
+                  type="button"
+                  onClick={showPrev}
+                  aria-label="Imagen anterior"
+                  className="absolute left-2 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-background/80 text-foreground shadow-md hover:bg-background transition-colors"
+                >
+                  <ChevronLeft className="h-6 w-6" />
+                </button>
+                <button
+                  type="button"
+                  onClick={showNext}
+                  aria-label="Imagen siguiente"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-background/80 text-foreground shadow-md hover:bg-background transition-colors"
+                >
+                  <ChevronRight className="h-6 w-6" />
+                </button>
+              </>
+            )}
+          </div>
+          {product.images.length > 1 && (
+            <div className="flex justify-center gap-2 flex-wrap">
+              {product.images.map((image, index) => (
+                <button
+                  type="button"
+                  key={index}
+                  onClick={() => setSelectedImage(index)}
+                  aria-label={`Ver imagen ${index + 1}`}
+                  className={`h-16 w-16 rounded-md overflow-hidden border-2 transition-colors ${
+                    index === selectedImage
+                      ? 'border-primary'
+                      : 'border-border hover:border-primary/50'
+                  }`}
+                >
+                  <img src={image} alt={`${product.name} ${index + 1}`} className="w-full h-full object-cover" />
+                </button>
+              ))}
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+
       <Footer />
       <WhatsAppButton />
     </div>

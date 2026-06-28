@@ -12,14 +12,14 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, index = 0 }: ProductCardProps) {
-  const whatsappUrl = `https://wa.me/56912345678?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
+  const whatsappUrl = `https://wa.me/50769093601?text=${encodeURIComponent(`Hola! Me interesa el producto: ${product.name} - ${formatPrice(product.price)}`)}`;
 
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.1, duration: 0.5 }}
+      viewport={{ once: true, margin: '200px' }}
+      transition={{ delay: Math.min(index, 7) * 0.05, duration: 0.4 }}
       className="group relative rounded-xl overflow-hidden bg-card border border-border hover:border-primary/50 transition-all duration-300 shadow-card hover:shadow-card-hover"
     >
       {/* Badges */}
@@ -37,6 +37,8 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
         <img
           src={product.images[0]}
           alt={product.name}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
       </Link>

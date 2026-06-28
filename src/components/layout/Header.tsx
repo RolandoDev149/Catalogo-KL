@@ -47,11 +47,11 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between gap-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex items-center">
-            <span className="font-display text-2xl md:text-3xl tracking-wider text-foreground">
-              ​KL<span className="text-gradient-orange"> ELECTRONIC </span>
-            </span>
-          </div>
+          <img
+            src={`${import.meta.env.BASE_URL}logo-kl.png`}
+            alt="KL Electronic"
+            className="h-10 md:h-12 w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Navigation */}

@@ -13,19 +13,19 @@ const faqCategories = [
     faqs: [
       {
         question: '¿Cuánto demora el envío?',
-        answer: 'Los envíos a Santiago demoran 24-48 horas. Para regiones, el tiempo estimado es de 3-5 días hábiles dependiendo de la ubicación.',
+        answer: 'Los envíos dentro de Santiago demoran 24-48 horas. Para el resto del país, el tiempo estimado es de 2-4 días hábiles dependiendo de la ubicación.',
       },
       {
         question: '¿El envío tiene costo?',
-        answer: 'El envío es GRATIS en compras sobre $100.000. Para compras menores, el costo de envío es de $5.990 a todo Chile.',
+        answer: 'El envío es GRATIS en compras sobre $100. Para compras menores, el costo de envío es de $5 a todo Panamá.',
       },
       {
-        question: '¿Hacen envíos a todo Chile?',
-        answer: 'Sí, realizamos envíos a todo Chile a través de Starken, Chilexpress y Blue Express. Tú eliges el courier de tu preferencia.',
+        question: '¿Hacen envíos a todo Panamá?',
+        answer: 'Sí, realizamos envíos a todo Panamá a través de empresas de encomienda y mensajería. Tú eliges el courier de tu preferencia.',
       },
       {
         question: '¿Puedo retirar en tienda?',
-        answer: 'Sí, puedes retirar tu pedido en nuestra tienda ubicada en Av. Principal #1234, Santiago. El retiro es gratuito y está disponible de lunes a sábado.',
+        answer: 'Sí, puedes retirar tu pedido en nuestra tienda ubicada en la Carretera Interamericana, Santiago, Veraguas. El retiro es gratuito y está disponible de lunes a sábado.',
       },
     ],
   },
@@ -71,11 +71,11 @@ const faqCategories = [
     faqs: [
       {
         question: '¿Qué métodos de pago aceptan?',
-        answer: 'Aceptamos transferencia bancaria, tarjetas de crédito y débito (Visa, Mastercard), WebPay, y pago en efectivo en tienda.',
+        answer: 'Aceptamos transferencia bancaria, tarjetas de crédito y débito (Visa, Mastercard), Yappy, y pago en efectivo en tienda.',
       },
       {
         question: '¿Puedo pagar en cuotas?',
-        answer: 'Sí, aceptamos pago en cuotas con tarjeta de crédito a través de WebPay. Puedes elegir de 2 a 12 cuotas dependiendo del monto.',
+        answer: 'Sí, puedes pagar en cuotas con tu tarjeta de crédito BAC Credomatic y también a través de Krediya.',
       },
       {
         question: '¿Es seguro comprar en la tienda?',
@@ -167,7 +167,7 @@ export default function FAQPage() {
               Contáctanos y te ayudamos personalmente
             </p>
             <a
-              href="https://wa.me/56912345678?text=Hola! Tengo una pregunta."
+              href="https://wa.me/50769093601?text=Hola! Tengo una pregunta."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#25D366] text-white font-semibold hover:bg-[#20BD5A] transition-colors"

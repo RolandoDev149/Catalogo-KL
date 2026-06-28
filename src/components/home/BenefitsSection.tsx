@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Wrench, Shield, Truck, Headphones, CreditCard } from 'lucide-react';
+import { Wrench, Shield, Headphones } from 'lucide-react';
 
 const benefits = [
   {
@@ -13,19 +13,9 @@ const benefits = [
     description: 'Garantía directa en todos los artículos',
   },
   {
-    icon: Truck,
-    title: 'Envíos Rápidos',
-    description: 'Despacho a todo Chile en 24-72 horas',
-  },
-  {
     icon: Headphones,
     title: 'Atención Personalizada',
     description: 'Asesoría experta antes y después de tu compra',
-  },
-  {
-    icon: CreditCard,
-    title: 'Pagos Seguros',
-    description: 'Múltiples métodos de pago protegidos',
   },
 ];
 
@@ -33,7 +23,7 @@ export function BenefitsSection() {
   return (
     <section className="py-16 bg-card border-y border-border">
       <div className="container">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8 max-w-3xl mx-auto">
           {benefits.map((benefit, index) => (
             <motion.div
               key={benefit.title}
