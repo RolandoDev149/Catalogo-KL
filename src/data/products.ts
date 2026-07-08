@@ -161,6 +161,14 @@ import productTimonMomo from '@/assets/TIMON MOMO.jpg'
 import productTimonMomoDrifting from '@/assets/TIMON MOMO DRIFTING.jpg'
 import productTimonMomoLiso from '@/assets/_TIMON MOMO LISO.jpg'
 import productForroCuerina from '@/assets/Forro cuerina.jpg'
+import productChaclesnp300  from '@/assets/chacles np300.jpg'
+import prodcutChaclesdmax2021 from '@/assets/CHACLE DE D-MAX 2021.jpg'
+import productChaclesHiluxRevo from '@/assets/chacles HILUX REVO.jpg'
+import productChaclesHiluxVigo from '@/assets/HILUX VIGO 2.jpg'
+import productChaclesTriton from '@/assets/CHACLE TRITON 2.jpg'
+import porductCalzasHilux32mm from '@/assets/CALZA HILUX 32MM.jpg'
+import productCalzasNavara32mm from '@/assets/CALZA NAVARA 32MM.jpg'
+import productCalzasDmax32mm from '@/assets/CALZA D-MAX 32MM.jpg'
 
 
 
@@ -180,6 +188,10 @@ export const categories: Category[] = [
     description: 'Todo lo que necesitas para conquistar cualquier terreno',
     image: category4x4,
     productCount: 45,
+    subcategories: [
+      { id: 'chacles', name: 'Chacles', slug: 'chacles' },
+      { id: 'calzas', name: 'Calazas', slug: 'calzas' },
+    ]
   },
 
   {
@@ -3862,6 +3874,161 @@ shortDescription: 'Halogena universal 76 MM',
   rating: 4.6,
   reviewCount: 0,
 },
+
+{
+  id:'197',
+  name: "Chacles de Suspensión - Kit de Suavizado Trasero Nissan NP300",
+  slug: 'chacles-suspension-kit-suavizado-trasero-nissan-np300',
+  price:39.95,
+  description: 'Optimiza el confort de marcha y dile adiós al andar rígido de tu pick-up con el kit de gemelas de suspensión confort para Nissan NP300. Como se puede apreciar en el diseño del componente, estas gemelas articuladas de alto rendimiento reemplazan los soportes traseros originales de las ballestas (muelles). Su ingeniería de doble articulación permite que la suspensión trasera se mueva de forma más libre y lineal, absorbiendo con eficacia los impactos ásperos de baches, caminos rizados y terrenos irregulares cuando la camioneta va vacía o con carga ligera. Fabricadas en un llamativo acabado azul texturizado de alta durabilidad, son la solución perfecta para suavizar notablemente la cabina, disminuyendo el molesto rebote trasero característico de los vehículos de trabajo.',
+  shortDescription: 'Kit de chacles de suspensión confort (articuladas) en color azul para Nissan NP300, diseñadas para mejorar notablemente la suavidad de la marcha, reducir los rebotes de la parte trasera y optimizar el rendimiento de las ballestas (muelles) sin perder capacidad de carga.',
+  images: [productChaclesnp300],
+  category: '4x4',
+  subcategory: 'chacles',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en el sistema de ballestas de la Nissan NP300','Estructura de doble articulación que optimiza el movimiento del muelle mejorando la flexibilidad de la suspensión trasera','Reduce drásticamente los rebotes y vibraciones molestas dentro de la cabina al transitar sin carga en la caja','Fabricadas con acero de alta resistencia estructural con soldaduras reforzadas para soportar condiciones exigentes','Recubrimiento de pintura al horno en color azul brillante que previene la corrosión y el desgaste por fricción','Mantiene intacta la capacidad de carga original de la pick-up permitiendo un uso de trabajo pesado seguro','Equipadas con pernos de alta resistencia y bujes de aislamiento que garantizan un funcionamiento silencioso','Instalación de tipo directa que aprovecha los puntos de anclaje de fábrica sin necesidad de realizar modificaciones'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'198',
+  name: "Chacle de D-Max 2021 - Gemelas Confort de Suspensión Trasera",
+  slug: 'chacles-suspension-kit-suavizado-trasero-dmax-2021',
+  price:0,
+  description: 'Eleva el confort y mejora el comportamiento dinámico de tu pick-up con el kit de chacles confort para Isuzu D-Max 2021. Este componente de suspensión premium está diseñado para reemplazar los soportes rígidos originales que sujetan las ballestas (muelles) traseras. Su estructura con ingeniería de doble articulación permite un movimiento mucho más fluido, libre y progresivo del paquete de muelles, absorbiendo con alta eficacia el impacto de baches, imperfecciones del camino y caminos rizados, especialmente cuando la camioneta transita con la caja vacía. Fabricados con un acabado en color azul de alta resistencia a la intemperie y el lodo, son la solución ideal para eliminar el andar tosco y saltarín característico de las camionetas de trabajo, garantizando un viaje mucho más placentero.',
+  shortDescription: 'Kit de chacles (gemelas) de suspensión confort en color azul para Isuzu D-Max 2021+, diseñados para suavizar la amortiguación del eje trasero, mitigar los rebotes ásperos y optimizar el confort en cabina sin alterar la capacidad de carga del vehículo.',
+  images: [prodcutChaclesdmax2021],
+  category: '4x4',
+  subcategory: 'chacles',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en el sistema de ballestas de la Isuzu D-Max (modelos 2021 en adelante)','Estructura de doble articulación que optimiza la mecánica del muelle, mejorando la flexibilidad de la suspensión trasera','Reduce de manera eficaz los rebotes secos y vibraciones molestas dentro de la cabina al circular sin peso en la caja de carga','Fabricados en acero estructural reforzado de gran espesor para soportar altas exigencias en terrenos difíciles e irregulares','Recubrimiento de pintura al horno en color azul brillante que ofrece una excelente protección contra la corrosión y el óxido','Mantiene intactas las capacidades de carga y arrastre originales de la pick-up para un uso de trabajo y diario totalmente seguro','Equipados con pernos pasantes de alta resistencia y bujes de aislamiento que aseguran un funcionamiento silencioso y de libre fricción','Instalación limpia de tipo directa que aprovecha los puntos de anclaje de fábrica sin necesidad de realizar modificaciones o soldaduras'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'199',
+  name: "Chacles Hilux Revo 2 - Kit de Suavizado de Suspensión Trasera",
+  slug: 'chales-hilux-revo-2-kit-suavizado-suspension-trasera',
+  price:89.95,
+  description: 'Eleva el confort y mejora el comportamiento dinámico de tu pick-up con el kit de chacles confort para Isuzu D-Max 2021. Este componente de suspensión premium está diseñado para reemplazar los soportes rígidos originales que sujetan las ballestas (muelles) traseras. Su estructura con ingeniería de doble articulación permite un movimiento mucho más fluido, libre y progresivo del paquete de muelles, absorbiendo con alta eficacia el impacto de baches, imperfecciones del camino y caminos rizados, especialmente cuando la camioneta transita con la caja vacía. Fabricados con un acabado en color azul de alta resistencia a la intemperie y el lodo, son la solución ideal para eliminar el andar tosco y saltarín característico de las camionetas de trabajo, garantizando un viaje mucho más placentero.',
+  shortDescription: 'Kit de chacles (gemelas) de suspensión confort en color azul para Isuzu D-Max 2021+, diseñados para suavizar la amortiguación del eje trasero, mitigar los rebotes ásperos y optimizar el confort en cabina sin alterar la capacidad de carga del vehículo.',
+  images: [productChaclesHiluxRevo],
+  category: '4x4',
+  subcategory: 'chacles',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en el sistema de ballestas de la Toyota Hilux Revo','Estructura con ingeniería de doble articulación que mejora notablemente la flexibilidad de la suspensión trasera','Reduce de manera eficaz los rebotes rígidos y vibraciones dentro de la cabina al transitar con la caja vacía','Fabricadas en acero estructural de alta resistencia mecánica para soportar las exigencias de cualquier terreno','Recubrimiento de pintura al horno en color azul que ofrece una protección duradera contra el óxido y la corrosión','Mantiene intacta la capacidad de carga original de la pick-up para un uso de trabajo o recreativo totalmente seguro','Equipadas con pernos pasantes de alta dureza y bujes aislantes que eliminan ruidos y fricciones mecánicas','Instalación de tipo directa sobre los puntos de anclaje originales del chasis sin requerir modificaciones complejas'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
+{
+  id:'200',
+  name: "Hilux Vigo 2 - Chacles Confort de Suspensión Trasera H-Tune",
+  slug: 'hilux-vigo-2-chacles-confort-suspension-trasera-h-tune',
+  price:89.95,
+  description: 'Mejora sustancialmente la suavidad de conducción y el comportamiento de tu pick-up con el kit de chacles confort de 2 pulgadas H-Tune para Toyota Hilux Vigo. Desarrollado específicamente para los modelos del periodo 2005 al 2014, este componente reemplaza los soportes traseros rígidos de fábrica que sujetan las ballestas (muelles). Su avanzada ingeniería de doble articulación permite que el paquete de muelles trabaje con mayor libertad, linealidad y flexibilidad, absorbiendo con alta eficacia los impactos ásperos de baches e imperfecciones, especialmente cuando la camioneta transita con la caja vacía. Fabricadas con un resistente recubrimiento azul de alta durabilidad, son la solución ideal para eliminar el andar tosco y saltarín característico de estos vehículos de trabajo sin comprometer su robustez.',
+  shortDescription: 'Kit de chacles (gemelas) de suspensión confort de 2 pulgadas en color azul para Toyota Hilux Vigo (modelos 2005 a 2014), diseñadas con un sistema articulado avanzado para suavizar el andar del eje trasero y mitigar los rebotes rígidos.',
+  images: [productChaclesHiluxVigo],
+  category: '4x4',
+  subcategory: 'chacles',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en el sistema de ballestas de la Toyota Hilux Vigo (modelos 2005 a 2014)','Estructura con ingeniería de doble articulación que mejora notablemente la flexibilidad de la suspensión trasera','Reduce de manera eficaz los rebotes rígidos y vibraciones molestas dentro de la cabina al transitar sin peso en la caja de carga','Aporta una ganancia de altura controlada de 2 pulgadas para mejorar el despeje del suelo en el eje posterior','Fabricadas en acero estructural de alta resistencia de la marca H-Tune para soportar las exigencias de terrenos difíciles','Recubrimiento de pintura al horno en color azul que ofrece una protección duradera contra el óxido, la corrosión y el lodo','Equipadas con pernos pasantes de alta dureza y bujes aislantes que eliminan ruidos y fricciones mecánicas','Instalación de tipo directa sobre los puntos de anclaje originales del chasis sin requerir modificaciones complejas o soldaduras'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'201',
+  name: "Chacles Triton 2plg - Confort de Suspensión Trasera",
+  slug: 'chacle-triton-2plg-confort-suspension-trasera',
+  price:89.95,
+  description: 'Mejora sustancialmente la suavidad de conducción y el comportamiento dinámico de tu pick-up con el kit de chacles confort de 2 pulgadas para Mitsubishi L200 Triton. Este componente de suspensión premium reemplaza los soportes traseros rígidos de fábrica que sujetan las ballestas (muelles). Su avanzada ingeniería de doble articulación permite que el paquete de muelles trabaje con mayor libertad, linealidad y flexibilidad, absorbiendo con alta eficacia los impactos ásperos de baches e imperfecciones, especialmente cuando la camioneta transita con la caja vacía. Fabricados con un resistente recubrimiento azul de alta durabilidad, son la solución ideal para eliminar el andar tosco y saltarín característico de estos vehículos de trabajo sin comprometer su robustez.',
+  shortDescription: 'Kit de chacles (gemelas) de suspensión confort de 2 pulgadas en color azul para Mitsubishi L200 Triton, diseñados con un sistema articulado avanzado para suavizar el andar del eje trasero y mitigar los rebotes rígidos de las ballestas.',
+  images: [productChaclesTriton],
+  category: '4x4',
+  subcategory: 'chacles',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en el sistema de ballestas de la Mitsubishi L200 Triton','Estructura con ingeniería de doble articulación que mejora notablemente la flexibilidad de la suspensión trasera','Reduce de manera eficaz los rebotes rígidos y vibraciones molestas dentro de la cabina al transitar sin peso en la caja de carga','Aporta una ganancia de altura controlada de 2 pulgadas para mejorar el despeje del suelo en el eje posterior','Fabricadas en acero estructural de alta resistencia para soportar las exigencias de terrenos difíciles e irregulares','Recubrimiento de pintura al horno en color azul que ofrece una protección duradera contra el óxido, la corrosión y el lodo','Equipadas con pernos pasantes de alta dureza y bujes aislantes que eliminan ruidos y fricciones mecánicas','Instalación de tipo directa sobre los puntos de anclaje originales del chasis sin requerir modificaciones complejas o soldaduras'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'202',
+  name: "Calza Hilux 32mm - Espaciadores de Amortiguador Delantero HL4x4accessories",
+  slug: 'calza-hilux-32mm-espaciadores-amortiguador-delantero-hl4x4accessories',
+  price:55,
+  description: 'Consigue la altura ideal y una postura más agresiva en tu pick-up con el kit de calzas espaciadoras de 32 mm de HL4x4accessories para Toyota Hilux. Como se detalla en la imagen_bbcacd.png, estos suples premium están fabricados en aluminio billet de alta calidad con un llamativo acabado anodizado en color azul metálico que los protege contra la oxidación. Diseñados para instalarse directamente sobre la copela del amortiguador delantero (strut), permiten levantar la suspensión delantera del vehículo de forma segura. Son la solución perfecta para eliminar la inclinación frontal de fábrica (efecto rake), brindando un mayor despeje respecto al suelo y abriendo espacio para la instalación de neumáticos de mayor diámetro sin afectar el confort original de la marcha.',
+  shortDescription: 'Kit de calzas espaciadoras de 32 mm en aluminio anodizado azul para la suspensión delantera de Toyota Hilux, diseñadas para elevar la altura del vehículo, nivelar la postura frontal y mejorar el despeje en terrenos off-road.',
+  images: [porductCalzasHilux32mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de Toyota Hilux','Espesor físico de 32 mm que proporciona una elevación efectiva de la altura delantera del vehículo','Fabricados en aluminio billet de alta resistencia mediante mecanizado de precisión para una máxima durabilidad estructural','Acabado anodizado en color azul de alta calidad que ofrece una excelente barrera contra la corrosión y el desgaste ambiental','Incluye pernos prisioneros de alta dureza instalados y tuercas de fijación para un montaje seguro','Permite nivelar la estética visual de la camioneta eliminando la caída delantera característica de fábrica','Mejora notablemente el despeje al suelo facilitando el paso por obstáculos en rutas todoterreno (off-road)','Instalación de tipo directa (Bolt-on) que se coloca sobre el conjunto del amortiguador sin necesidad de comprimir el resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'203',
+  name: "Calza Navara 32mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-navara-32mm-espaciadores-amortiguador-delantero',
+  price:55,
+  description: 'Incrementa el despeje frontal y dale un aspecto más imponente a tu pick-up con el kit de calzas espaciadoras de 32 mm para Nissan Navara. Tal como se puede apreciar en la imagen_bc3484.png, estos suples de suspensión están fabricados con un robusto bloque de aluminio de alta resistencia mecánica, protegidos superficialmente por un acabado anodizado en color azul brillante que incluye la inscripción grabada del modelo. El kit se instala directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura en el eje frontal. Es el accesorio ideal para corregir la caída delantera característica de fábrica (efecto rake), mejorando sustancialmente los ángulos de ataque en rutas todoterreno y permitiendo el montaje de neumáticos de mayor perfil sin rozar el guardafangos.',
+  shortDescription: 'Kit de calzas espaciadoras de 32 mm en aluminio anodizado azul para la suspensión delantera de Nissan Navara, diseñadas para elevar la altura del tren delantero, nivelar la postura del vehículo y optimizar el despeje en terrenos irregulares.',
+  images: [productCalzasNavara32mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de Nissan Navara','Espesor físico de 32 mm que proporciona una elevación efectiva de la carrocería en la parte frontal','Fabricados en aluminio billet de alta resistencia mediante mecanizado de precisión para soportar altas cargas de trabajo','Acabado superficial anodizado en color azul que brinda una excelente protección contra la corrosión y agentes climáticos','Incluye pernos prisioneros de alta dureza y tuercas de fijación listos para un montaje firme y seguro','Permite nivelar estéticamente el despeje de la camioneta eliminando la inclinación delantera original de fábrica','Optimiza el desempeño off-road al incrementar la distancia entre el parachoques delantero y el suelo','Instalación de tipo directa (Bolt-on) que se acopla sobre el conjunto original del muelle sin modificar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'204',
+  name: "Calza D-Max 32mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-d-max-32mm-espaciadores-amortiguador-delantero',
+  price:55,
+  description: 'Consigue una mayor altura y mejora la presencia todoterreno de tu pick-up con el kit de calzas espaciadoras de 32 mm para Isuzu D-Max. Como se puede apreciar en la imagen_bca4c2.png, estos suples de alta resistencia están fabricados en bloques macizos de aluminio billet con un acabado de protección anodizado en color azul brillante. Diseñadas específicamente para acoplarse sobre la parte superior o copela del amortiguador delantero, permiten levantar el tren frontal de forma segura y eficiente. Son el accesorio ideal para corregir la inclinación original de fábrica, evitar que la parte delantera se agache en frenadas o pendientes, e incrementar el despeje al suelo para montar neumáticos de mayor tamaño sin riesgo de fricción.',
+  shortDescription: 'Kit de calzas espaciadoras de 32 mm en aluminio anodizado azul para la suspensión delantera de Isuzu D-Max, diseñadas para elevar la carrocería, nivelar la postura frontal y optimizar el despeje en terrenos exigentes o rutas todoterreno.',
+  images: [productCalzasDmax32mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Isuzu D-Max','Espesor físico de 32 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para garantizar una durabilidad estructural bajo cargas pesadas','Acabado superficial anodizado en color azul que otorga una excelente resistencia contra la corrosión, el óxido y el lodo','Incluye pernos prisioneros de alta dureza y tuercas de ajuste listos para realizar un montaje firme y seguro','Permite nivelar estéticamente la camioneta eliminando la caída delantera característica que trae originalmente de fábrica','Optimiza el desempeño en conducción off-road al aumentar el ángulo de ataque frente a obstáculos del terreno','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+
 
 
 ];
