@@ -31,7 +31,7 @@ import productCamara360Prado from '@/assets/camara 360 prado.jpg';
 import productCamaraSombrero from '@/assets/camara sombrero.jpg';
 import productCamaraSombrero8led from '@/assets/camara sombrero8led.jpg';
 import productSensorRtroceso from '@/assets/Sensor de retroceso.jpg';
-import produtLedt10 from '@/assets/led t10.jpg';
+import produtLedt10 from '@/assets/Led t10.jpg';
 import puductLedtableroPiojito from '@/assets/Led piojito.jpg';
 import productLedChato from '@/assets/led chato.jpg';
 import productLed15 from '@/assets/15led.jpg';
