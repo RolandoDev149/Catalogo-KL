@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Search, Phone } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { SearchAutocomplete } from '@/components/layout/SearchAutocomplete';
 
 const navLinks = [
   { href: '/', label: 'Inicio' },
@@ -15,16 +15,6 @@ const navLinks = [
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const navigate = useNavigate();
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      navigate(`/tienda?search=${encodeURIComponent(searchQuery.trim())}`);
-      setSearchQuery('');
-    }
-  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -68,18 +58,7 @@ export function Header() {
         </nav>
 
         {/* Search */}
-        <form onSubmit={handleSearch} className="hidden md:flex flex-1 max-w-sm mx-4">
-          <div className="relative w-full">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="search"
-              placeholder="Buscar productos..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-10 bg-card border-border"
-            />
-          </div>
-        </form>
+        <SearchAutocomplete className="hidden md:block flex-1 max-w-sm mx-4" />
 
         {/* Actions */}
         <div className="flex items-center gap-2">
@@ -105,18 +84,7 @@ export function Header() {
             className="lg:hidden border-t border-border bg-card"
           >
             <div className="container py-4 space-y-4">
-              <form onSubmit={handleSearch}>
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                  <Input
-                    type="search"
-                    placeholder="Buscar productos..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="pl-10 bg-background"
-                  />
-                </div>
-              </form>
+              <SearchAutocomplete onNavigate={() => setIsMenuOpen(false)} />
               <nav className="flex flex-col gap-2">
                 {navLinks.map((link) => (
                   <Link

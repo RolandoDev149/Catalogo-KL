@@ -12,6 +12,7 @@ import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import { products, categories, brands, vehicleTypes } from '@/data/products';
+import { matchesQuery } from '@/lib/search';
 
 export default function StorePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -27,7 +28,7 @@ export default function StorePage() {
 
   const filteredProducts = useMemo(() => {
     return products.filter((product) => {
-      if (searchQuery && !product.name.toLowerCase().includes(searchQuery.toLowerCase())) return false;
+      if (searchQuery && !matchesQuery(searchQuery, product.name)) return false;
       if (selectedCategories.length > 0 && !selectedCategories.includes(product.category)) return false;
       if (selectedSubcategories.length > 0 && !product.subcategory) return false;
       if (selectedSubcategories.length > 0 && !selectedSubcategories.includes(product.subcategory)) return false;

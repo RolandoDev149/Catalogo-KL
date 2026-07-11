@@ -169,8 +169,15 @@ import productChaclesTriton from '@/assets/CHACLE TRITON 2.jpg'
 import porductCalzasHilux32mm from '@/assets/CALZA HILUX 32MM.jpg'
 import productCalzasNavara32mm from '@/assets/CALZA NAVARA 32MM.jpg'
 import productCalzasDmax32mm from '@/assets/CALZA D-MAX 32MM.jpg'
-
-
+import productCalzasTriton from '@/assets/CALZA TRITON 32MM.jpg'
+import productCalzaRanger from '@/assets/CALZa Ranger 32MM.jpg'
+import prductCalzaHilux from '@/assets/CALZA HILUX 25MM.jpg'
+import productCalzaNavara25mm from '@/assets/CALZA NAVARA 25MM.jpg'
+import productCalzaDmax25mm from '@/assets/CALZA D- MAX 25MM.jpg'
+import productCalzaRanger25mm from '@/assets/CALZA RANGER 25MM.jpg'
+import productCalzasTriton25mm from '@/assets/CALZA TRIRON 25MM.jpg'
+import productParrillaHiluxTRD from '@/assets/PARRILLA TY HILUXREVOROCCOTRD.jpg'
+import prodcutParrillaHiluxRocco from '@/assets/PARRILLA TY ROCCO.jpg'
 
 import category4x4 from '@/assets/category-4x4.jpg';
 import categoryAudio from '@/assets/category-audio.jpg';
@@ -191,6 +198,7 @@ export const categories: Category[] = [
     subcategories: [
       { id: 'chacles', name: 'Chacles', slug: 'chacles' },
       { id: 'calzas', name: 'Calazas', slug: 'calzas' },
+      { id: 'parrillas', name: 'Parrillas', slug: 'parrillas' },
     ]
   },
 
@@ -4028,6 +4036,176 @@ shortDescription: 'Halogena universal 76 MM',
   reviewCount: 0,
 },
 
+{
+  id:'205',
+  name: "Calza Triton 32mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-triton-32mm-espaciadores-amortiguador-delantero',
+  price:55,
+  description: 'Incrementa el despeje frontal y mejora notablemente la presencia todoterreno de tu pick-up con el kit de calzas espaciadoras de 32 mm para Mitsubishi L200 Triton. Tal como se aprecia en la imagen_2d6137.png, estos suples de suspensión de alta resistencia están fabricados a partir de un bloque macizo de aluminio billet con un acabado superficial anodizado en color azul brillante, complementado con el nombre del modelo grabado. El kit está diseñado para instalarse directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura de forma segura y eficiente. Es la solución ideal para corregir la caída delantera característica de fábrica, mejorar el ángulo de ataque frente a baches u obstáculos y abrir espacio para el montaje de neumáticos de mayor perfil sin riesgo de rozamientos en el paso de rueda.',
+  shortDescription: 'Kit de calzas espaciadoras de 32 mm en aluminio anodizado azul para la suspensión delantera de Mitsubishi L200 Triton, diseñadas para elevar la altura del tren delantero, nivelar la carrocería y optimizar el despeje en terrenos off-road.',
+  images: [productCalzasTriton],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Mitsubishi L200 Triton','Espesor físico de 32 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para garantizar una óptima durabilidad estructural bajo cargas exigentes','Acabado superficial anodizado en color azul que otorga una excelente protección contra la corrosión, el óxido y agentes climáticos','Incluye pernos prisioneros de alta dureza y tuercas de ajuste listos para realizar un montaje firme y completamente seguro','Permite nivelar estéticamente la camioneta eliminando la inclinación delantera original que viene de fábrica','Optimiza el desempeño en conducción off-road al aumentar de forma segura el despeje al suelo de la sección frontal','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'206',
+  name: "Calza Ranger 32mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-ranger-32mm-espaciadores-amortiguador-delantero',
+  price:55,
+  description: 'Consigue una mayor altura de marcha y una presencia imponente en tu pick-up con el kit de calzas espaciadoras de 32 mm para Ford Ranger. Como se detalla en la imagen_de6ca0.png, estos suples de suspensión premium están fabricados a partir de un bloque macizo de aluminio billet mecanizado, protegidos superficialmente por un acabado anodizado en color azul brillante que incluye la inscripción grabada del modelo "Ranger". El kit está diseñado para instalarse directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura de forma segura y eficiente. Es la solución ideal para corregir la caída delantera característica que viene de fábrica, mejorando los ángulos de ataque frente a obstáculos del terreno y abriendo el espacio necesario para montar neumáticos de mayor perfil sin rozamientos.',
+  shortDescription: 'Kit de calzas espaciadoras de 32 mm en aluminio anodizado azul para la suspensión delantera de Ford Ranger, diseñadas para elevar la altura del tren delantero, nivelar la postura del vehículo y optimizar el despeje en rutas off-road.',
+  images: [productCalzaRanger],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Ford Ranger','Espesor físico de 32 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para asegurar una óptima durabilidad estructural bajo cargas exigentes','Acabado superficial anodizado en color azul que otorga una excelente protección contra la corrosión, el óxido y el lodo','Incluye pernos prisioneros de alta dureza y tuercas de ajuste doradas listos para realizar un montaje firme y seguro','Permite nivelar estéticamente la camioneta eliminando la inclinación delantera original que trae de fábrica','Optimiza el desempeño en conducción off-road al aumentar de forma segura el despeje al suelo de la sección frontal','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'207',
+  name: "Calza Hilux 25mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-hilux-25mm-espaciadores-amortiguador-delantero',
+  price:49.95,
+  description: 'Incrementa el despeje frontal y dale un aspecto mucho más robusto a tu pick-up con el kit de calzas espaciadoras de 25 mm para Toyota Hilux. Tal como se aprecia en la imagen_de7b26.png, estos suples de suspensión de alta calidad están fabricados a partir de un bloque macizo de aluminio billet con un llamativo acabado superficial anodizado en color rojo brillante, el cual incluye el grabado del modelo "HILUX" en su contorno. El kit está diseñado para instalarse directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura en el chasis de forma segura y eficiente. Es la solución ideal para corregir la inclinación delantera original que viene de fábrica, mejorando notablemente el ángulo de ataque frente a baches u obstáculos sin alterar la rigidez del resorte.',
+  shortDescription: 'Kit de calzas espaciadoras de 25 mm en aluminio anodizado rojo para la suspensión delantera de Toyota Hilux, diseñadas para elevar la altura del tren frontal, nivelar la postura del vehículo y optimizar el despeje en terrenos off-road.',
+  images: [prductCalzaHilux],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de Toyota Hilux','Espesor físico de 25 mm que proporciona una elevación efectiva de la carrocería en la sección frontal','Fabricados en aluminio billet mecanizado de alta resistencia para garantizar una óptima durabilidad estructural bajo cargas exigentes','Acabado superficial anodizado en color rojo que otorga una excelente protección contra la corrosión, el óxido y los agentes climáticos','Incluye pernos prisioneros de alta dureza y tuercas de ajuste listos para realizar un montaje firme y completamente seguro','Permite nivelar estéticamente la camioneta eliminando la caída delantera característica que trae originalmente de fábrica','Optimiza el desempeño en conducción off-road al aumentar de forma segura el despeje al suelo en caminos irregulares','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle original sin requerir modificaciones complejas'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'208',
+  name: "Calza Navara 25mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-navara-25mm-espaciadores-amortiguador-delantero',
+  price:49.95,
+  description: 'Incrementa el despeje frontal y dale un aspecto más imponente a tu pick-up con el kit de calzas espaciadoras de 25 mm para Nissan Navara. Tal como se puede apreciar en la imagen_bc3484.png, estos suples de suspensión están fabricados con un robusto bloque de aluminio de alta resistencia mecánica, protegidos superficialmente por un acabado anodizado en color azul brillante que incluye la inscripción grabada del modelo. El kit se instala directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura en el eje frontal. Es el accesorio ideal para corregir la caída delantera característica de fábrica (efecto rake), mejorando sustancialmente los ángulos de ataque en rutas todoterreno y permitiendo el montaje de neumáticos de mayor perfil sin rozar el guardafangos.',
+  shortDescription: 'Kit de calzas espaciadoras de 25 mm en aluminio anodizado azul para la suspensión delantera de Nissan Navara, diseñadas para elevar la altura del tren delantero, nivelar la postura del vehículo y optimizar el despeje en terrenos irregulares.',
+  images: [productCalzaNavara25mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de Nissan Navara','Espesor físico de 25 mm que proporciona una elevación efectiva de la carrocería en la parte frontal','Fabricados en aluminio billet de alta resistencia mediante mecanizado de precisión para soportar altas cargas de trabajo','Acabado superficial anodizado en color azul que brinda una excelente protección contra la corrosión y agentes climáticos','Incluye pernos prisioneros de alta dureza y tuercas de fijación listos para un montaje firme y seguro','Permite nivelar estéticamente el despeje de la camioneta eliminando la inclinación delantera original de fábrica','Optimiza el desempeño off-road al incrementar la distancia entre el parachoques delantero y el suelo','Instalación de tipo directa (Bolt-on) que se acopla sobre el conjunto original del muelle sin modificar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'209',
+  name: "Calza D-Max 25mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-d-max-25mm-espaciadores-amortiguador-delantero',
+  price:49.95,
+  description: 'Consigue una mayor altura y mejora la presencia todoterreno de tu pick-up con el kit de calzas espaciadoras de 25 mm para Isuzu D-Max. Como se puede apreciar en la imagen_bca4c2.png, estos suples de alta resistencia están fabricados en bloques macizos de aluminio billet con un acabado de protección anodizado en color azul brillante. Diseñadas específicamente para acoplarse sobre la parte superior o copela del amortiguador delantero, permiten levantar el tren frontal de forma segura y eficiente. Son el accesorio ideal para corregir la inclinación original de fábrica, evitar que la parte delantera se agache en frenadas o pendientes, e incrementar el despeje al suelo para montar neumáticos de mayor tamaño sin riesgo de fricción.',
+  shortDescription: 'Kit de calzas espaciadoras de 25 mm en aluminio anodizado azul para la suspensión delantera de Isuzu D-Max, diseñadas para elevar la carrocería, nivelar la postura frontal y optimizar el despeje en terrenos exigentes o rutas todoterreno.',
+  images: [productCalzaDmax25mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Isuzu D-Max','Espesor físico de 25 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para garantizar una durabilidad estructural bajo cargas pesadas','Acabado superficial anodizado en color azul que otorga una excelente resistencia contra la corrosión, el óxido y el lodo','Incluye pernos prisioneros de alta dureza y tuercas de ajuste listos para realizar un montaje firme y seguro','Permite nivelar estéticamente la camioneta eliminando la caída delantera característica que trae originalmente de fábrica','Optimiza el desempeño en conducción off-road al aumentar el ángulo de ataque frente a obstáculos del terreno','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'210',
+  name: "Calza Ranger 25mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-ranger-25mm-espaciadores-amortiguador-delantero',
+  price:49.95,
+  description: 'Consigue una mayor altura de marcha y una presencia imponente en tu pick-up con el kit de calzas espaciadoras de 25 mm para Ford Ranger. Como se detalla en la imagen_de6ca0.png, estos suples de suspensión premium están fabricados a partir de un bloque macizo de aluminio billet mecanizado, protegidos superficialmente por un acabado anodizado en color azul brillante que incluye la inscripción grabada del modelo "Ranger". El kit está diseñado para instalarse directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura de forma segura y eficiente. Es la solución ideal para corregir la caída delantera característica que viene de fábrica, mejorando los ángulos de ataque frente a obstáculos del terreno y abriendo el espacio necesario para montar neumáticos de mayor perfil sin rozamientos.',
+  shortDescription: 'Kit de calzas espaciadoras de 25 mm en aluminio anodizado azul para la suspensión delantera de Ford Ranger, diseñadas para elevar la altura del tren delantero, nivelar la postura del vehículo y optimizar el despeje en rutas off-road.',
+  images: [productCalzaRanger25mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Ford Ranger','Espesor físico de 25 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para asegurar una óptima durabilidad estructural bajo cargas exigentes','Acabado superficial anodizado en color azul que otorga una excelente protección contra la corrosión, el óxido y el lodo','Incluye pernos prisioneros de alta dureza y tuercas de ajuste doradas listos para realizar un montaje firme y seguro','Permite nivelar estéticamente la camioneta eliminando la inclinación delantera original que trae de fábrica','Optimiza el desempeño en conducción off-road al aumentar de forma segura el despeje al suelo de la sección frontal','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'211',
+  name: "Calza Triton 25mm - Espaciadores de Amortiguador Delantero",
+  slug: 'calza-triton-25mm-espaciadores-amortiguador-delantero',
+  price:49.95,
+  description: 'Incrementa el despeje frontal y mejora notablemente la presencia todoterreno de tu pick-up con el kit de calzas espaciadoras de 25 mm para Mitsubishi L200 Triton. Tal como se aprecia en la imagen_2d6137.png, estos suples de suspensión de alta resistencia están fabricados a partir de un bloque macizo de aluminio billet con un acabado superficial anodizado en color azul brillante, complementado con el nombre del modelo grabado. El kit está diseñado para instalarse directamente sobre la base superior o copela del amortiguador delantero (strut), permitiendo ganar altura de forma segura y eficiente. Es la solución ideal para corregir la caída delantera característica de fábrica, mejorar el ángulo de ataque frente a baches u obstáculos y abrir espacio para el montaje de neumáticos de mayor perfil sin riesgo de rozamientos en el paso de rueda.',
+  shortDescription: 'Kit de calzas espaciadoras de 25 mm en aluminio anodizado azul para la suspensión delantera de Mitsubishi L200 Triton, diseñadas para elevar la altura del tren delantero, nivelar la carrocería y optimizar el despeje en terrenos off-road.',
+  images: [productCalzasTriton25mm],
+  category: '4x4',
+  subcategory: 'calzas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en las torres de amortiguador delantero de la Mitsubishi L200 Triton','Espesor físico de 25 mm que proporciona una elevación efectiva de la carrocería en el eje frontal del vehículo','Fabricados en aluminio billet mecanizado de alta resistencia para garantizar una óptima durabilidad estructural bajo cargas exigentes','Acabado superficial anodizado en color azul que otorga una excelente protección contra la corrosión, el óxido y agentes climáticos','Incluye pernos prisioneros de alta dureza y tuercas de ajuste listos para realizar un montaje firme y completamente seguro','Permite nivelar estéticamente la camioneta eliminando la inclinación delantera original que viene de fábrica','Optimiza el desempeño en conducción off-road al aumentar de forma segura el despeje al suelo de la sección frontal','Instalación limpia de tipo directa (Bolt-on) que se coloca sobre el conjunto del muelle sin alterar la rigidez del resorte'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'212',
+  name: "Parrilla TY Hilux Revo Rocco TRD - Máscara Deportiva Frontal",
+  slug: 'parrilla-ty-hilux-revo-rocco-trd-mascara-deportiva-frontal',
+  price:85.00,
+  description: 'Renueva por completo la presencia de tu pick-up con la parrilla deportiva frontal para Toyota Hilux Revo Rocco (Código HY-RC-003). Esta máscara de personalización exterior destaca por su acabado negro mate de alta resistencia y una malla central calada tipo panal que optimiza el flujo de aire directo hacia el radiador. El punto central de atención es su imponente emblema con las letras "TRD" moldeado en un vibrante color rojo brillante que resalta de inmediato sobre el fondo oscuro. Fabricada con materiales plásticos ABS de alta durabilidad frente a impactos y la exposición solar, es el accesorio definitivo para los entusiastas del estilo off-road que buscan añadir un sello deportivo, moderno y agresivo a la trompa de su camioneta.',
+  shortDescription: 'Parrilla delantera deportiva con diseño de panal de abejas y emblema TRD en color rojo para Toyota Hilux Revo Rocco, ideal para transformar radicalmente la estética frontal del vehículo dándole un aspecto más agresivo y robusto.',
+  images: [productParrillaHiluxTRD],
+  category: '4x4',
+  subcategory: 'parrillas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para encajar de forma perfecta en la sección frontal de la Toyota Hilux Revo Rocco','Estructura central con patrón de rejilla calada tipo panal de abejas que maximiza el ingreso de aire al compartimiento del motor','Emblema central con las letras "TRD" moldeadas en color rojo brillante para un contraste visual deportivo y de alto impacto','Fabricado en plástico ABS inyectado de alta resistencia a impactos de piedras, suciedad y condiciones climáticas exigentes','Acabado en color negro mate texturizado que combina a la perfección con cualquier color de carrocería o accesorios off-road','Protección integrada con aditivos contra los rayos UV para evitar la decoloración o agrietamiento del material con el sol','Instalación de acople preciso que utiliza los mismos puntos de sujeción y clips originales del vehículo sin requerir adaptaciones','Mejora significativamente la estética frontal de la pick-up dándole una apariencia mucho más robusta, ancha y exclusiva'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
+
+{
+  id:'213',
+  name: "Parrilla TY Rocco - Máscara Deportiva Frontal",
+  slug: 'parrilla-ty-rocco-mascara-deportiva-frontal',
+  price:85.00,
+  description: 'Descripción LargaAporta una personalidad imponente, ruda y exclusiva a tu pick-up con la parrilla deportiva frontal Parrilla TY Rocco (Código HY-RC-004). Como se aprecia en la imagen_f703e7.png, este componente de personalización exterior rompe con el diseño aburrido de fábrica al incorporar un robusto marco en color negro acompañado de una malla central calada tipo panal de abejas que optimiza el flujo de aire hacia el radiador. Destaca visualmente por sus icónicas letras clásicas "TOYOTA" en color blanco situadas en el centro de la rejilla, y se complementa perfectamente con una moldura inferior texturizada que lleva integrado el logotipo deportivo GR (Gazoo Racing). Fabricada en plásticos ABS inyectados de alta resistencia, es el accesorio ideal para darle a la camioneta un look off-road de gama alta listo para cualquier terreno.',
+  shortDescription: 'Parrilla delantera de estilo clásico y deportivo con rejilla de panal, el imponente emblema central TOYOTA en color blanco y el logotipo GR, diseñada a la medida para renovar la estética frontal de la Toyota Hilux Rocco.',
+  images: [prodcutParrillaHiluxRocco],
+  category: '4x4',
+  subcategory: 'parrillas',
+  brand: 'KL',
+  vehicleTypes: [''],
+  features: ['Diseñado específicamente a la medida para un acople perfecto en la sección frontal de la Toyota Hilux Rocco','Estructura central con patrón de rejilla tipo panal de abejas que maximiza la ventilación directa hacia el motor','Emblema central clásico con la palabra "TOYOTA" en color blanco para un contraste de alto impacto visual','Incorpora el logotipo GR (Gazoo Racing) sobre una moldura inferior texturizada que realza su carácter deportivo','Fabricado en plástico ABS inyectado de gran espesor resistente a impactos de piedras, lodo y escombros en carretera','Protección UV integrada en el material que previene la decoloración y el envejecimiento prematuro bajo el sol','Instalación limpia que aprovecha los mismos puntos de sujeción y clips originales del vehículo sin alterar la carrocería','Transforma de forma inmediata el aspecto exterior de la camioneta otorgándole una apariencia mucho más robusta y agresiva'],
+  inStock: true,
+  isOnSale: false,
+  rating: 4.6,
+  reviewCount: 0,
+},
 
 
 
